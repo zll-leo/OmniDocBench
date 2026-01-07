@@ -38,7 +38,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Human Factors"
+                "pred": "HumanFactors"
             },
             {
                 "category_type": "text_block",
@@ -91,7 +91,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "the process molds to the needs of the people and team, not the other way around"
+                "pred": "the process molds to the needs of the people aneteam, not the other way around"
             },
             {
                 "category_type": "text_block",
@@ -144,7 +144,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "key traits must exist among the people on an agile team and the team itself:"
+                "pred": "key traits must exist among the people on an ag(team and the team itself:"
             },
             {
                 "category_type": "text_block",
@@ -161,7 +161,7 @@
                 "ignore": false,
                 "order": 4,
                 "anno_id": 5,
-                "text": "- Competence\n- Common focus.\n- Collaboration.\n- Decision-making ability.\n- Fuzzy problem-solving ability.\n- Mutualtrustandrespect\n- Self-organization",
+                "text": "\\t - Competence.\n\\t - Common focus.\n\\t - Collaboration.\n\\t - Decision-making ability.\n\\t - Fuzzy problem-solving ability.\n\\t - Mutual trust and respect.\n\\t - Self-organization.",
                 "merge_list": [
                     {
                         "category_type": "text_block",
@@ -178,7 +178,7 @@
                         "ignore": false,
                         "order": 5,
                         "anno_id": 6,
-                        "text": "- Competence",
+                        "text": "\\t - Competence.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -192,7 +192,7 @@
                                     277.3393654613069,
                                     760.0000000000001
                                 ],
-                                "text": "- Competence"
+                                "text": "\\t - Competence."
                             }
                         ],
                         "attribute": {
@@ -216,7 +216,7 @@
                         "ignore": false,
                         "order": 6,
                         "anno_id": 9,
-                        "text": "- Common focus.",
+                        "text": "\\t - Common focus.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -230,7 +230,7 @@
                                     277.5638971171345,
                                     844.0000000000001
                                 ],
-                                "text": "- Common focus."
+                                "text": "\\t - Common focus."
                             }
                         ],
                         "attribute": {
@@ -254,7 +254,7 @@
                         "ignore": false,
                         "order": 7,
                         "anno_id": 7,
-                        "text": "- Collaboration.",
+                        "text": "\\t - Collaboration.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -268,7 +268,7 @@
                                     273.7248543643829,
                                     930.6666666666667
                                 ],
-                                "text": "- Collaboration."
+                                "text": "\\t - Collaboration."
                             }
                         ],
                         "attribute": {
@@ -292,7 +292,7 @@
                         "ignore": false,
                         "order": 8,
                         "anno_id": 10,
-                        "text": "- Decision-making ability.",
+                        "text": "\\t - Decision-making ability.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -306,7 +306,7 @@
                                     271.8836233285154,
                                     1025.333333333333
                                 ],
-                                "text": "- Decision-making ability."
+                                "text": "\\t - Decision-making ability."
                             }
                         ],
                         "attribute": {
@@ -330,7 +330,7 @@
                         "ignore": false,
                         "order": 9,
                         "anno_id": 8,
-                        "text": "- Fuzzy problem-solving ability.",
+                        "text": "\\t - Fuzzy problem-solving ability.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -344,7 +344,7 @@
                                     278.1224247670323,
                                     1116
                                 ],
-                                "text": "- Fuzzy problem-solving ability."
+                                "text": "\\t - Fuzzy problem-solving ability."
                             }
                         ],
                         "attribute": {
@@ -368,21 +368,21 @@
                         "ignore": false,
                         "order": 10,
                         "anno_id": 11,
-                        "text": "- Mutualtrustandrespect",
+                        "text": "\\t - Mutual trust and respect.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
                                 "poly": [
-                                    274.20637066423444,
-                                    1149.3333333333335,
-                                    956.1370953945509,
-                                    1149.3333333333335,
-                                    956.1370953945509,
+                                    274.20637066423456,
+                                    1149.3333333333337,
+                                    956.137095394551,
+                                    1149.3333333333337,
+                                    956.137095394551,
                                     1198.6666666666665,
-                                    274.20637066423444,
+                                    274.20637066423456,
                                     1198.6666666666665
                                 ],
-                                "text": "- Mutualtrustandrespect"
+                                "text": "\\t - Mutual trust and respect."
                             }
                         ],
                         "attribute": {
@@ -406,7 +406,7 @@
                         "ignore": false,
                         "order": 11,
                         "anno_id": 12,
-                        "text": "- Self-organization",
+                        "text": "\\t - Self-organization.",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -420,7 +420,7 @@
                                     275.3004564098111,
                                     1290.6330883077858
                                 ],
-                                "text": "- Self-organization"
+                                "text": "\\t - Self-organization."
                             }
                         ],
                         "attribute": {
@@ -435,7 +435,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "- Competence.\n- Common focus.\n- Collaboration.\n- Decision-making ability.\n- Fuzzy problem-solving ability.\n- Mutual trust and respect.\n- Self-organization."
+                "pred": "Competence.Common focus.Collaboration.Decision-makinggability.Fuzzyproblem-solving ability.Mutualtrust and respect.Self-organization."
             },
             {
                 "category_type": "abandon",
@@ -673,7 +673,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "“游人”指那些忘了国难，苟且偷安，寻欢作乐的南宋统治阶级。诗人面对这不停的歌舞，看着这些“游人们”陶醉其中，不由得表现出自己的感慨之情。其中，“暖风”一语双关，在诗歌中，既指自然界的春风，又指社会上淫靡之风。在诗人看在，正是这股“暖风”把“游人”的头脑吹得如醉如迷，忘记了自己的国家正处于危难之中。"
+                "pred": "游人”指那些忘了国难，苟且偷安，寻欢作乐的南宋统治阶级。诗人面对这不停的歌舞，看着这些“游人们”陶醉其中，不由得表现出自己的感慨之情。其中，“暖风”一语双关，在诗歌中，既指自然界的春风，又指社会上淫靡之风。在诗人看在，正是这股：“暖风”把“游的头脑吹得如醉如迷，忘记了自己的国家正处于危难人之中。"
             },
             {
                 "category_type": "header",
@@ -1080,7 +1080,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The collected eluant was concentrated by rotary evaporator to 1 ml. The extracts were finally passed through a final column filled with 5 g silica +3 g Al2O3 to remove any co-extractive compounds that may cause instrumental interferences during the analysis. The extract was eluted with 120 ml of DCM:n-hexane (1:1), the first 18 ml of eluent was discarded and the rest were collected, which contains the analytes of interest. The extract was exchanged into n-hexane, concentrated to 1 ml to which 1 μg/ml of internal standard was added."
+                "pred": "The collected eluant was concentrated by rotary evap-orator to 1 ml. The extracts were finally passed through afinal column filled with 5 g silica + 3 g Al2O3 to remove anyco-extractive compounds that may cause instrumental interferences during the analysis. The extract was eluted with120 ml of DCM:n-hexane (1:1), the first 18 ml of eluent wasdiscarded and the rest were collected, which contains the ana-lytes of interest. The extract was exchanged into n-hexane,concentrated to 1 ml to which 1 μg/ml of internalstandardwas added."
             },
             {
                 "category_type": "title",
@@ -1186,7 +1186,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The sulfur present in sewage sludges has to be removed before the GC–EI-MS and GC–EI-MS–MS determination to avoid any interference."
+                "pred": "The sulfur present in sewage sludges has to be removedbefore the GCEI-MS and GCEI-MSMS determination toavoid any interference."
             },
             {
                 "category_type": "text_block",
@@ -1407,7 +1407,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Copper bars (0.5 cm) were activated with 30% HCl for 30 s and then cleaned with acetone, n-hexane and the dried bars was added to the extract. Bio-Beads were used to remove the co-extracted lipids and other higher molecular weight substances which may interfere with the determination. Furthermore, adsorption chromatography of large and small mixed silica and alumina columns allow the removal of lipids and other organic compounds from the sewage sludge extract."
+                "pred": "Copper bars (0.5 cm) were activated with 30% HCl for30 s and then cleaned with acetone, n-hexane and the driedbars was added to the extract. Bio-Beads were used to removethe co-extracted lipids and other higher molecular weightsubstances which may interfere with the determination.Furthermore, adsorption chromatography of large and smallmixed silica and alumina columns allow the removal oflipids and other organic compounds from the sewage sludgeextract."
             },
             {
                 "category_type": "title",
@@ -1463,7 +1463,7 @@
                 "ignore": false,
                 "order": 6,
                 "anno_id": 5,
-                "text": "Concern has been expressed over the transfer of toxic organics from the soil and into human food chain. Sewage sludge is a sink for contaminants present in municipal wastewater. There are four WWTPs in operation in Kuwait. All of these treatment plants receive domestic sewage in major quantities, such as $ 2 7, 0 0 0 \\, \\mathrm{m^{2}} $ /day for Reqqa, $ 7 0, 0 0 0 \\, \\mathrm{m}^{2} $ /day for Jahra and $ 2 7, 0 0 0 \\, \\mathrm{m^{2}} $ /day for Om AlHaymann). Sewage sludge produces at Ardiya WwTP is disposed of, as liquid sludge without digestion to specific disposal sites. Riqqa and Om Al-Haymann are equipped with aerobic digesters and in Jahra thickened undigested sludge is only dried on sludge drying beds. So, the suitability for land application requires investigation since the likelihood for transfer of pollutants from wastewater to edible parts of the plants exists.Volatilization of organic matters, such as PAHs from sludge, due to the unique and extreme temperature in summer $ \\sim5 5 \\,^{\\circ} \\mathrm{C} $ may have adverse effect on the environment. At these temperatures, PAHs are likely to volatilize along with other semi-volatile organic compounds and as potential source of chemicals to the environment. It is questionable, however, whether these chemicals are likely to deposit at such temperatures, but may remain in the vapor phase and subjected tolong range atmospheric transport. The eventual fate of chemicals in sludge requires a detailed assessment and probably other disposal options needed to be evaluated particularly for Kuwait and other countries in the region that experience such uniquely high temperatures.",
+                "text": "Concern has been expressed over the transfer of toxic organics from the soil and into human food chain. Sewage sludge is a sink for contaminants present in municipal wastewater. There are four WWTPs in operation in Kuwait. All of these treatment plants receive domestic sewage in major quantities, such as $ 2 7, 0 0 0 \\, \\mathrm{m^{2}} $ /day for Reqqa, $ 7 0, 0 0 0 \\, \\mathrm{m}^{2} $ /day for Jahra and $ 2 7, 0 0 0 \\, \\mathrm{m^{2}} $ /day for Om AlHaymann). Sewage sludge produces at Ardiya WwTP is disposed of, as liquid sludge without digestion to specific disposal sites. Riqqa and Om Al-Haymann are equipped with aerobic digesters and in Jahra thickened undigested sludge is only dried on sludge drying beds. So, the suitability for land application requires investigation since the likelihood for transfer of pollutants from wastewater to edible parts of the plants exists.Volatilization of organic matters, such as PAHs from sludge, due to the unique and extreme temperature in summer $ (\\sim55^{\\circ}\\mathrm{C}) $ may have adverse effect on the environment. At these temperatures, PAHs are likely to volatilize along with other semi-volatile organic compounds and as potential source of chemicals to the environment. It is questionable, however, whether these chemicals are likely to deposit at such temperatures, but may remain in the vapor phase and subjected tolong range atmospheric transport. The eventual fate of chemicals in sludge requires a detailed assessment and probably other disposal options needed to be evaluated particularly for Kuwait and other countries in the region that experience such uniquely high temperatures.",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -1776,16 +1776,16 @@
                     {
                         "category_type": "equation_inline",
                         "poly": [
-                            381.342279191328,
-                            1683.5955298453437,
-                            470.19552695872403,
-                            1683.5955298453437,
-                            470.19552695872403,
-                            1709.0843802685024,
-                            381.342279191328,
-                            1709.0843802685024
+                            372.6494409353624,
+                            1685.0443362213375,
+                            481.7859779666787,
+                            1685.0443362213375,
+                            481.7859779666787,
+                            1710.5331866444963,
+                            372.6494409353624,
+                            1710.5331866444963
                         ],
-                        "latex": "$ \\sim5 5 \\,^{\\circ} \\mathrm{C} $"
+                        "latex": "$ (\\sim55^{\\circ}\\mathrm{C}) $"
                     },
                     {
                         "category_type": "text_span",
@@ -1947,7 +1947,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Concern has been expressed over the transfer of toxic organics from the soil and into human food chain. Sewage sludge is a sink for contaminants present in municipal wastewater. There are four WWTPs in operation in Kuwait. All of these treatment plants receive domestic sewage in major quantities, such as 27,000 m²/day for Reqqa, 70,000 m²/day for Jahra and 27,000 m²/day for Om Al- Haymann). Sewage sludge produces at Ardiya WWTP is disposed of, as liquid sludge without digestion to specific disposal sites. Riqqa and Om Al-Haymann are equipped with aerobic digesters and in Jahra thickened undigested sludge is only dried on sludge drying beds. So, the suitability for land application requires investigation since the likelihood for transfer of pollutants from wastewater to edible parts of the plants exists. Volatilization of organic matters, such as PAHs from sludge, due to the unique and extreme temperature in summer (~55 °C) may have adverse effect on the environment. At these temperatures, PAHs are likely to volatilize along with other semi-volatile organic compounds and as potential source of chemicals to the environment. It is questionable, however, whether these chemicals are likely to deposit at such temperatures, but may remain in the vapor phase and subjected to long range atmospheric transport. The eventual fate of chemicals in sludge requires a detailed assessment and probably other disposal options needed to be evaluated particularly for Kuwait and other countries in the region that experience such uniquely high temperatures."
+                "pred": "Concern has been expressed over the transfer of toxicorganics from the soil and into human food chain. Sewagesludge is a sink for contaminants present in municipalwastewater. There are four WWTPs in operation in Kuwait.All of these treatment plants receive domestic sewagein major quantities, such as 27,000 m2/day for Reqqa,70,000 m2/day for Jahra and 27,000 m2/day for Om Al-Haymann). Sewage sludge produces at Ardiya WWTP isdisposed of, as liquid sludge without digestion to specific dis-posal sites. Riqqa and Om Al-Haymann are equipped withaerobic digesters and in Jahra thickened undigested sludgeis only dried on sludge drying beds. So, the suitability forland application requires investigation since the likelihoodfor transfer of pollutants from wastewater to edible partsof the plants exists. Volatilization of organic matters, suchas PAHs from sludge, due to the unique and extreme tem-perature in summer (~55 C) may have adverse effect onthe environment. At these temperatures, PAHs are likely tovolatilize along with other semi-volatile organic compoundsand as potential source of chemicals to the environment. It isquestionable, however, whether these chemicals are likely todeposit at such temperatures, but may remain in the vaporphase and subjected to long range atmospheric transport.The eventual fate of chemicals in sludge requires a detailedassessment and probably other disposal options needed to beevaluated particularly for Kuwait and other countries in theregion that experience such uniquely high temperatures."
             },
             {
                 "category_type": "table_caption",
@@ -2084,7 +2084,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Table 3\n\nRecoveries and relative standard deviations (RSD, %) obtained from spiked sewage sludge samples (0.2 μg/ml) analysed by GC–EI-MS–MS, using three different extraction techniques"
+                "pred": "Table 3Recoveries and relative standard deviations (RSD, %) obtained from spikedsewage sludge samples (0.2 µg/ml) analysed by GCEI-MSMS, using threedifferent extraction techniques"
             },
             {
                 "category_type": "table",
@@ -2233,7 +2233,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Many agencies proposed that Soxhlet extraction is a method of choice for the extraction of nonpolar organic con- taminants [12]. Extraction recoveries and relative standard deviations are summarized in Table 3."
+                "pred": "Many agencies proposed that Soxhlet extraction is method of choice for the extraction of nonpolar organic con-taminants [12]. Extraction recoveries and relative standarddeviations are summarized inTable 3."
             },
             {
                 "category_type": "text_block",
@@ -2440,7 +2440,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Recoveries are calculated from the increase in peak areas between the non-spiked and spiked chromatograms using the deuterated internal standard method. The extraction recoveries were satisfactory, since they ranged from 65.0 to 91.8%. The relative standard deviations (RSDs, %) varied from 0.59 to 7.0% for the PAHs, the high value in RSD, could be explained due to the multi-step process such as spiking, extraction and evaporation."
+                "pred": "Recoveries are calculated from the increase in peak areasbetween the non-spiked and spiked chromatograms using thedeuterated internal standard method. The extraction recover-ies were satisfactory, since they ranged from 65.0 to 91.8%.The relative standard deviations (RSDs, %) varied from O.59to 7.0% for the PAHs, the high value in RSD, could beexplained due to the multi-step process such as spiking,extraction and evaporation."
             },
             {
                 "category_type": "title",
@@ -2630,7 +2630,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Recoveries varied from 61.5 to 90.5% with a relative standard deviations varied from 1.7 to 22.7%. The results obtained are presented in Table 3. The Soxtec method appears to be more simple and efficient when compared to Soxhlet extraction."
+                "pred": "Recoveries varied from 61.5 to 90.5% with a relativestandard deviations varied from 1.7 to 22.7%. The resultsobtained are presented in Table 3. The Soxtec method appearsto be more simple and efficient when compared to Soxhletextraction."
             },
             {
                 "category_type": "title",
@@ -2750,7 +2750,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "PLE recoveries of sludge samples varied from 60.0 to 93.4% with a RSDs varying from 2.9 to 17.5%."
+                "pred": "PLE recoveries of sludge samples varied from 60.0 to93.4% with a RSDs varying from 2.9 to 17.5%."
             },
             {
                 "category_type": "text_block",
@@ -2873,7 +2873,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Several papers have been successfully reported for the application of accelerated solvents extraction, such as for PAHs, OCPs, in environmental samples [13–17]. However, few papers have been published using ASE for determining PAHs in sewage sludge [13,15,17]."
+                "pred": "Several papers have been successfully reported for theapplication of accelerated solvents extraction, such as forPAHs, OCPs, in environmental samples [1317]. However,few papers have been published using ASE for determiningPAHs in sewage sludge[13,15,17]."
             },
             {
                 "category_type": "text_block",
@@ -2940,7 +2940,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The use of higher extraction temperature and the role\nof high pressure for PLE reported to give comparable or\nhigher extraction efficiencies compared with other extrac-"
+                "pred": "The use of higher extraction temperature and the roleof high pressure for PLE reported to give comparable orhigher extraction efficiencies compared with other extrac-"
             },
             {
                 "category_type": "header",
@@ -2993,7 +2993,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "M.I.H. Helaleh et al. / J. Chromatogr. A 1083 (2005) 153–160"
+                "pred": "M.I.H. Helaleh et al. / J. Chromatogr. A 1083 (2005) 153160"
             },
             {
                 "category_type": "page_number",
@@ -3143,7 +3143,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "For consistency, the time derivative of the constraints of (10) must vanish and hence they must have vanishing Poisson bracket with $H$. Using the fundamental Poisson brackets"
+                "pred": "For consistency, the time derivative of the constraints of(10)must vanish and hence they must have vanishirPoisson bracket with H . Using the fundamental Poisson brackets"
             },
             {
                 "category_type": "equation_isolated",
@@ -3253,7 +3253,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "etc., we find that the primary constraints of (10) imply the secondary constraints"
+                "pred": "c., we find that the primary constraints of(10)imply the secondary constraint"
             },
             {
                 "category_type": "equation_isolated",
@@ -3324,7 +3324,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 4 )"
+                "pred": "(14)"
             },
             {
                 "category_type": "text_block",
@@ -3503,7 +3503,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "If $\\mu ^{2} = 0$ (the Cremmer–Scherk model Lagrangian [1]), the constraints of (14) would become reducible as then $\\partial _{i}\\Sigma _{i} = 0$ and only the transverse portions of $\\Sigma _{i}$ are constraints. Furthermore, with $\\mu ^{2} \\neq 0$, the requirement $\\dot{\\Sigma }_{i} = 0$ leads to a tertiary constraint"
+                "pred": "f µ2 = 0 (the CremmerScherk model Lagrangian[1]), the constraints of(14) would become reducible as theri ∑i = 0 and only the transverse portions of ∑i are constraints. Furthermore, with µ2 = 0, the requirement Σi =eads to a tertiary constraint"
             },
             {
                 "category_type": "equation_isolated",
@@ -3574,7 +3574,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 5 )"
+                "pred": "(15)"
             },
             {
                 "category_type": "text_block",
@@ -3669,7 +3669,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "with $\\Sigma _{i}$ and $T_{k}$ constituting second class constraints as"
+                "pred": "with Σi and Tk constituting second class constraints as"
             },
             {
                 "category_type": "equation_isolated",
@@ -3740,7 +3740,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 6 )"
+                "pred": "(16)"
             },
             {
                 "category_type": "text_block",
@@ -4171,7 +4171,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "All other constraints are first class and no further constraints need to be imposed for consistency. There are consequently five first class constraints (ΦU, ΦA k and Σ) and six second class constraints (Σi and Tk). The constraints ΦU and Σ correspond to the usual gauge transformations δW0 = ∂0Ω, δWi = ∂iΩ associated with a gauge field Wμ, while ΦA k is associated with the fact that in (12) Ak acts merely as a Lagrange multiplier (i.e., it is not dynamical) and hence its value is completely arbitrary. Suitable gauge conditions associated with the first class constraints are"
+                "pred": "All other constraints are first class and no further constraints need to be imposed for consistency. There areconsequently five first class constraints (UAkand Σ)and six second class constraints (Σi and Tk). The con-straints U and ∑ correspond to the usual gauge transformations δ W0 = ∂0Ω , δ Wi = ∂i Ω associated with a gaugedynamical) and hence its value is completely arbitrary. Suitable gauge conditions associated with the first classconstraints are"
             },
             {
                 "category_type": "equation_isolated",
@@ -4242,7 +4242,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 7 )"
+                "pred": "(17)"
             },
             {
                 "category_type": "text_block",
@@ -4281,7 +4281,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "From (10), (14), (15) and (17) it is evident that the only dynamical degrees of freedom are"
+                "pred": "From(10), (14), (15)and (17) it is evident that the only dynamical degrees of freedom ar"
             },
             {
                 "category_type": "equation_isolated",
@@ -4352,7 +4352,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 8 )"
+                "pred": "(18)"
             },
             {
                 "category_type": "text_block",
@@ -4545,7 +4545,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "We can verify this directly by explicitly eliminating the non-physical degrees of freedom in (4). First, one decomposes \\(V_{k}, A_{k}\\) and \\(B_{k}\\) into transverse \\((T)\\) and longitudinal \\((L)\\) parts where"
+                "pred": "We can verify this directly by explicitly eliminating the non-physical degrees of freedom in (4). First, onecomposesVk, AkandBkinto transverse (T)and longitudinal (L)parts where"
             },
             {
                 "category_type": "equation_isolated",
@@ -4616,7 +4616,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 1 9 )"
+                "pred": "(19)"
             },
             {
                 "category_type": "text_block",
@@ -4726,7 +4726,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 2 0 )"
+                "pred": "(20)"
             },
             {
                 "category_type": "text_block",
@@ -4821,7 +4821,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The equations of motion for A^L and U, respectively, imply that"
+                "pred": "he equations of motion for AL and U , respectively, imply tha"
             },
             {
                 "category_type": "equation_isolated",
@@ -4892,7 +4892,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 2 1 )"
+                "pred": "(21)"
             },
             {
                 "category_type": "text_block",
@@ -5002,7 +5002,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 2 2 )"
+                "pred": "(22)"
             },
             {
                 "category_type": "text_block",
@@ -5112,7 +5112,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 2 3 )"
+                "pred": "(23)"
             },
             {
                 "category_type": "text_block",
@@ -5179,7 +5179,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "we can eliminate ∇ × A T from (22) to obtain"
+                "pred": "we can eliminate  × A from (22) to obtain"
             },
             {
                 "category_type": "equation_isolated",
@@ -5250,7 +5250,7 @@
                     }
                 ],
                 "attribute": {},
-                "pred": "( 2 4 )"
+                "pred": "(24)"
             },
             {
                 "category_type": "page_number",
@@ -5342,7 +5342,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "S.V. Kuzmin, D.G.C. McKeon / Physics Letters B 596 (2004) 301–305"
+                "pred": "S. V. Kuzmin, D.G.C. McKeon / Physics Letters B 596 (2004) 301305"
             }
         ],
         "extra": {
@@ -5556,7 +5556,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "与通常一般意义上理解的文学创作或文学作品的“文学”字面一样，所以，弄得“比较文学”成为一个“有缺陷的词”。1因此，为了减少像比较文学那样的歧义，我们在学科的命名上使用“美术学”，而不使用“美术”这个名称来框定这个跨越中西双方的美术研究的工作，是为了使“中西比较美术学”中的“美术学”不让人往“美术作品”或“美术创作”方面认识。不仅如此，仅从名称上看，“美术学”是一个学科名称（1990年国务院学位委员会专业目录调整会议决定，将“美术历史与理论”专业正式改名为“美术学”，成为一级艺术学下属的二级学科），与“美术”（Fine Art）这个词是有区别的。从学理上说，“比较美术学”中的“美术学”既是学科名称又是指美术研究，而作为“美术”不一定是美术研究，也不是一个正式的学科名称。"
+                "pred": "与通常一般意义上理解的文学创作或文学作品的“文学”字面一样，所以，弄得“比较文学”成为一个“有缺陷的词”。因此，为了减少像比较文学那样的歧义，我们在学科的命名上使用“美术学”，而不使用“美术”这个名称来框定这个跨越中西双方的美术研究的工作，是为了使“中西比较美术学”中的“美术学”不让人往“美术作品”或“美术创作”方面认识。不仅如此，仅从名称上看，“美术学”是一个学科名称（1990年国务院学位委员会专业目录调整会议决定，将“美术历史与理论”专业正式改名为“美术学”，成为一级艺术学下属的二级学科），与“美术”（FineArt）这个词是有区别的。从学理上说，“比较美术学”中的“美术学”既是学科名称又是指美术研究，而作为“美术”不一定是美术研究，也不是一个正式的学科名称。"
             },
             {
                 "category_type": "text_block",
@@ -5805,7 +5805,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“美术”是个很宽泛的词。因其宽泛，就有各种理解。但一般情况下通常指美术作品和美术创作。正是这一问题，我们把中西比较美术学作为一个学科使用时，用 “比较美术学”而不使用 “比较美术”，避免引起学理上的混乱不清。所以如果用 “比较美术”，就会引起很多误读，使用 “比较美术学”，不但避免了像 “比较文学”那样成为一个 “有缺陷的词”，也杜绝了在学理上的误读。当然，目前还有一些人把 “比较美术学”误认为是 “美术比较”，这就犯了文学界中有些人把 “比较文学”当作 “文学比较”一样的错误。如此一来，就会造成乱比附、比高低等随意性的、没有学理的、没有可比性的比较研究。法国著名比较文学学者巴柔有一段话对我们很有启发，当有人问他什么是比较文学时，他无不幽默地说：“我们什么也不比较，幸亏我们什么也不比较。”这就是说，比较文学不是方法，因而不是文学比较。同样，我们提出 “比较美术学”也不是 “美术比较”。因此，作为一项跨视域美术研究的学科而使用的名称，我们认为使用 “比较美术学”比使用 “比较美术”显然更为科学更为规范，也避免造成把 “比较美术学”当做 “美术比较”的严重误读。"
+                "pred": "“美术”是个很宽泛的词。因其宽泛，就有各种理解。但一般情况下通常指美术作品和美术创作。正是这一问题，我们把中西比较美术学作为一个学科使用时，用“比较美术学”而不使用“比较美术”，避免引起学理上的混乱不清。所以如果用“比较美术”，就会引起很多误读，使用“比较美术学”，不但避免了像“比较文学”那样成为一个“有缺陷的词”，也杜绝了在学理上的误读。当然，目前还有一些人把“比较美术学”误认为是“美术比较”，这就犯了文学界中有些人把“比较文学”当作“文学比较”一样的错误。如此一来，就会造成乱比附、比高低等随意性的、没有学理的、没有可比性的比较研究。法国著名比较文学学者巴柔有一段话对我们很有启发，当有人问他什么是比较文学时，他无不幽默地说：“我们什么也不比较，幸亏我们什么也不比较。”这就是说，比较文学不是方法，因而不是文学比较。同样，我们提出“比较美术学”也不是“美术比较”。因此，作为一项跨视域美术研究的学科而使用的名称，我们认为使用“比较美术学”比使用“比较美术”显然更为科学更为规范，也避免造成把“比较美术学”当做“美术比较”的严重误读。"
             },
             {
                 "category_type": "text_block",
@@ -5914,7 +5914,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "我们使用“比较美术学”的概念，是从它的研究对象、范围等学科性质特征和学理关系出发的。“美术”这个词来自于英文“Fine Art”,意思是“美的艺术”。通常情况下指的就是艺术家创作的美术作品，而不是指美术研究。而“美术学”作为一个学科，它包含了美术（Fine Art）在内的美术理论研究，即是对有关美术创作、美术活动、美术事项、美术史以及美术理论等的研究工作。当然，“美术”如果作为一个门类来认识，与“美术作品”是有区别的。但是，字面上的重叠"
+                "pred": "我们使用“比较美术学”的概念，是从它的研究对象、范围等学科性质特征和学理关系出发的。“美术”这个词来自于英文“FineArt”，意思是“美的艺术”。通常情况下指的就是艺术家创作的美术作品，而不是指美术研究。而“美术学”作为一个学科，它包含了美术（FineArt）在内的美术理论研究，即是对有关美术创作、美术活动、美术事项、美术史以及美术理论等的研究工作。当然，“美术”如果作为一个门类来认识，与“美术作品”是有区别的。但是，字面上的重叠"
             },
             {
                 "category_type": "text_block",
@@ -6367,7 +6367,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "我们在“比较美术学”前加上定语“中西”，表明了跨越视域的范围，即中国与西方诸国家或民族的视域关系。上世纪30年代向达的《明清之际中国美术所受西洋之影响》这项研究工作，就是一项跨越中国与西方国家的视域关系的比较美术的研究工作。而常任侠的《日本画和中国画的历史联系》（1960）属于跨越中国与日本视域关系的美术学研究工作，因此不属于中西视域的比较美术学的研究范畴。\n\n“中西比较美术学”的名称构成了跨越中国与西方诸国或民族的美术研究的性质和特征。名称上用“中西比较美术学”，就是为了使这门学科的研究者更加明晰自身的研究范围，使研究者意识到“中西比较美术学”中的“中西”就是关于中国和西方国家美术间的“关系”的研究，即意识到中西比较美术学是要求在跨越中西视域的条件下完成的一项研究工作。换言之，这项跨中西视域的比较研究工作就是要求在跨越中西不同的国家、民族，跨越中西不同的文化，跨越中西不同材料与技法意义上承担的研究工作。我们必须理解为，中西比较美术学是中国至少与西方任何一个国家或民族美术之间跨视域“关系”的研究。"
+                "pred": "我们在“比较美术学”前加上定语“中西”，表明了跨越视域的范围，即中国与西方诸国家或民族的视域关系。上世纪30年代向达的《明清之际中国美术所受西洋之影响》这项研究工作，就是一项跨越中国与西方国家的视域关系的比较美术的研究工作。而常任侠的《日本画和中国画的历史联系》（1960）属于跨越中国与日本视域关系的美术学研究工作，因此不属于中西视域的比较美术学的研究范畴。“中西比较美术学”的名称构成了跨越中国与西方诸国或民族的美术研究的性质和特征。名称上用“中西比较美术学”，就是为了使这门学科的研究者更加明晰自身的研究范围，使研究者意识到“中西比较美术学”中的“中西”就是关于中国和西方国家美术间的“关系”的研究，即意识到中西比较美术学是要求在跨越中西视域的条件下完成的一项研究工作。换言之，这项跨中西视域的比较研究工作就是要求在跨越中西不同的国家、民族，跨越中西不同的文化，跨越中西不同材料与技法意义上承担的研究工作。我们必须理解为，中西比较美术学是中国至少与西方任何一个国家或民族美术之间跨视域“关系”的研究。"
             },
             {
                 "category_type": "text_block",
@@ -6487,7 +6487,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "1 [法]布吕奈尔、比叙瓦、卢梭. 什么是比较文学[M]. 葛雷、张连奎 译，北京：北京大学出版社，1989：15.\n2 转引杨乃桥主编. 比较文学概论[M]. 北京：北京大学出版社，2002：111."
+                "pred": "[法]布吕奈尔、比叔瓦、卢梭.什么是比较文学[M].葛雷、张连奎译，北京：北京大学出版社，1989：1C转引杨乃桥主编.比较文学概论[M].北京：北京大学出版社，2002：111."
             },
             {
                 "category_type": "footer",
@@ -6526,7 +6526,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "第二章中西比较美学学本体论"
+                "pred": "第二章中西比较美术学本体论"
             },
             {
                 "category_type": "footer",
@@ -6579,7 +6579,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "中西比较美术学\n\nZHONGXIBIJIAOMEISHUXUE"
+                "pred": "中西比较美术学ZHONGXIBIJIAOMEISHUXUE"
             },
             {
                 "category_type": "page_number",
@@ -6794,7 +6794,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(b)最终状态"
+                "pred": "（b）最终状态"
             },
             {
                 "category_type": "figure_caption",
@@ -6833,7 +6833,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "图３水松生长情况对比"
+                "pred": "图3水松生长情况对比"
             },
             {
                 "category_type": "title",
@@ -6872,7 +6872,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "3. 3. 2 美人蕉植株高度和开花情况"
+                "pred": "3.3.2美人蕉植株高度和开花情况"
             },
             {
                 "category_type": "text_block",
@@ -7107,7 +7107,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "美人蕉植株高度及开花数见表 7。实验发现美人蕉最终高度不施肥组＜施苗木种植基质组＜施花木专用基质组，3 组重复平均分别为 90.7～119.3cm、118.7～150.3cm、112.7～163cm，可见苗木种植基质与花木专用基质的肥力较为显著，能明显促进美人蕉的生长。但从整体性来说，使用苗木种植基质组的美人蕉长势更为均匀，高度范围相差最小。这可能是由于施用的基质肥力越高，植株间的竞争越强，长势越好的植株越容易吸收土壤中的基质，使其生长更为旺盛，从而拉开植株间的差距。美人蕉开花数比较如图 4 所示，生长情况对比如图 5 所示。"
+                "pred": "美人蕉植株高度及开花数见表7。实验发现美人蕉最终高度不施肥组<施苗木种植基质组<施花木专用基质组，3组重复平均分别为90.7～119.3cm、118.7～150.3cm112.7～163cm，可见苗木种植基质与花木专用基质的肥力较为显著，能明显促进美人蕉的生长。但从整体性来说，使用苗木种植基质组的美人蕉长势更为均匀，高度范围相差最小。这可能是由于施用的基质肥力越高，植株间的竞争越强，长势越好的植株越容易吸收土壤中的基质，使其生长更为旺盛，从而拉开植株间的差距。美人蕉开花数比较如图4所示，生长情况对比如图5所示。"
             },
             {
                 "category_type": "table_caption",
@@ -7160,7 +7160,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "表 7\n\n美人蕉植株高度及开花数"
+                "pred": "美人蕉植株高度及开花数"
             },
             {
                 "category_type": "table",
@@ -7326,7 +7326,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "经测量发现美人蕉最终开花数不施肥组＜施苗木种植基质组＜施花木专用基质组，3组重复平均分别为18朵/株、22朵/株、25朵/株，可见苗木种植基质与花木专用基质都能提高美人蕉的开花数，尤其是施用花木专用基质，能使美人蕉充分展示作为园林植物的花卉观赏价值。"
+                "pred": "经测量发现美人蕉最终开花数不施肥组<施苗木种植基质组<施花木专用基质组，3组重复平均分别为18朵/株、22朵/株、25朵/株，可见苗木种植基质与花木专用基质都能提高美人蕉的开花数，尤其是施用花木专用基质，能使美人蕉充分展示作为园林植物的花卉观赏价值。"
             },
             {
                 "category_type": "page_number",
@@ -7365,7 +7365,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "1 6 3"
+                "pred": "163"
             }
         ],
         "extra": {
@@ -7431,7 +7431,7 @@
                 "ignore": false,
                 "order": 1,
                 "anno_id": 10,
-                "text": "54.3% ；长度在 1000m及以上的侵蚀沟道数量14.70万条，占总数的 22.0% ,面积 $ km^{2} $ ，占总面积的 45.7% 。西北黄土高原区侵蚀沟道数量、长度与面积见表6-3-2。",
+                "text": "54.3% ；长度在 1000m及以上的侵蚀沟道数量14.70万条，占总数的 22.0% ,面积8.56万 $ km^{2} $ ，占总面积的 45.7% 。西北黄土高原区侵蚀沟道数量、长度与面积见表6-3-2。",
                 "line_with_spans": [
                     {
                         "category_type": "equation_ignore",
@@ -7515,7 +7515,7 @@
                             217.63134761628163,
                             355.77791910711085
                         ],
-                        "text": "面积"
+                        "text": "面积8.56万"
                     },
                     {
                         "category_type": "equation_inline",
@@ -7593,7 +7593,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "54.3%；长度在1000m及以上的侵蚀沟道数量14.70万条，占总数的22.0%，面积8.56万km2，占总面积的45.7%。西北黄土高原区侵蚀沟道数量、长度与面积见表6-3-2。"
+                "pred": "54.3%；长度在1000m及以上的侵蚀沟道数量14.70万条，占总数的22.0%面积8.56万km2，占总面积的45.7%。西北黄土高原区侵蚀沟道数量、长度与面积见表6-3-2。"
             },
             {
                 "category_type": "table_caption",
@@ -7660,7 +7660,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "表 6-3-2 西北黄土高原区侵蚀沟道数量、长度与面积"
+                "pred": "表6-3-2西北黄土高原区侵蚀沟道数量、长度与面积"
             },
             {
                 "category_type": "table",
@@ -7742,7 +7742,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "①侵蚀沟道级别用侵蚀沟道的长度表示。"
+                "pred": "侵蚀沟道级别用侵蚀沟道的长度表示。"
             },
             {
                 "category_type": "text_block",
@@ -8047,7 +8047,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在西北黄土高原区中，甘肃省侵蚀沟道数量最多，占区域侵蚀沟道总数量的 40. 3%；其次为陕西省，占 21. 1%；侵蚀沟道数量最少的为宁夏回族自治区，占 2. 51%。侵蚀沟道面积与数量基本一致，甘肃省和陕西省面积较大，占区域侵蚀沟道总面积的比例分别达到 28. 9% 和 23. 9%；宁夏回族自治区、河南省及内蒙古自治区侵蚀沟道面积较小，分别占 5. 3%、6. 2%、7. 5%。西北黄土高原区各省（自治区）侵蚀沟道数量与面积见附表 A32，各省（自治区）侵蚀沟道面积占全区沟道面积比例见图 6-3-1。"
+                "pred": "在西北黄土高原区中，甘肃省侵蚀沟道数量最多，占区域侵蚀沟道总数量的40.3%；其次为陕西省，占21.1%；侵蚀沟道数量最少的为宁夏回族自治区，占2.51%。侵蚀沟道面积与数量基本一致，甘肃省和陕西省面积较大，占区域侵蚀沟道总面积的比例分别达到28.9%和23.9%；宁夏回族自治区河南省及内蒙古自治区侵蚀沟道面积较小，分别占5.3%、6.2%、7.5%。西北黄土高原区各省（自治区）侵蚀沟道数量与面积见附表A32，各省（自治区）侵蚀沟道面积占全区沟道面积比例见图6-3-1。"
             },
             {
                 "category_type": "figure",
@@ -8158,7 +8158,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "图6-3-1  西北黄土高原区\n\n各省（自治区）侵蚀沟道面积\n\n占全区沟道面积比例"
+                "pred": "图6-3-1西北黄土高原区各省（自治区）侵蚀沟道面积占全区沟道面积比例"
             },
             {
                 "category_type": "text_block",
@@ -8351,7 +8351,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "按西北黄土高原区侵蚀类型统计，高原沟壑区侵蚀沟道共 11.03 万条，沟道面积 3.05 万 km²；丘陵沟壑区侵蚀沟道共 55.64 万条，沟道面积 15.67 万 km²。高原沟壑区侵蚀沟道数量占侵蚀沟道总数的 16.5%，丘陵沟壑区占 83.5%。"
+                "pred": "按西北黄土高原区侵蚀类型统计，高原沟壑区侵蚀沟道共11.03万条，沟道面积3.05万km2；丘陵沟壑区侵蚀沟道共55.64万条，沟道面积15.67万km2。高原沟壑区侵蚀沟道数量占侵蚀沟道总数的16.5%，丘陵沟壑区占83.5%"
             },
             {
                 "category_type": "text_block",
@@ -8502,7 +8502,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "高原沟壑区侵蚀沟道主要分布于甘肃省东部、陕西省延安南部和渭河以北、山西省南部等地区，平均沟道纵比为20.42%，沟道沟壑密度1.25km/km²。丘陵沟壑区依据地形地貌差异分为5个副区。其中，第一、第二副区主要分布于陕"
+                "pred": "高原沟壑区侵蚀沟道主要分布于甘肃省东部、陕西省延安南部和渭河以北、山西省南部等地区，平均沟道纵比为20.42%，沟道沟壑密度1.25km/km2。丘陵沟壑区依据地形地貌差异分为5个副区。其中，第一、第二副区主要分布于陕"
             },
             {
                 "category_type": "text_block",
@@ -8519,7 +8519,7 @@
                 "ignore": false,
                 "order": 10,
                 "anno_id": 9,
-                "text": "西省北部、山西省西北部和内蒙古自治区南部，平均沟道纵比分别为 19.93%、14.06% ，沟壑密度分别为3.4～7.6km/ $ km^{2} $ 、3.0~ 5.0km/ $ km^{2} $ ：第三、第四副区主要分布于青海省东部、甘肃省中部、河南省西部，平均沟道纵",
+                "text": "西省北部、山西省西北部和内蒙古自治区南部，平均沟道纵比分别为 19.93%、14.06% ，沟壑密度分别为3.4～7.6km/ $ km^{2} $ 、3.0~ 5.0km/ $ km^{2} $ ；第三、第四副区主要分布于青海省东部、甘肃省中部、河南省西部，平均沟道纵",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -8617,7 +8617,7 @@
                             1285.5413795215595,
                             1908.4754810003053
                         ],
-                        "text": "：第"
+                        "text": "；第"
                     },
                     {
                         "category_type": "text_span",
@@ -8639,7 +8639,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "西省北部、山西省西北部和内蒙古自治区南部，平均沟道纵比分别为19. 93%、14. 06%，沟壑密度分别为 3. 4 ~7. 6km/km2、3. 0 ~5. 0km/km2； 第三、第四副区主要分布于青海省东部、甘肃省中部、河南省西部，平均沟道纵"
+                "pred": "西省北部、山西省西北部和内蒙古自治区南部，平均沟道纵比分别为19.93%、14.06%，沟壑密度分别为3.4~7.6km/km2、3.0~5.0km/km2；第三、第四副区主要分布于青海省东部、甘肃省中部、河南省西部，平均沟道纵"
             },
             {
                 "category_type": "header",
@@ -8938,7 +8938,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "场子设在村边低洼处一块地里，四面土坡都是看台。几张桌子一字排开当主席台，手动探照灯（一位老乡专门负责的一只大灯）一打，高音喇叭响起来：“喂，老乡们，咱村的老虎火开始啦，没吃完饭的快点，抓早点啦！”一阵催促，一番叮咛，乡音乡味乡亲，土得掉渣，香得可心。"
+                "pred": "场子设在村边低洼处一块地里，四面土坡都是看台。几张桌子一字排开当主席台，手动探照灯（一位老乡专门负责的一只大灯）一打，高音喇叭响起来：“喂，老乡们，咱村的老虎火开始啦，没吃完饭的快点，抓紧点啦！”一阵催促，一番叮咛，乡音乡味乡亲，土得掉渣，香得可心。"
             },
             {
                 "category_type": "text_block",
@@ -9295,7 +9295,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "———Ⅱ"
+                "pred": "一一五"
             }
         ],
         "extra": {
@@ -9375,7 +9375,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "ISAT Practice\nCumulative, Chapters 1-9"
+                "pred": "ISATPractice6Cumulative, Chapters 19"
             },
             {
                 "category_type": "title",
@@ -9414,7 +9414,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "PART 1 Multiple Choice"
+                "pred": "PART I MultipIc Choice"
             },
             {
                 "category_type": "text_block",
@@ -9481,7 +9481,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Read each question. Then fill in the correct answer on the answer sheet provided by your teacher or on a sheet of paper."
+                "pred": "Read each question. Then fill in the correctanswer on the answer sheet provided byyour teacher or on a sheet of paper."
             },
             {
                 "category_type": "text_block",
@@ -9760,7 +9760,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "1. Sancho picked up a handful of coins from a jar without looking. He got 7 pennies, 5 nickels, 3 dimes, and 2 quarters. What fraction of the coins that he picked were nickels?\n\nA 2/17 C 5/17\nB 3/17 D 7/17"
+                "pred": "1.Sancho picked up a handful of coinsfrom a jar without looking. He got 7pennies, 5 nickels, 3 dimes, and 2quarters. What fraction of the coins thathe picked were nickels?25AC171737BD1717"
             },
             {
                 "category_type": "text_block",
@@ -10039,7 +10039,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "2. Paige cut a cake into 20 pieces. If 14 pieces have been eaten, what fraction of the cake remains?\n\nF 1/10\nG 1/5\nH 3/10\nJ 2/5"
+                "pred": "2Paige cut a cake into20 pieces. If 14 pieceshave been eaten,what fraction of thecake remains?1FH101G5"
             },
             {
                 "category_type": "figure",
@@ -10136,7 +10136,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "3. Natalie has washed the dishes 8 out of the last 12 nights. Which fraction shows the portion of time spent washing dishes?"
+                "pred": "3.Natalie has washed the dishes 8 out ofthe last 12 nights. Which fraction showsthe portion of time spent washingdishes?"
             },
             {
                 "category_type": "figure",
@@ -10337,7 +10337,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "A 1/3 C 2/3\nB 1/2 D 5/6"
+                "pred": "-Im-/2A BcD"
             },
             {
                 "category_type": "text_block",
@@ -10588,7 +10588,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "4. Emilia used 4 of her 8 stamps to mail letters. Which fraction is less than 4/8?\n\nF 5/8 H 1/2\nG 3/4 J 3/7"
+                "pred": "4.Emilia used 4 of her 8 stamps to mai$\\frac}$letters. Which fraction is less thanLn|∞ m|/Nm|FHGJ"
             },
             {
                 "category_type": "text_block",
@@ -10769,7 +10769,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "5. Which is a prime factor of the composite number 32?\n\nA 2\nB 3\nC 4\nD 5"
+                "pred": "5.Which is a prime factor of the compositenumber 32?A 2C 4B 3D 5"
             },
             {
                 "category_type": "text_block",
@@ -10920,7 +10920,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "6. The table shows the number of bills of each value that Bree received for her birthday. In all, what fraction of the number of bills that Bree received for her birthday were $10 or $20 bills?"
+                "pred": "6. The table shows the number of bills ofeach value that Bree received for herbirthday. In all, what fraction of thenumber of bills that Bree received for herbirthday were $10 or $20 bills?"
             },
             {
                 "category_type": "table",
@@ -10966,7 +10966,7 @@
                 "ignore": false,
                 "order": 28,
                 "anno_id": 27,
-                "text": "F $ \\frac{5}{22} $ H $ \\frac{5}{11} $\nG $ \\frac{3}{11} $ I $ \\frac{8}{11} $",
+                "text": "F $ \\frac{5}{22} $ H $ \\frac{5}{11} $\nG $ \\frac{3}{11} $ J $ \\frac{8}{11} $",
                 "merge_list": [
                     {
                         "category_type": "text_block",
@@ -11063,7 +11063,7 @@
                         "ignore": false,
                         "order": 30,
                         "anno_id": 28,
-                        "text": "G $ \\frac{3}{11} $ I $ \\frac{8}{11} $",
+                        "text": "G $ \\frac{3}{11} $ J $ \\frac{8}{11} $",
                         "line_with_spans": [
                             {
                                 "category_type": "text_span",
@@ -11105,7 +11105,7 @@
                                     1169.3333333333333,
                                     1544
                                 ],
-                                "text": "I"
+                                "text": "J"
                             },
                             {
                                 "category_type": "equation_inline",
@@ -11134,7 +11134,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "F 5/22 H 5/11 G 3/11 J 8/11"
+                "pred": "55FH221138GJ1111"
             },
             {
                 "category_type": "text_block",
@@ -11469,7 +11469,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "7. Clarence bought a 3-pound can of mixed nuts for a party. One-fourth of the can is made up of walnuts, and two-fifths of the can is made up of peanuts. Which of the following shows the correct relationship between 1/4 and 2/5?\n\nA 1/4 = 2/5\nB 1/4 > 2/5\nC 1/4 < 2/5\nD 1/5 < 3/10"
+                "pred": "7.Clarence bought a 3-pound can of mixednuts for a party. One-fourth of the can ismade up of walnuts, and two-fifths of thecan is made up of peanuts. Which of thefollowing shows the correct relationship-14$\\f{}$betweenand-|2|n-14-102/nAc<3-|42/0BD>>10"
             },
             {
                 "category_type": "header",
@@ -11536,7 +11536,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "IL Math Online macmillanmh.com Test Practice"
+                "pred": "IL Math Onlinemacmillanmh.comTest Practice"
             },
             {
                 "category_type": "footer",
@@ -11691,7 +11691,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "10. Proof. We omit (a) since is standard. For (b), if $u$ attains an interior maximum, then the conclusion follows from strong maximum principle."
+                "pred": "10. Proof. We omit (a) since is standard. For (b), if u attains an interior maximum, then ticonclusion follows from strong maximum principle."
             },
             {
                 "category_type": "text_block",
@@ -11786,7 +11786,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "If not, then for some $x^{0} \\in \\partial U, u(x^{0})>u(x) \\forall x \\in U$. Then Hopf's lemma implies $\\frac{\\partial u}{\\partial v}(x^{0})>0$, which is a contradiction."
+                "pred": "f not, then for some x0  ∂U, u(x0) > u(x) ∀x  U. Then Hopf 's lemma implies ∂u(x¶which is a contradiction."
             },
             {
                 "category_type": "text_block",
@@ -11839,7 +11839,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Remark 2. A generalization of this problem to mixed boundary conditions is recorded in Gilbarg-Trudinger, Elliptic PDEs of second order, Problem 3.1."
+                "pred": "Remark 2. A generalization of this problem to mixed boundary conditions is recorded iGilbarg-Trudinger, Elliptic PDEs of second order, Problem 3.1."
             },
             {
                 "category_type": "text_block",
@@ -11995,7 +11995,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "By Exercise 5.17, $\\phi(u) \\in H^{1}(U)$. Then, for all $v \\in C_{c}^{\\infty}(U), v \\geq 0$,"
+                "pred": "By Exercise 5.17, φ(u)  H 1(U ). Then, for all v E C∞(V), v >"
             },
             {
                 "category_type": "equation_isolated",
@@ -12140,7 +12140,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(We don’t know whether the product of two $H^1$ functions is weakly differentiable. This is why we do not take $v \\in H_0^1$.) Now we complete the proof with the standard density argument."
+                "pred": "We don't know whether the product of two H1 functions is weakly differentiable. This is whve do not take v  H1.) Now we complete the proof with the standard density argument."
             },
             {
                 "category_type": "text_block",
@@ -12403,7 +12403,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "12. Proof. Given $u \\in C^{2}(U) \\cap C(\\bar{U})$ with $L u \\leq 0$ in $U$ and $u \\leq 0$ on $\\partial U$. Since $\\bar{U}$ is compact and $v \\in C(\\bar{U}), v \\geq c>0$. So $w:=\\frac{u}{v} \\in C^{2}(U) \\cap C(\\bar{U})$. Brutal computation gives us"
+                "pred": "fGiven u  C2(U) ∩ C(U) with Lu ≤ 0 in U and u ≤ 0 on ∂U . Since U is compact an(U), v ≥ c > 0. So w :=e l2 C2(U) ∩ C(U). Brutal computation gives us"
             },
             {
                 "category_type": "equation_isolated",
@@ -12420,21 +12420,21 @@
                 "ignore": false,
                 "order": 10,
                 "anno_id": 15,
-                "latex": "$$\n\\begin{aligned} {{-a^{i j} w_{x_{i} x_{j}}}} & {{} {{}=\\frac{-a^{i j} u_{x_{i} x_{j}} v+a^{i j} v_{x_{i} x_{j}} u} {v^{2}}+\\frac{a^{i j} v_{x_{i}} u_{x_{j}}-a^{i j} u_{x_{i}} v_{x_{j}}} {v^{2}}-a^{i j} \\frac{2} {v_{x_{j}}} \\frac{v_{x_{i}} u-v u_{x_{j}}} {v^{2}}}} \\\\ {{}} & {{} {} {{}=\\frac{( L u-b^{i} u_{x_{i}}-c u ) v+(-L v+b^{i} v_{x_{i}}+c v ) u} {v^{2}}+0+a^{i j} \\frac{2} {v} v_{x_{j}} w_{x_{i}}, \\ \\mathrm{s i n c e} \\ a^{i j}-a^{i i}.}} \\\\ {{}} & {{} {} {{}=\\frac{L u} {v}-\\frac{u L v} {v^{2}}-b^{i} w_{x_{i}}+a^{i j} \\frac{2} {v} w_{x_{j}} w_{x_{i}}}} \\\\ \\end{aligned}\n$$",
+                "latex": "$$\n\\begin{aligned} {{-a^{i j} w_{x_{i} x_{j}}}} & {{} {{}=\\frac{-a^{i j} u_{x_{i} x_{j}} v+a^{i j} v_{x_{i} x_{j}} u} {v^{2}}+\\frac{a^{i j} v_{x_{i}} u_{x_{j}}-a^{i j} u_{x_{i}} v_{x_{j}}} {v^{2}}-a^{i j} \\frac{2} {v} v_{x_{j}}  \\frac{v_{x_{i}} u-v u_{x_{i}}} {v^{2}}}} \n\\\\ {{}} & {{} {} {{}=\\frac{( L u-b^{i} u_{x_{i}}-c u ) v+(-L v+b^{i} v_{x_{i}}+c v ) u} {v^{2}}+0+a^{i j} \\frac{2} {v} v_{x_{j}} w_{x_{i}}, \\ \\mathrm{s i n c e} \\ a^{i j}-a^{j i}.}} \n\\\\ {{}} & {{} {} {{}=\\frac{L u} {v}-\\frac{u L v} {v^{2}}-b^{i} w_{x_{i}}+a^{i j} \\frac{2} {v} w_{x_{j}} w_{x_{i}}}} \\\\ \\end{aligned}\n$$",
                 "line_with_spans": [
                     {
                         "category_type": "equation_isolated",
                         "poly": [
-                            222.40201146921683,
-                            1461.3333333333337,
-                            1549.6791623592176,
-                            1461.3333333333337,
-                            1549.6791623592176,
-                            1744.9030704544261,
-                            222.40201146921683,
-                            1744.9030704544261
+                            223.15416744998205,
+                            1462.0854893140988,
+                            1550.431318339983,
+                            1462.0854893140988,
+                            1550.431318339983,
+                            1745.6552264351908,
+                            223.15416744998205,
+                            1745.6552264351908
                         ],
-                        "latex": "$$\n\\begin{aligned} {{-a^{i j} w_{x_{i} x_{j}}}} & {{} {{}=\\frac{-a^{i j} u_{x_{i} x_{j}} v+a^{i j} v_{x_{i} x_{j}} u} {v^{2}}+\\frac{a^{i j} v_{x_{i}} u_{x_{j}}-a^{i j} u_{x_{i}} v_{x_{j}}} {v^{2}}-a^{i j} \\frac{2} {v_{x_{j}}} \\frac{v_{x_{i}} u-v u_{x_{j}}} {v^{2}}}} \\\\ {{}} & {{} {} {{}=\\frac{( L u-b^{i} u_{x_{i}}-c u ) v+(-L v+b^{i} v_{x_{i}}+c v ) u} {v^{2}}+0+a^{i j} \\frac{2} {v} v_{x_{j}} w_{x_{i}}, \\ \\mathrm{s i n c e} \\ a^{i j}-a^{i i}.}} \\\\ {{}} & {{} {} {{}=\\frac{L u} {v}-\\frac{u L v} {v^{2}}-b^{i} w_{x_{i}}+a^{i j} \\frac{2} {v} w_{x_{j}} w_{x_{i}}}} \\\\ \\end{aligned}\n$$"
+                        "latex": "$$\n\\begin{aligned} {{-a^{i j} w_{x_{i} x_{j}}}} & {{} {{}=\\frac{-a^{i j} u_{x_{i} x_{j}} v+a^{i j} v_{x_{i} x_{j}} u} {v^{2}}+\\frac{a^{i j} v_{x_{i}} u_{x_{j}}-a^{i j} u_{x_{i}} v_{x_{j}}} {v^{2}}-a^{i j} \\frac{2} {v} v_{x_{j}}  \\frac{v_{x_{i}} u-v u_{x_{i}}} {v^{2}}}} \n\\\\ {{}} & {{} {} {{}=\\frac{( L u-b^{i} u_{x_{i}}-c u ) v+(-L v+b^{i} v_{x_{i}}+c v ) u} {v^{2}}+0+a^{i j} \\frac{2} {v} v_{x_{j}} w_{x_{i}}, \\ \\mathrm{s i n c e} \\ a^{i j}-a^{j i}.}} \n\\\\ {{}} & {{} {} {{}=\\frac{L u} {v}-\\frac{u L v} {v^{2}}-b^{i} w_{x_{i}}+a^{i j} \\frac{2} {v} w_{x_{j}} w_{x_{i}}}} \\\\ \\end{aligned}\n$$"
                     }
                 ],
                 "attribute": {
@@ -12651,7 +12651,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "If $\\{x \\in \\bar{U} : u > 0\\}$ is not empty, Weak maximum principle to the operator $M$ with bounded coefficients (since $v \\in C^1(\\bar{U})$) will lead a contradiction that"
+                "pred": "{x  ¯ : u > 0} is not empty, Weak maximum principle to the operator M with boundeSincents (since v  C1(U))will lead a contradiction that"
             },
             {
                 "category_type": "equation_isolated",
@@ -12754,7 +12754,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Hence $u \\leq 0$ in $U$."
+                "pred": "Hence u ≤ 0 in U."
             },
             {
                 "category_type": "page_number",
@@ -12853,7 +12853,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "Unit 2 Poems"
+                "pred": "PoemsUnit"
             },
             {
                 "category_type": "title",
@@ -13073,7 +13073,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "1 Do you remember any little poems or songs you learned when you were a child? These little poems and songs might have been some of the first poetry you learned.\n\n2 Do you remember any poems you have read in high school, either in Chinese or in English? Can you recite any?\n\n3 There are many reasons why people write poems. In small groups make a list of these reasons. The list has been started for you."
+                "pred": "Do you remember any little poems or songs you learned when you were a child? These littlepoems and songs might have been some of the first poetry you learedDo you remember any poems you have read in high school, cither in Chinese or in English?Can you recite any?There are many reasons why people write poems. In small groups make a list of these reasonsThe list has been started for you"
             },
             {
                 "category_type": "text_block",
@@ -13289,7 +13289,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "to tell a story\nto express feelings\nto recall an enjoyable or unpleasant incident\n..."
+                "pred": "to tell a storyto express feelingsto recall an enjoyable or unpleasant incident"
             },
             {
                 "category_type": "title",
@@ -13328,7 +13328,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "pre-reading"
+                "pred": "Pre-reading"
             },
             {
                 "category_type": "text_block",
@@ -13429,7 +13429,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "1 Do you have a favourite poem in Chinese or in English? Why is it your favourite poem?\n\n2 Skim the poems on the following pages and tick the correct box(es) for each question."
+                "pred": "Do you have a favourite poem in Chinese or in English? Why is it your favourite poemSkim the poems on the following pages and tick the corect box(es) for each question"
             },
             {
                 "category_type": "table",
@@ -13497,7 +13497,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "9"
+                "pred": "6"
             }
         ],
         "extra": {
@@ -13574,7 +13574,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在四张嘴张着，嘴里不停地发出“呼呼”的叫声，而远远的，悠悠的绵羊们正在草地上散漫！"
+                "pred": "在四处张望着，嘴里不时地发出“咩咩”的叫声。而远处，悠闲的绵羊妈妈正在草原上散步呢！"
             },
             {
                 "category_type": "title",
@@ -13762,7 +13762,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "2. (1) 赞赏 (2) 赞许 (3) 赞同"
+                "pred": "2.（1）赞赏（2）赞许（3）赞同"
             },
             {
                 "category_type": "text_block",
@@ -13885,7 +13885,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "３．辽阔无垠４．雄伟壮丽５．极目远眺"
+                "pred": "3.①辽阔无垠②腰肥体壮③极目远眺"
             },
             {
                 "category_type": "title",
@@ -14047,7 +14047,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "4. 答案示例：星期天的早上，我和爸爸到附近的公园里跑步。公园里绿树成荫，麻雀在枝头飞来飞去，不时地发出清脆动听的叫声。花坛中五颜六色的月季花开得正艳，花瓣上的露水在阳光的照耀下晶莹剔透，像珍珠一样。路边的空地上热闹极了，有的人在跑步，有的人在健身操，还有的人伴着音乐在跳广场舞……多么美丽而充满生机的夏日早晨啊！"
+                "pred": "4.答案示例：星期天的早上，我和爸爸到附近的公园里散步。公园里绿树成荫，麻雀在枝头飞来飞去，不时地发出清脆动听的叫声。花坛中五颜六色的月季花开得正艳，花上的露水在阳光的照耀下亮晶晶的，像珍珠一样。湖边的空地上热阔极了，有的人在跑步，有的人在练健身操，还有的人伴着音乐在跳广场舞.多么美好而充满生机的夏日早晨响！"
             },
             {
                 "category_type": "title",
@@ -14203,7 +14203,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "１．期（ｙｕ）舷（ｎáｎ）湛（ｓｈèｎｚｈàｎ）"
+                "pred": "1.熠（yì yù)（nián zhān) (shēn zhàn)"
             },
             {
                 "category_type": "title",
@@ -14337,7 +14337,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "2. 答案示例：九月的开罗，夕阳是金色的，田野、沙漠是金色的，连尼罗河的河水都泛着金光。远远望去，金字塔就像漂浮在金色的沙海中的金山。天上下，一片耀眼的金色。因此说“九月的开罗是金色的”。"
+                "pred": "2.答案示例：九月的开罗，夕阳是金色的，田野、沙漠是金色的，连尼罗河的河水都泛着金光。远远望去，金字塔就像漂浮在金色的沙海中的金山。天上地下，一片耀眼的金色。因此说“九月的开罗是金色的”。"
             },
             {
                 "category_type": "text_block",
@@ -14502,7 +14502,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "3. 答案解析：①胡夫金字塔的占地面积和体积都很庞大，在其建成几百年后，世界上才出现比它更高的建筑；②金字塔塔身的石块之间没有任何黏着物，却结合得非常紧密，锋利的刀片都很难插入；③胡夫金字塔的地理位置和塔高的设计十分巧妙。"
+                "pred": "3.答案示例：①胡夫金字塔的占地面积和体积都很庞大，在其建成几千年后，世界上才出现比它更高的建筑：②金字塔塔身的石块之间没有任何黏着物，却黏合得很紧密，锋利的刀刃都很难插人；③胡夫金字塔的地理位置和塔高的设计士分巧妙。"
             },
             {
                 "category_type": "text_block",
@@ -14555,7 +14555,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "4. 12356"
+                "pred": "4.①②③⑤⑥"
             },
             {
                 "category_type": "text_block",
@@ -14874,7 +14874,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "5."
+                "pred": "胡夫金字塔（以下为答案示例）地理位置：埃及首都开罗郊外的沙漠中外观：近似汉字“金”，气势雄伟功用：古埃及法老胡夫的陵墓特点：高、占地面积大、体积大、使用石料多石块贴合紧密、设计巧妙评价：现存规模最大的金字塔，古埃及人民劳动和智慧的结品。"
             },
             {
                 "category_type": "text_block",
@@ -14997,7 +14997,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "6. 答案示例：第一则材料中画横线的句子语言优美，把金字塔比作金山，既形象写出了金字塔的形状，又体现出它的珍贵。第二则材料中画横线的句子语言简洁，用具体的数字写出了建造金字塔的石头又多又重，整个金字塔又高又大。将金字塔与我们熟悉的高楼、篮球场比较，使我们理解起来更容易。"
+                "pred": "6.答案示例：第一篇材料中画横线的句子语言优美，把金字塔比作金山，既形象地写出了金字塔的形状，又体现出它的珍贵。第二篇材料中画横线的句子语言简洁，用具体的数字写出了建造金字塔的石头又多又重，整个金字塔又高又大的特点。将金字塔与我们熟悉的高楼、篮球场作比较，使我们理解起来更容易。"
             },
             {
                 "category_type": "title",
@@ -15231,7 +15231,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "１．Ｃ"
+                "pred": "1.C"
             },
             {
                 "category_type": "text_block",
@@ -15468,7 +15468,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "2.(1)绵绵绵\n(2)俊俊俊\n(3)跳跳跳"
+                "pred": "2.（1）棉绵骏挑（2）俊（3）眺跳"
             },
             {
                 "category_type": "text_block",
@@ -15611,7 +15611,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "3. (1)澄（chéng） 澄（dèng）\n(2)哗（huá） 哗（huā）"
+                "pred": "3.（1)澄（chéng)澄( dèng)(2)哗(huā)哗(huá)"
             },
             {
                 "category_type": "text_block",
@@ -15764,7 +15764,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（4）1．手忙脚乱\n2悠然自得\n3成群结队"
+                "pred": "4.（1）手忙脚乱（2）悠然自得（3）成群结队"
             },
             {
                 "category_type": "text_block",
@@ -15917,7 +15917,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "5. (1) 阳光下 蟋蟀起舞、随风动\n\n(2) 挤 运 没有声音 默默无言\n\n(3) 夕阳西下时与石板小路旁的宁静 风吹过 树顶时片片花瓣飘落水面上的情景"
+                "pred": "5.（1）阳光下翩翩起舞、随风飘动（2）挤运没有响声默默无言（3）夕阳西下时石板小路旁的宁静晚风吹过根树顶时片片花瓣撒落到水面上的情景"
             },
             {
                 "category_type": "header",
@@ -16011,7 +16011,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "34"
+                "pred": "图"
             },
             {
                 "category_type": "footer",
@@ -16050,7 +16050,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "五级镇，下辖1个金星街、3乡。中国的非物质文化遗产第七批名录公布"
+                "pred": "五年级·下20金宇塔/习作：中国的世界文化造产/第七单无测查卷"
             }
         ],
         "extra": {
@@ -16062,7 +16062,8 @@
                 "language": "simplified_chinese",
                 "layout": "double_column",
                 "special_issue": [
-                    "None"
+                    "None",
+                    "fuzzy_scan"
                 ]
             },
             "page_no": 2408,
@@ -16124,7 +16125,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "笔记三、天气与气候"
+                "pred": "笔记三 天气与气候"
             },
             {
                 "category_type": "title",
@@ -16202,7 +16203,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "１．天宝及其影响"
+                "pred": "1.夫气及其影响"
             },
             {
                 "category_type": "text_block",
@@ -16341,7 +16342,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": ""
+                "pred": "(1)含义：是一个地方短时间里阴晴，风雨，冷热等大气状况(2)特点：短时间(时间).相差大(空间)、变化大(变化)3）影响：天气对交通、生活，农业生产、军事导人类活动自普深刻的影响。"
             },
             {
                 "category_type": "title",
@@ -16380,7 +16381,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "明天的天氣是怎樣"
+                "pred": "2.明天的天气是么样？"
             },
             {
                 "category_type": "text_block",
@@ -16699,7 +16700,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "(1)天气预报:是气象工作者通过对气象资料的分析,发布将要出现的天气状况。\n\n(2)天气预报的制作过程:\n\n世界各地采取气象信息→卫星传输、接收一对信息进行加工处理→分析判断得出结论→播报\n\n(3)天气预报的形式:电视、报纸、互联网、广播、手机短信、打电话\n\n(4)天气预报的内容:\n①卫星云图:蓝色表示海洋,绿色表示陆地,白色表示云区\n②城市天气预报:说明一日内阴晴、风、气温和降水等常规天气,另外还有沙尘暴、空气质量、海浪、水情、大雾等特殊预报。"
+                "pred": "(1)天气预报，是气象工作者滑过对天气资料的分析，发市将要出现的天气状况。(2）天气预报的制作过程：世界各地获取气象信息→卫传输接收—→对信息加工处理→分析制断得出结论—→预报(3）天气预报的形式：电视.报纸、互联网、广播、手机短信，打电话（4）天气预报的内客：①卫量云图：蓝色表示海洋，绿色表示陆地，自色表示云区②城市天气预报：说明一日内阴暖，风，艺温和隆水等常规情况，分外还有沙尘最、空气质量，海浪、冰震大露等特殊预报"
             },
             {
                 "category_type": "table_caption",
@@ -16738,7 +16739,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "３．我们需要怎样的人生"
+                "pred": "3.我们需要活净的空气"
             },
             {
                 "category_type": "table",
@@ -16820,7 +16821,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "No.\n\nDate"
+                "pred": "NO.Date"
             },
             {
                 "category_type": "page_number",
@@ -16859,7 +16860,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "10"
+                "pred": "ol"
             }
         ],
         "extra": {
@@ -16937,7 +16938,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（３度假你预订了哪家旅馆？）"
+                "pred": "Which hotel have you booked for your holiday?(为了度假你预订了哪家旅馆？)"
             },
             {
                 "category_type": "text_block",
@@ -16976,7 +16977,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "——thebiggestoneinhaikou(海口最大的旅馆)"
+                "pred": "-The biggest one in Haikou.(海口那家最大的旅馆.)"
             },
             {
                 "category_type": "text_block",
@@ -17029,7 +17030,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（４）疑问代词不分单复数．视它所替代的人或事物决定单复数，但是通常用单数；如果修饰名词，则以名词的单复数为准。"
+                "pred": "(4)疑问代词不分单复数，视它所替代的人或事物决定单复数，但是通常用单数；如果修饰名词，则以名词的单复数为准。"
             },
             {
                 "category_type": "text_block",
@@ -17068,7 +17069,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "如：Who is（are）in that playhouse？（谁在游戏房里？）"
+                "pred": "如：Who is (are) in tha playhouse？(谁游戏房里)"
             },
             {
                 "category_type": "text_block",
@@ -17107,7 +17108,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "What is that? (那是什么?)"
+                "pred": "What is that?(那是什么?)"
             },
             {
                 "category_type": "text_block",
@@ -17146,7 +17147,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "What are those? (那些是什么?)"
+                "pred": "What are those?(那些是什么？)"
             },
             {
                 "category_type": "text_block",
@@ -17185,7 +17186,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "What colours do they have? (它们有哪些颜色?)"
+                "pred": "what colours do they haue?(它们有哪些颜色？)"
             },
             {
                 "category_type": "title",
@@ -17224,7 +17225,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "１０．相互代词：表示相互关系的代词叫相互代词。"
+                "pred": "10.相互代词：表示相互关系的词叫相互伐词。"
             },
             {
                 "category_type": "text_block",
@@ -17291,7 +17292,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "eachother,oneanother是相互代词，译为“互相”，可以通用.each other表示两者之间，而one another表示许多人之间。它们有所有格形式：each other's, one another's."
+                "pred": "each other，one another是相互代词，译为“互相\"，可以通用，eachother表示两者之间，而one another表示许多人之间。它们有所有格形式：each other's, one another's."
             },
             {
                 "category_type": "text_block",
@@ -17344,7 +17345,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "如：我们必须互相帮助。"
+                "pred": "如: We must help each other when we are in trouble.(我们身处困境时要互相帮助.)"
             },
             {
                 "category_type": "text_block",
@@ -17397,7 +17398,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "They sat there without talking to one another / each other.\n(他们坐在那儿，互相都不说话。)"
+                "pred": "They sat there without talking to one another /each other.(他们坐在那b，互相都不说话。)"
             },
             {
                 "category_type": "title",
@@ -17436,46 +17437,7 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "四．数词"
-            },
-            {
-                "category_type": "table_caption",
-                "poly": [
-                    50.863168595618745,
-                    551.310416925452,
-                    212.47762000594528,
-                    551.310416925452,
-                    212.47762000594528,
-                    575.1196887850091,
-                    50.863168595618745,
-                    575.1196887850091
-                ],
-                "ignore": false,
-                "order": 13,
-                "anno_id": 3,
-                "text": "2. 基数词：表示数目的词。",
-                "line_with_spans": [
-                    {
-                        "category_type": "text_span",
-                        "poly": [
-                            51.89867314066219,
-                            555.7174895029837,
-                            212.1497730870869,
-                            555.7174895029837,
-                            212.1497730870869,
-                            574.3287115855625,
-                            51.89867314066219,
-                            574.3287115855625
-                        ],
-                        "text": "2. 基数词：表示数目的词。"
-                    }
-                ],
-                "attribute": {
-                    "text_language": "text_simplified_chinese",
-                    "text_background": "multi_colored",
-                    "text_rotate": "normal"
-                },
-                "pred": "２．数词：表示数目多少的词。"
+                "pred": "四.数词"
             },
             {
                 "category_type": "text_block",
@@ -17490,7 +17452,7 @@
                     552.0319100121053
                 ],
                 "ignore": false,
-                "order": 14,
+                "order": 13,
                 "anno_id": 9,
                 "text": "1. 分类：数词有基数词和序数词两种, 英语的数词可作句子的主语. 宾语.表语和定语。",
                 "line_with_spans": [
@@ -17528,7 +17490,46 @@
                     "text_background": "multi_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "１、分类：有理数有整数和分数两种，整数的数位可作分子的主语，宾语、表语和定语。"
+                "pred": "1.分类：数词有基数词和序数词两种。英语的数词可作句子的主语、宾语.表语和定语。"
+            },
+            {
+                "category_type": "table_caption",
+                "poly": [
+                    50.863168595618745,
+                    551.310416925452,
+                    212.47762000594528,
+                    551.310416925452,
+                    212.47762000594528,
+                    575.1196887850091,
+                    50.863168595618745,
+                    575.1196887850091
+                ],
+                "ignore": false,
+                "order": 14,
+                "anno_id": 3,
+                "text": "2. 基数词：表示数目的词。",
+                "line_with_spans": [
+                    {
+                        "category_type": "text_span",
+                        "poly": [
+                            51.89867314066219,
+                            555.7174895029837,
+                            212.1497730870869,
+                            555.7174895029837,
+                            212.1497730870869,
+                            574.3287115855625,
+                            51.89867314066219,
+                            574.3287115855625
+                        ],
+                        "text": "2. 基数词：表示数目的词。"
+                    }
+                ],
+                "attribute": {
+                    "text_language": "text_simplified_chinese",
+                    "text_background": "multi_colored",
+                    "text_rotate": "normal"
+                },
+                "pred": "2.基数词：表示数目的词。"
             },
             {
                 "category_type": "table",
@@ -17610,7 +17611,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "NO.\n\nDate"
+                "pred": "NO.Date"
             },
             {
                 "category_type": "page_number",
@@ -17713,7 +17714,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "财政助农:福建茶农迎来又一春"
+                "pred": "财政助农福建茶农迎来又一春"
             },
             {
                 "category_type": "text_block",
@@ -17861,7 +17862,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "福州市具有“多区叠加”之利，诸多政策优势。在“一带一路”的目标下，中央政府批准福州设立自由贸易试验区，面积达29.3平方公里，涵盖省会城市面积4.34平方公里，重点发展现代服务业、先进制造业和战略性新兴产业。"
+                "pred": "福建具有茶之乡”“茶之祖”等诸多美营。2008年以来，为推进现代茶产业，国绕五促进，两带动的目标，中央财政连续三年注入资金，总额达2.29亿元，整合省相关部门资金4.33亿元投人茶产业，中央和地方财政的扶持，有效控动了福建现代茶产业加速发展。"
             },
             {
                 "category_type": "text_block",
@@ -17984,7 +17985,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“最近五年，可以说是十一届政协的最好时期，也是福建政协工作发展最快、成效最显著的时期。”今年初，福建省政协主席梁绮明在省政协十届五次会议上作工作报告时说。五年来，省政协提交提案27万件，其中立案1.5万件，办复率百分之百。"
+                "pred": "“最近三年，可以说是一年一个新合阶，这个发展速度，主要得益于中央财政资金的杠杆效应。诚起茶产业，福建省农业厅相关负责人林景元有着精不尽的话题，“今年福建茶产业再传好消息，全年茶园积将达300万亩，居全国第四位，茶叶产量将超过27万吨，占全国茶叶总产量的五分之一，居全国第一位。"
             },
             {
                 "category_type": "text_block",
@@ -18079,7 +18080,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在中央政治局的正确领导下，完成了国民经济调整任务，实现了国家财政经济状况根本好转。如今，各种新、奇、特、优品种不断涌现，斗南被誉为“中国花卉第一镇”。"
+                "pred": "在中央财政资金的杠杆作用下，促进了福建茶园生态和茶叶品种更加优化：倪进了茶叶质量提开和农民增收：带动了地方支农资金和民间资金投人现代茶业，如今，种茶，制茶，售茶，品茶斗茶，整茶等已成为福建百姓重要生活元素"
             },
             {
                 "category_type": "title",
@@ -18118,7 +18119,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "改善生态，构建现代茶产业发展基地"
+                "pred": "改善生态，构建现代茶产业发展基础"
             },
             {
                 "category_type": "text_block",
@@ -18185,7 +18186,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "一条条宽阔的柏油马路四通八达，连着千家万户。"
+                "pred": "一条条宽散的机耕路四通八达，装运有机肥的小四轮，穿梭其中：一条条畅通的水，蛇纵：一口口新的水池，星罗布.这是记者"
             },
             {
                 "category_type": "text_block",
@@ -18280,7 +18281,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在该地发现东汉时期的遗址，自2018年将该遗址纳入大运河遗产项目后，全面启动了生产遗址的保护和建设工作。随着2020年大运河国家文化公园的建设，标准化建设面积326亩。"
+                "pred": "在松溪县现代茶园见到的情景，自从2008年省里将松溪县列人现代茶业生产建设项目县后，全茶叶生产基甜设就逐渐变了模样，截至2010年上半年，松运完成项月总投资195万元，建设标准化生态茶园526亩。"
             },
             {
                 "category_type": "text_block",
@@ -18375,7 +18376,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "答：①在生态环境和经济发展中建设是产业发展的关键环节。福建省大化县林业生产，取得了辉煌的成就，2008年-2010年，全县林业经济的持续健康发展取得了良好成效。"
+                "pred": "茶园的生态环境和标准茶园建设是现代系产业的关键环节。福建省大抓标准化生态茶园建设，制定了详细的补助标准，2008年～2010年，全省共建设标准化生态茶园29.39万亩，为福建茶叶的可特续健康发展奠定了良好发展基。"
             },
             {
                 "category_type": "text_block",
@@ -18498,7 +18499,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "改名生，更名改政体。在其任“大韩帝国”皇帝的期间，早在1896年，就有来自日本的刺客在俄罗斯圣彼得堡刺杀他未遂。在日本吞并朝鲜后，日本在中国和朝鲜半岛的势力迅速增长，日本对中国和朝鲜半岛的侵略也日益严重。1907年，高宗被迫退位，改名为“明仁天皇”。"
+                "pred": "改善生态，更要改良品种。在具有”大赶阿山”美誉的漳平市，早在1996年，就有来自合湾南投县的谢东庆开醉了干亩优质高山茶茶场。在现代茶业项目资金的扶持下，障平市大力改进茶树品种。着力提升漳平水仙茶、永福高山茶和官田铁冠三大名优茶的品和知名度。日前，中国叶学会已经审查通过，命名源平市为中名茶之乡”"
             },
             {
                 "category_type": "text_block",
@@ -18691,7 +18692,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在中央财政支持下，福建率先出台生态补偿政策。应用该政策，全省各级政府按森林面积向林农支付生态补偿金。2014年，省级财政投入9586万元，惠及全省35%的林区农户，平均每户增收75元。全省平均每个村增加1.91公顷公益林，每亩公益林增加收益87.5个百分点，居全国第一。生态补偿政策有效保护了森林资源和生物多样性，促进了林业的产业、产品、市场、品牌等多方面的发展。"
+                "pred": "在中央财致支持下，福建突出无性系良种大面积推广应用，现在，全省拥有国家级茶树良种19个，省级良种21个，无性系良种推广面积达95%，远高于全国35%的平均水平，居全国领先地位。全省平均茶叶单产公斤/亩，高出全田85.7个百分点，居全国第一。全省名优茶产量9.53万吨、产值75亿元，分别占全省茶叶总产量和总产值的35.3%.75%"
             },
             {
                 "category_type": "title",
@@ -18730,7 +18731,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "提升质量,奏响悦耳的茶农增收曲"
+                "pred": "提升质量，奏响悦耳的茶农增收曲"
             },
             {
                 "category_type": "text_block",
@@ -18825,7 +18826,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "记以来到美国大龙虾生产地缅因州，在缅因州的500英里海岸线上，记者看到，缅因州人对龙虾的痴迷无处不在。为了解开，为什么缅因州人如此喜欢龙虾的秘密，"
+                "pred": "记者来到全国最大乌龙茶主产区安溪县，在城区茶叶公园的生态茶园里，记者看到，每隔500米就安装了一合TFC型太阳能灭虫器。工作人员李旭云介绍说，灭虫器收集取之不尽的太阳能作为能，针对害虫生活习惯，诱杀害虫。"
             },
             {
                 "category_type": "text_block",
@@ -18906,7 +18907,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "自体脂肪项目在宛平医院，以宋毅、张建民为代表的中青年医生，擅长TFC吸脂和自体脂肪移植技术。在面部轮廓、双颚矫正、隆鼻手术、皮肤管理等整形美容方面也颇有造诣。"
+                "pred": "自现代茶业项目在安溪实施以来，该县通过建立虫害测报点，配备TFC型太阳能灭由器、虫情测报灯、双筒解剖镜、生物显微镜、机动喷雾器等设备提升茶叶质量安全。"
             },
             {
                 "category_type": "text_block",
@@ -19029,7 +19030,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "不仅在深海，几乎所有的有毒污染物都通过政党的食物链生产，提升至中高营养级生物体内。这些污染物的代表为有机氯杀虫剂、重金属和多氯联苯等。减少药用污染，可用生物降解性建立下限标准，以减少环境中的残留量；那些相似空间的漂浮物，如塑料袋，也会对海洋生物造成伤害，应建立相关法规，构建一个干净安全的海洋环境。"
+                "pred": "不仅仅在安溪县，几乎在所有的获得中央财政支持的茶叶主产县，提升茶叶质量安全都列人了茶叶生产的重要指标。为抑制病虫害发生，减少农药施用，项目实施区域建立井不断完善茶树病虫害测报点，形成相对完整的测报体系，指导保障网。茶农科学防治病虫害，构建了一道茶叶质量安全"
             },
             {
                 "category_type": "text_block",
@@ -19222,7 +19223,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "茶叶品质全面提升，促进了茶产业总效益提升，农民收入尤其是茶农收入大幅增加。2009年，福建省茶农人均收入为6000元，比2007年增加1213.1元，年均增长22.4%，占农民人均纯收入的比重由2007年的56%～60%，农民人均税收中，有60%来自茶业。"
+                "pred": "茶叶质量安全的提升，促进了茶产业总体效益日益攀升，农民收入尤其是茶区农民收人显著增加，2009年，福建全省农民人均收人为66802元，比2007年增加1213.1元，两年就增长22.2%。安溪福安武夷山等茶叶主产县涉茶人口数占全县人口的60%~700%，农民人均纯收人中的5%~60%来自茶产业。"
             },
             {
                 "category_type": "title",
@@ -19398,7 +19399,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“现代远程教育改革试点是国家教育体制改革的重大项目，党中央、国务院高度重视‘支持办好开放大学’，党的十八大报告明确提出。现经教育部批准，国家开放大学正式成立，这是我国高等教育领域的一件大事。国家开放大学是在中央广播电视大学基础上建立的新型大学，主要采用网络等现代信息技术手段开展远程教育，面向社会成员提供学历及非学历继续教育，特别加强社区教育、农民教育、残疾人教育，推动建设全民学习、终身学习的学习型社会。”"
+                "pred": "“现代茶业县资会补助政策起到门四网拨干片”的作用，“及中央财政如间支持产业发展时，安演农茶局副局长宋建设认为，要发展一个地区系产业。现代茶业实的项自其实本来都是必须做的，但由于没有相关政的引领和激励，很多项目实施比较缓慢，财政资金补助政策极大地调动了茶衣，茶商茶企参与的积性，在安县，中央财政今年补助资金1050万元，而该县全年的总投人却达到3000多万元"
             },
             {
                 "category_type": "text_block",
@@ -19549,7 +19550,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在另一个由周明权支助的茶亭乡大县村，县里组织了“茶叶扶贫”的实施项目。近五年来政府共投资资金500多万元，建起了茶叶加工场、修一条3公里的水泥路；成立茶叶协会、举办茶叶技术培训班和茶叶加工培训班，全村有20多户农户参加培训，投入资金656万元……不断增加的投资和投入，使一系列惠农政策，带给了村民实实在在的好处。"
+                "pred": "在另一个获得中央财政支持的产茶大县大田县，县里出合了（扶持茶业发展的实施意见。近年来该县财政扶持资金都在500万元以上，建立茶叶加工、销售一条街：设立茶叶集中加工区：成立协会、专业合作社：成立了茶衣贷款担保协会，对每个担保会注人能资会10万元今年10月开始，福高山茶文化创意产业回已开工建设，总投资5.06亿元·…不断增加的投人和一系列优惠措，带动了优势特色茶产业发展。"
             },
             {
                 "category_type": "text_block",
@@ -19658,7 +19659,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "中国银联，是经国务院同意，由中国人民银行批准设立的中国银行卡联合组织，成立于2002年3月26日，总部设于上海。截至2018年末，银联成为全球发卡量最大、用户最多的国际卡品牌。"
+                "pred": "中央财政地方支农资金以及民间资金的理性通人，使建产业化进程迎来了又一个春天，拓展了茶产业的外延和内，全省初少形成了较为完整的产业链，涉茶人数超过300万人，涉茶总产值近300亿元，市级以上龙头企业家，省以上名牌产品和驰名商标56个，计龙头企业和品牌建设居全国前列"
             },
             {
                 "category_type": "title",
@@ -19848,7 +19849,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（上接第一版）程等旨在提升流通领域市场基础设施的项目吸引众多投资，推动农产品批发市场建设改造、提升市场服务功能、提升市场经营水平。新修订的《农产品批发市场管理技术规范》国家标准发布实施，对大型农产品批发市场规划管理、交易管理、食品安全管理、经营管理、信息化管理等方面提出要求，到“十三五”末，农产品批发市场年交易额达到7.8万亿元，与商务部联合制定《关于加强农产品现代流通体系建设的通知》，发展农产品冷链物流，发挥国家农产品追溯平台作用，加强农产品市场监测预警，引导批发市场开展现代化改造。"
+                "pred": "（上接第一版]工程旨在提开流通设施和市场管理水平的积极引导多元投入，推动农产品批发市场强化基研设施建设，拓展市场服务功能，提开市场经营管理水平，制定了（农业部定点市场管理办法保进大中型批发市场规范管理，到”十一五期末，农业部定点市场总数达到76家。与商务部签署合作框架协议，完部门协调机制，共同推进农产品流通设施建设。发挥中国农产品市场协会作用，加强批发市场建设与管理经验交流引导批发市场开展现代化建设"
             },
             {
                 "category_type": "text_block",
@@ -19999,7 +20000,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "农业公园旅游活动丰富。农业公园一般都大规模种植观赏性花卉，农业公园每年举办的各类节庆活动多达20多次。据不完全统计，近五年全国各类农业公园的年均接待游客量及各类休闲农业活动达75亿人次。多地开展的“中国农民丰收节”系列活动，全国共吸引3.18亿人次参与。针对不同季节和节假日，农业公园还举办各类特色活动，如草莓采摘节、葡萄采摘节等。通过这些活动，农业公园与社区、学校建立了常态化的联系。"
+                "pred": "农业会经济蓬发展，农业部主办一批大型展会影响力不断提升，农业部每年参与联办的省级展会已达30多场，据不完全统计，近两年每年全国县级以上农业部门累计办农业展会及各种展示推介活动7多场次，开网络促销专栏或办同上对接会600多个。与此同时，农业系统年还组织参加海外各种展会10多场，依托中园农业信意网建立网上交易平台，十一五期间累计发布供求信息近15万条。针对活在产品季节性区性和结性卖唯，农业部织销区与产区对接，建立了日常对接机制"
             },
             {
                 "category_type": "text_block",
@@ -20164,7 +20165,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "农民住房建设是推进城镇化的重要载体。在试点基础上，再选择100个县开展新型农村社区建设试点，重点探索农民进入城镇的住房模式和政策支持体系。在分析总结上，扩大到58个县（市）进行调研，研究提出新型农村社区建设的指导意见。在试点基础上，以农民住房建设为突破口，努力提升城镇化水平。"
+                "pred": "农产品市场监测预警迈出重要步伐。在信息采集上初步建成了联接全国2日多个大中型农产品批发市场的价格信息系统和置盖600多个农产品主产县集贸市场的价格信息采集系统，启动农业应急信息采集系统，每天重点监测全国5家大型农产品批发市场58种“菜子产品的价格和交易量。在分析研判上，扩大与有关科研院校协作，密切与省级农业部门联动，建立置盖全国的农产品市场监测预警分析师队伍。在信息发布上，建立《农业部经济信息发布日历制度，不断创新信息发布内客和形式努力提升信息发布影响力。"
             },
             {
                 "category_type": "text_block",
@@ -20315,7 +20316,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "农民在信息社会中遇到困难。国家统计局数据显示，已建成的农业信息网站、农业信息及农产品市场信息服务体系已覆盖全国，但能利用网络服务的农民仅占10%多一点。信息基础设施建设滞后，以农村地区尤为突出。中国作为一个整体已经进入信息社会，但农村地区却远远落后。据农业部统计，全国324个县的农业信息综合平台，12516系统和“三电”合一中心等三种形式的“三电”包涵信息网络技术成果普及率仅占全国1/3以上的农户。"
+                "pred": "农业农村信息化顺利推进。国家农业数据中心已完成建设任务，农业监测警系统，农产品及农资市场监管信息系统已投入使用，动物疫情防控系统等10多个电子改务信息系统陆续上线运行，以农业部门户间站为核心集30多个专业网站为一体的国家农业门户网站群初步建成。电视。电话、电脑三电合一项目先后搭了19个省级，78个地级和324个县级农业综合信息服务平台，12316新农村线农民信箱、三农呼国中心等多种形式的”三衣信息服务平台不断现，成果惠及全国3以上的农户"
             },
             {
                 "category_type": "figure",
@@ -20451,7 +20452,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "描述:76岁的日本前首相安倍晋三在奈良市进行街头演说时，被一名男子用枪击中胸部。现场目击者称，安倍晋三倒地后，现场一片混乱，随后被送往医院抢救。警方已经逮捕了嫌疑人，并在现场找到了一把手枪。目前，安倍晋三的伤势严重，情况危急。"
+                "pred": "近日，76岁的日本果树专家东永武雄来到河北省临城县南沟村，现场为果农讲解树管理知识。提了解，末水武雄是日本著名的果树专家，多次来到中国与果农交流经验，传播先进技术，荣获中国政府友谊奖”陈"
             },
             {
                 "category_type": "text_block",
@@ -20602,7 +20603,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（上接第一版）用产32公斤，比2005年增加68公斤。良种化程度达98%以上，2005年比2004年增加10个百分点。\n\n普兰县青稞亩产795斤，比2005年增产30多斤。农牧民、科技人员和农技推广部门普遍反映，施用测土配方肥后，作物长势好，病虫害少，产量高。"
+                "pred": "（上接第一版）亩产432公斤，比2005年增加65公厅。农业综合机城化程度达84%，比2005年提高10个百分点。农田有效需溉率59.7%，比2005年提高20个百分点。农星根棉，胶，乳糖，种等主要产业的优势及竞争力进一步巩固和提升。"
             },
             {
                 "category_type": "text_block",
@@ -20823,7 +20824,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "各项改革取得突破，对外开放步伐大。结合农业税取消、改革，从落实土地承包经营权制度，推进“村务”和“政务”公开，探索股份合作制，推进土地流转制度，到实施农村最低生活保障制度，农民人均纯收入年均增长30%以上，更促进了工业生产者购进价格指数。理论政策推进我国农村体制改革不断深化社会经济和谐发展。完善集体财产权监督子系统机制，加强现代农业体系建设，加大农业投入，产业生产率不断提高。对改革开放的初步反思。十五年来，我国商品出口总额增长了51倍，进口总额增长了51倍，增加农业生产率5%。建议中长期建设目标"
+                "pred": "各项改革取得突、对外开放明显扩大。结合国有农场税费改革，认真落实土地承包经营制度推进“两田制”，积极探索模股份制经营，推进土地规模经营，加强土地承包管理和农工负担监管，完善农业经营体制，亩均减负30以上，更好地调动了农工生产经营积极性。多种形式推进国有农场体制改革和分离农场办社会职能。理政企关系。完善集团化量区母子公司体制，加强现代企业制度建设，加大资本运作，产业整合力度，同时。对外开放步伐明加快，五年间农限出口商品总金额特了一番，达5多亿元：境外农作物种面积地长5.1管，境外农业总产值增长1信，所承担的五个非洲农业示范中心建设进展顺利"
             },
             {
                 "category_type": "text_block",
@@ -21114,7 +21115,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "人的收入大幅增加，居民生活明显改善。2010年城镇居民人均可支配收入7839元，是2005年的1.8倍，五年平均增长14%。农村居民人均纯收入6977元，是2005年的1.8倍，五年平均增长14.9%。职工工资、农民种粮补贴、五保户供养标准和城乡低保标准分别提高22.1%、99.8%，学生营养餐补助标准由4.5元/天提高到6元/天。城镇居民和农村居民的恩格尔系数分别下降到35.7%和40.4%。居住条件和环境进一步改善。“十一五”期间累计改造棚户区住房14万套，改造农村危房1.6万户，建设廉租房65万平方米。民生的持续改善为和谐稳定奠定了坚实基础。"
+                "pred": "人均收人大度增加，区民生明显改善。预计2010年农县人均纯收人约7850元，是2005年的187倍，五年间年均增长9%，职工养老、医疗等社会保险参保率和保障水平稳步提高，预计在职职工和退休人员的养老参保率分别达921%和99.8%，医疗参保率分别达91.4%和91.6%，年人均养老金超过1万元。部分银区的道路、饮水安全，职工住房和以场部为中心的小城镇建设逐步开展。“十一五”重点换持的站困农场中有65个实现整体税筑。民生的改善为是区和稳定奠定了坚实基础。"
             },
             {
                 "category_type": "text_block",
@@ -21279,7 +21280,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "为实现国家粮食安全新战略，农业部提出提升土地产出能力、耕地保有数量和耕地质量“三位一体”目标。在国家启动实施的高标准农田建设中，通过土地平整、土壤改良、建设排灌沟渠等方式，有效改善了农田基础设施条件，促进了农业增产增收。同时，通过推广测土配方施肥、病虫害统防统治等技术措施，提高了肥料利用率和农药使用效率，减少了化肥、农药的过量施用，保护了农业生态环境。此外，高标准农田建设还结合不同地区特点，发展特色农业、休闲农业和乡村旅游，促进了农民增收致富。"
+                "pred": "为国家做出新献、地位作用明显提升。在保障国家粮食安全方面，“十一五”时期，全国农是累计提供商品院2150亿厅，为保障国家粮食有效给、稳粮食市场发挥了重要作用。在发挥示范作用方面，通过新品种新技术推广，机械作业、标准化生产、产业化经营和示范窗口”建设等方式，为周边衣村农业现代化提供了良好示范。一些区利用独特的区位优势和土地优势，通过推进衣场小城镇建设，为推动衣村城镇化发挥了桥菜和纽带作用，在边源和少数民地区，衣星继续在电层成边，建设边，管荣边特别是化解和平息各种不稳定因素中发挥了独特作用。"
             },
             {
                 "category_type": "title",
@@ -21318,7 +21319,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "21年砺神剑 21次 一级营\""
+                "pred": "21年砺神剑21次一级营"
             },
             {
                 "category_type": "text_block",
@@ -21357,7 +21358,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "（上接第一版）"
+                "pred": "[上接第一版"
             },
             {
                 "category_type": "text_block",
@@ -21466,7 +21467,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在以往，“快”作为中国现代化的标致，被一再提倡。官员们以“能人”自居，学者们以“专家”自诩，一言不合就“拍砖”，而面对信息化时代下不断涌现的新事物、新问题，若一味求快，不作深入思考，结果往往事与愿违。"
+                "pred": "在以米，秒、环为训练标准的年代，一营官兵摸滚打，苦练苦学，项项夺第一;投身科技大练兵热潮，一营官兵学科学科学练”，仍是“排头兵”：面对打赢信息化条性下局部战争“领头雕”。的挑战，一营官兵激流勇进，率先“转型”，再当"
             },
             {
                 "category_type": "text_block",
@@ -21519,7 +21520,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“军事训练一级单位”的门牌是后来挂上的，去年的同一天，该旅被授予“军事训练一级单位”荣誉。"
+                "pred": "”军事训除一级营的门指”越来越高，长到战车的每一次跨越都不是一帆风顺的。"
             },
             {
                 "category_type": "text_block",
@@ -21628,7 +21629,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "那年夏天，他意外中签号“京A”车牌，可却在“技术流”楚某的建议下，将自己“京A”的信使牌“委托”给常某代为申领于是乎，常某通过伪造、变造公文证件等手段，成功将“京A”车牌过户到自己名下。"
+                "pred": "那年夏天，一场信意化条件下\"导弹战”在深山支壁展开。一营官兵沉着冷静，动作斓然可就在技术测式”装填数据”等关键阶段，“正军”的”信息袭扰常常令操作号手手足无措。前所未遇的“战场环境”，让官兵们结识了一个个新的“敌人，也遇出了一项顶新的”纪录”。"
             },
             {
                 "category_type": "text_block",
@@ -21709,7 +21710,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "大山的怀抱里，她现代的导游和教练终于如愿以偿。在她的真迹上，卫星定位、滑翔伞、热气球、电车穿梭。置身于悬崖峭壁中，官们天天“上天”，接受着考验。"
+                "pred": "大山的裙坡里，一座现代化的导弹模担训练大厅悄然赢立。在这座仿真战场上，卫星游，战机飞驰，电能穿梭。置身于信息化氛围中，官兵门天天上“战场”，接受新考验。"
             },
             {
                 "category_type": "text_block",
@@ -21874,7 +21875,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "依仗这个“法宝”，一局构筑起15支实验队，迅速组建了3个合成生物学研究组，涵盖生物、化学、计算机、数学、物理、材料等多学科背景的科研人员。合成生物学是典型的“顶天立地”学科，既需要基础理论研究支撑，又需要应用技术开发。为此，一室构建两大体系——“动功”和“静功”。在某项国家重大科技专项中，一室承担了“合成生物制造关键技术与示范应用”项目，通过“动功”体系，成功将多个重要化合物的生产菌株性能提升数倍，达到国际领先水平；同时，通过“静功”体系，发展了多项合成生物技术平台，为我国合成生物产业的发展奠定了坚实的基础。"
+                "pred": "依托这个“战场”，一营构建起15个实战化训练课目，扩充123个单兵训练项目，编写出6种40余万字的转型”训练教材，能够独立组织导弹装备进场，测式，发射：能够独立分析排除散障。合成演练取代单兵单装训练，临时转向突发情况训练，时减员实装操作训等一整套科学的训法战法，被的略导弹部队推广普及。为此，一营网次荣立集体一等动，一连被第二炮兵授予“苦练精兵模范连荣音称号，二连被某基地评为”基层建设标兵单位”。"
             },
             {
                 "category_type": "text_block",
@@ -21983,7 +21984,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "远看山有色，近听水无声。春去花还在，人来鸟不惊。"
+                "pred": "远离都市浮华，甘守深山阵地！是什么在支撑他们精神的高地？是什么在推动他们冲锋的步伐？旅长邓立中说：发射一营铁心向党，精心砺剑，甘心奉献、—心争先’的16字营魂，是他门练硬手中利剑，撑起和平天空的动力之源！”"
             },
             {
                 "category_type": "title",
@@ -22022,7 +22023,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“让能飞的飞得更高，能跑的跑得更快”"
+                "pred": "“让能飞的飞得更高，能跑的跑得更快!”"
             },
             {
                 "category_type": "text_block",
@@ -22075,7 +22076,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "到一半，不是说要一半。一定的量的水，正好是这个容器的24分之13"
+                "pred": "到一营，不能不提一营的兵。一营的和成就，正题这群平均年龄不足24岁的年轻人创造的"
             },
             {
                 "category_type": "text_block",
@@ -22128,7 +22129,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "博士、硕士和本科生的实习机会，人人都有“导师制”、“弹性工作时间”等特色专业培训。"
+                "pred": "博士、硕士和学士组成的军官队伍，人人都是导弹通”，既情通1门以上指挥专业，又能"
             },
             {
                 "category_type": "text_block",
@@ -22181,7 +22182,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "当作为作者。研究生成长建熟炼掌握保家15个专业理论知识和技能技巧。"
+                "pred": "当操作号手，硕士营长王建贴热练掌握全营15个专业的理论知识和操作技能"
             },
             {
                 "category_type": "text_block",
@@ -22262,7 +22263,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "北京生学，请诸大学高材生前来“应试”，在沪上中选146，所有土建工程及专门教授皆由该生担任，迄成此校基础。46人入校后，始设两科技术与手工业二门。"
+                "pred": "北京大学清华大学等高校走来的学生兵”，在战士中已达4成。所有战士都能默画背讲本专业原理图，完成本岗位操作，46人人选基地、旅两级“技术尖子人才库”。"
             },
             {
                 "category_type": "text_block",
@@ -22357,7 +22358,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "金丽君和“炮火”龙虎榜上，一首首战歌金秋，全军大学生成才标兵”金丽君指导员的“连队周记”，金丽君勇士“金丽君，你在哪里？”等文章多次受到上级部门的好评。"
+                "pred": "全军和第二炮兵“龙虎榜”上，一营官兵披金挂银，“全军十大学习成才标兵张东河、“全军优秀指挥军官”宗昌明“全军优秀士官人才”跑春寿、“第二炮兵军事技术比武第一名”李贵欣等大批”明星”声名远播。"
             },
             {
                 "category_type": "text_block",
@@ -22424,7 +22425,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "东西南北，个个精心打造。旅游厕所不仅提升了景区的环境质量，还增强了游客的体验感。"
+                "pred": "东西南北兵，个个是精兵。旅政委都建辉自豪地说：“一营的官兵，既不是挑来的。也不是选来的，是环境造就的，是荣带引来的"
             },
             {
                 "category_type": "text_block",
@@ -22533,7 +22534,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "四友安在？子美集开到杜陵花。人不见，好江山、长似西施未嫁。今日几多愁？问此地、年年为谁掀舞？唤起一天明月，照我满怀冰雪，浩荡百川流。鲸饮未吞海，剑气已横秋。野光浮天宇正高寒凉生袖。"
+                "pred": "西安交通大学工学博士王利军人伍后，不留大机关，不进科研所，主动申请到一营当排长，“少校排长”把山沟当舞台，结合新一代《军事训练与考核大纲，同官兵一起探索出”安全形势分析风险评估，技能训练等连队安全训新路子，致法被第二炮兵推广"
             },
             {
                 "category_type": "text_block",
@@ -22642,7 +22643,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "从这里走向成功从这里成就辉煌，留一份回忆给青春，留一段记忆给人生，留一串足迹给校园。愿“阳光”伴你一路前行，愿“友谊”伴你一路成长，愿“梦想”伴你一路飞翔，愿“奋斗”伴你一路走来，愿“成功”伴你一路远航，愿“快乐”伴你一路成长，愿“幸福”伴你一路成长。"
+                "pred": "从清华大学携笔从戎的新兵刘尧，警当一名“中研子”，可初人一营却要处处“补课”，体能要“加码”，揭作要“加班”，一度焦头烂额。营连为他“量身订做”发展计划半年后走上讲台，成为一名“兵教员”18个月后，出色完成一项全军性重大任务，荣立三等功，受到了车要首长亲切接见"
             },
             {
                 "category_type": "text_block",
@@ -22751,7 +22752,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "主要症状是一名木工不慎，右手大拇指被电锯割伤。在门诊部，小张医生的处理方法就是简单包扎，干纱布、胶布往伤口上一贴完事。他没有做清创处理，更没有注射破伤风抗毒素。"
+                "pred": "士官张环节是一名技木骨干，不幸患上了白血病，万含俱灰之时，营连领导三差五到医院看他，化疗间隙，小张最大的愿望就是再回连队干点什么，战友们心疼地陪他一起编修完成了一项新的导弹操作规程，组织的信任和位的或快的生无比充实快乐"
             },
             {
                 "category_type": "text_block",
@@ -22902,7 +22903,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "上级的关心下，一次一次地总结总师团队的先进经验，每次都有新的收获；一定要像“大学一样”学，人人是人师，人人成才；一定要像“大熔炉”炼，走出去、请进来，去伪存真、去粗取精，全面提高；一定要像“大家庭”爱，科学管理、科学决策，不让一个人才闲置、不让一个落伍，能让雄鹰飞翔的，他的跑道要更宽！"
+                "pred": "上级机关不止一次到一营总结带兵育人的先进经验，每次都有共同的感受：一营就像一所大学校”，人人是人才，人人能成才；一营就像一座大熔炉”，进来是块铁，出去是好钢。为让全营官兵齐头并进，全面发展，营党委根据每名官兵的身心素质，知识结构，兴趣爱好等，科学制定”个体成才规划”，不让一个人平庸，不让一个兵落伍，让能飞的飞得更高能跑的跑得更快！"
             },
             {
                 "category_type": "title",
@@ -22941,7 +22942,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“柴善宝”一墙之隔是“创新宝”"
+                "pred": "“荣誉室”一墙之隔是“创新室”"
             },
             {
                 "category_type": "text_block",
@@ -23008,7 +23009,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“两个一百年”奋斗目标，是党的十八大以来，以习近平同志为核心的党中央提出的全面建设社会主义现代化国家的奋斗目标。"
+                "pred": "一营的荣室”红，奖杯夺目，参观之后令人仰幕：面与荣管室”一墙之隔的“创新室”。浓精华，显慧，置身共中更是令人惊叹！"
             },
             {
                 "category_type": "text_block",
@@ -23117,7 +23118,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在距离它约30米的地方，我看到有两块石碑。上面刻着“大观园”、“小观园”，还有题诗“秋水共长天一色”。这些“大观园”和“小观园”的石碑，5年前还完好无损，现在却不见了踪影。"
+                "pred": "在这间汉有30平方米的展室里，整齐有序地排放着凝聚历代官共学识和胆识的科技结品：有年代久远的小发明”小革新”，也有新丘出炉的“高科技”、“信息化”。这个”科技方阵”虽然不大，但大那由“成果”转化成了“战果”，有10项获人科技进沙奖，5项被第二炮氏定型列装"
             },
             {
                 "category_type": "text_block",
@@ -23184,7 +23185,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "“不要轻易说‘再见’，而应该说‘珍重’。这样你就会知道，你有多想见到他！引人深思！"
+                "pred": "“荣誉室”多见，而”创新室鲜有。这些科技成果如果摆在科研院所不足为奇，但出现在远要都市的一营营部，就不得不引人深思！"
             },
             {
                 "category_type": "text_block",
@@ -23279,7 +23280,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退根据题，“新阶段”一词是首次提出，充分体现了党对我国发展形势、光水、生活活力的充分考虑。退"
+                "pred": "追根湖源，“创新正是一营官兵奋勇争先、永葆活力的光荣传统。营教导员李保国说：”乘承好传统，代代谋的新的发展理念早已植入官兵头脑，成为全营三大纪律八项注意之外的第九项注意！”"
             },
             {
                 "category_type": "text_block",
@@ -23402,7 +23403,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "早在20世纪，这个就出了一个大名鼎鼎的“发明大王”——爱迪生。他想发明“留声机”却遭到旁人嘲笑，但他没有放弃，竟用一个“中国佬”的方法，把竹签削尖，让富翁“科技新星”给他做实验品，最后成功了。"
+                "pred": "早在20年前，这个营就出了一个大名票的“战士发明家”卢风霖。他想解央导弹配气”手工操作难题，营党委就专门给他一个“单间”。一笔经费，还让营部科技革析小组”给他当助手一年之后，“自动化配气台列装，使探作号手减少三分之二，安全系数提高数倍，获军队科技进步三等奖"
             },
             {
                 "category_type": "text_block",
@@ -23483,7 +23484,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "有苍穹般的鼎力支持，有“神舟”科研团队的倾情配合，卢杰又连续获得3项国家发明奖进三等多。如今，他已由一名战士成长为“大校工程师”。"
+                "pred": "有营党委的票力支持，有营部“科研团队”的密切配合，卢风霖又接连获得3项车队科技进步三等奖，如今，他已由一名战士成长为大校工程师”"
             },
             {
                 "category_type": "text_block",
@@ -23662,7 +23663,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "数十年如一日，一“总”总是“总”的“总的思想”，哪怕一个“花瓶”只要不坏，用到老死，都不允许让它变新或变美。更不可思议的是，一届的创评活动还反复“更新”不断“翻新”。4年来，他们把那些早已专项“达标”的单位、个人，全部“翻新”后重新命名授奖。全国公安系统，全军系统，最后连“全国文明单位”也如此。据粗略统计，被她“总”评为“十大创新能手”之一、法人代表（第一军医大学附属南方医院与考拉公司）"
+                "pred": "数十年如一日，一营总是“容官兵的“奇思妙担”，哪怕是一个“花花点子”，只要对工作有利，都千方百计让它变成现实，更唯能可贵的是，一营的创新活动是反复“更新”，不断“新”。4年前，他们摸索出单项专业”串线调练法”，在第二地兵军事工作会议作了演示，受到一致好评。但在以后的讲练中，反复打磨这个“得意之作”，最后创造出导并操作全流程，全要素，全员额测式发射流程丰讲练法”，训效益成信提高，被第二炮兵列为”十大创新训法之一，进入《第二炮兵军事训练与考核大纲》"
             },
             {
                 "category_type": "title",
@@ -23838,7 +23839,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本报电（记者李丽辉）山东农业企业正通过做优做强了龙头发展，突出亮点是创新性的引入计算机技术建立了山东“金农工程”一期蔬菜综合系统。该系统由山东省良种场与国家863计划项目“金农工程”课题组共同研制开发，以信息引导生产，专靠农业信息化建设提供了思路。"
+                "pred": "本报说记者李朝民）近年来，山东省衣业信意化建设取得了长足发展，突出亮点是创新性的引人云计直技水建立了山东省会农工程”一期省级信意平台系统，该系统由山东省农业厅与国内箱先的江厂商浪潮集团共月建设，据，该工程是我国农业信息化领域里首次引人云计原技术，为全国农业信息化建设提供了新的思路"
             },
             {
                 "category_type": "text_block",
@@ -23975,7 +23976,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "据介绍，“金农工程”将初步形成今后农业信息化体系的雏形，自增益增强农业的综合能力，为实现农业现代化和农村经济发展奠定坚实的第一步。其核心在于建设一个农业信息综合处理和服务中心，承担农业资源调查系统、农产品和农业生产资料市场信息系统、农业技术推广服务系统等“四纵三横”。"
+                "pred": "据介绍，金农工程将初步形成山东省农业电子政务体系框架，旨在增强衣业部门的经济调节、市场监管和公共服务能力。而金农工程”一期项目是该工程最为关键的第一步，其核心在于建设一个农业综合管理和信息服务平台，将承载农业监测预警系统，农产品和农业生产资料市场监管信息系统农村市场与科技信息服务这三大系统，是农业信息数据管理和提供数据服务的\"中枢神经”"
             },
             {
                 "category_type": "text_block",
@@ -24126,7 +24127,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "在深入了解客户需求后，浩瀚集团提出了云化解决方案：在软件层面建立一套框架，在该基础上部署各类通用应用，实现应用的整合；在硬件层面，通过统一资源调度平台，将所有应用进行统一调度，数据层面根据30多页应用系统的需求，设计出一套云化方案。该方案以“云”为载体，将企业内部的业务应用、管理应用等进行云化，优化后的系统使用效率提升约20%，管理成本降低约15%，并且还提升了现有系统的安全性和稳定性。"
+                "pred": "在深人了解客户雷求后，浪潮集团提出了云计的解决方案：在软件层面建立统一数据车，在此基础上部署各类应用系统，保正数据资源的整合和共享在硬件层面建立统一动态的资源平合，所有应用系统其享统一资源池，数据库系统和30多个应用系统部部署在这个云计算平台上。该方案与山东金农工程一期建设的理念不谋而合，不仅实现了底层硬件统一和资源池化，优化后的果构使得应用和业务的整合、管理更加简单，而且还适应了新业务带来的系统变革需要。"
             },
             {
                 "category_type": "text_block",
@@ -24263,7 +24264,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "老李是众多云计算实战派中的一位。老李学历没过高中, 由当邮递员开始, 持大毅力自学成才, 也成了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职, 成为了山东济南的骨干程序员之一。后来他辞职,"
+                "pred": "老李就是众多云计算技术受益者中的一位。老李是坊市昌邑市都昌镇一位农民，种大藏地家的主要收人来源2009年，山东金农工程一期实完毕后，他成为了山东省级信息平合的第一批注册使用者，通过平台，老李得到了种植专家的指导，收获很大。最让老李满意的是，政府的办事效率提高了。他说，以前办理一个产品检验合格正明，得好几天，现在几个小时就办妥了。"
             },
             {
                 "category_type": "text_block",
@@ -24400,7 +24401,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "由该系统有效避免了农产品的盲目性种植，同时，每年为农业经营者提供超亿元的收入，而农户也从中获得了更多的收益。截止目前，山东金乡“大蒜指数”已累计发布430多期，惠及众多直接用户。如果按每人接受服务后平均增收1万元计算，可使当地农民人均年经营性纯收入增加4.8万元。"
+                "pred": "由于该系统有效避免了生产经营的盲目性和栏同性，每年不但为生产经营者换回经济损失，而且还有效地解决农产品的卖唯问题和信息不对称问题，有效见进农民地收。截至目前，山东”金农工程”一期计已让430多万农民直接受益。如果每人按接受有效市场和科技信息后能实现节本增效100元测算，农民将增收4.3亿多元。另外，还因免市场风险累计为生产经营者换回经济损失48亿元"
             },
             {
                 "category_type": "text_block",
@@ -24551,7 +24552,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "说明：由图中提供的信息可解答．\n解：（1）从左往右依次是80%，包括农业改造达到高潮的“三大改造”；1953年，国家对农业进行社会主义改造，引导农民参加农业生产合作社，走集体化和共同富裕的社会主义道路，1955年，全国掀起农业合作化的高潮，农民踊跃参加合作社．至1956年年底，国家基本完成了对农业的社会主义改造，实现了把生产资料私有制转变为社会主义公有制的任务．\n故答案为：\n（1）三大改造；1956年．"
+                "pred": "“实线表明，由浪潮集团提供的云计算解决方案，它的实施不仅为山东省农业系统节省了大量开支，而且系统资源利用率从10%左右提升至40%，信息化效率还得到期提开。山东省农业厅副厅长周宣东介绍说，目前山东正在实新一轮的农民科技培训，到205年，将在全省范图内打造一批高案质的表民科技队伍，以点带面将农业信息化的成果带到每一个农民身边。"
             },
             {
                 "category_type": "title",
@@ -24861,7 +24862,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本讯讯（记者吴红波）昨日，记者在市发展和改革局了解到，《深圳市进一步促进消费持续恢复的若干措施》出台后，我市各相关部门迅速行动，推出系列促消费活动，提振市场信心、促进消费升级。其中，采取发放消费券等方式，大力促进汽车消费；推动家电下乡，鼓励家电消费；打造消费新场景，改善消费环境等措施，将有效激发消费潜力，为全市经济高质量发展提供有力支撑。"
+                "pred": "本报讯（记者周红王）近日吉林下发了关于进一步促进商菜生产保市场供应和价格基本稳定的实能意见（指出吉林省以保网头，压中间增储备，促发展为中心，采取强化“荣子”市长负制，蔬菜重点生产基地设，改善重设条件高荣产织化程度等施，全力持菜生产，保障市场供应和价格基本程定，进一步解决百的荣子问可题"
             },
             {
                 "category_type": "text_block",
@@ -25082,7 +25083,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "长期以来，吉安市委、市政府高度重视生猪生产市场供应工作，特别是近年来通过实施“百万头优质商品猪基地建设”项目，全市生猪生产能力得到显著提升。据统计，2019年，全市生猪出栏量达到550万头，总产量达220万吨。然而，由于肉类市场需求不断增长，价格持续上涨，以及气候变化等因素影响，导致我市猪肉价格居高不下，给市民生活带来了一定的困扰。为此，市政府决定采取一系列措施，包括加强生猪养殖管理和疫病防控等，以确保猪肉市场的稳定和市民生活的正常进行。"
+                "pred": "长期以来，吉林省类，省政府高度重视蔬菜生产和市场供应工作，特别是近年来通过实“百万亩棚膜菜建设工程”，不断加大政策和资金扶持力度，截至目前，渠生产总面积已达550万亩，总产量达1220万吨，然而，由于技术力量准备不足，销售信息不畅，以及气候支化异常等原因，导致部分蔬荣自给率低，蔬菜价格有时还会出现较大波动，农民卖菜准和居民“买菜贵等问题还时有发生。"
             },
             {
                 "category_type": "text_block",
@@ -25149,7 +25150,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "针对上述问题，此次水污染防治法修改，分别对城乡污水处理、工业废水处理、农业面源污染治理等作出规定。"
+                "pred": "计对上述问题，此次吉林省出合举括均提出了具体的解决方式，分别为：逐步稳定和提高"
             },
             {
                 "category_type": "text_block",
@@ -25440,7 +25441,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "域的农业综合生产能力，加快农业现代化进程。要大力发展农村教育、卫生和社会保障事业，提高农民素质和农村文明程度。加强农村基础设施建设，改善农民生产生活条件。坚持党在农村的基本政策，保持农村稳定。努力发展农村经济，支持和促进粮食生产，继续推进农业和农村经济结构战略性调整，加快农业科技进步，加大农田水利等基础设施建设力度，提高农业综合生产能力。认真贯彻执行“多予、少取、放活”的方针，切实减轻农民负担。"
+                "pred": "城市蔬菜自给能力：加强城市荣批发和零售市场的建设服务与管理：强化城市蔬荣供给应急能力建设：建立健全“菜篮子市长负责制的考核评价体系：切实增加对膜现生产的投入，支持蔬菜开发：努力建设高水平蔬菜生产基地：继续推进蔬菜标准化生产：加快推进衣产品冷物流发展：维续加藏菜批发市场建设：积极做好菜产品运：大力扶持蔬架生产合作社发展，提高蔬菜生产的组织化程度：认真组织好产销对接工作；不断提高信息服务质量：加大市场信息和专业技术的宣传力度：认真做好灾后菜蓝子”产品生产快复和市场代应工作：切实加强生产和市场监测预警"
             },
             {
                 "category_type": "text_block",
@@ -25605,7 +25606,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "目前，甘肃省做好疫情防控工作是保障民生和维护社会稳定的基础性工作。作为全省的各级政府和相关部门，必须高度重视，全力以赴做好疫情防控工作。全省各地、各部门也都在积极行动，加强疫情防控措施，确保人民群众生命安全和身体健康。"
+                "pred": "目前，吉林省把做好促进菜生产保障市场供应和价格基本稳定工作作为当前及今后一个时期的一项重要工作任务。全省各地，各部门也将从管理好通胀预期、进一步贯剂中央惠民生方针政策把好“菜篮子“工作的错尽快落到实处，为经济社会保持平稳较快发展提供坚实保障。"
             },
             {
                 "category_type": "title",
@@ -25644,7 +25645,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "上蔡农联社助农种植反季节果蔬获"
+                "pred": "上蔡农联社助农种植反季节果蔬"
             },
             {
                 "category_type": "text_block",
@@ -25823,7 +25824,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本报讯近日，笔者在该县上蔡镇黄墩村看到，村民正忙着采摘的青菜、芥菜、包菜等季节性蔬菜，被快速装车运往周边县市。据信，阳田、上蔡镇是该县“菜篮子”工程基地之一，今年，全县新增蔬菜500多亩。"
+                "pred": "本报讯近日，笔者在河南省上蔡县黄埠镇尚庄村看到刚采摘的鲜晰的黄瓜，青根、芹菜包荣等反季节蔬菜，被是内及周边驻马店，漯河、信阳、郑州、南等市县菜贩争相购买，装车外运，村党支部书记乔文礼兴奋地说：“能村在信用社的扶持下。建料大棚种植反季节蔬菜，仅此一项，全村年增加收人500多万元。"
             },
             {
                 "category_type": "text_block",
@@ -26030,7 +26031,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "近年来，上蔡县依托农业大县优势，积极实施“藏粮于地、藏粮于技”战略，以高标准农田建设为载体，以小农户和现代农业发展有机衔接为路径，聚焦粮食生产规模化、机械化、绿色化、优质化、品牌化发展等关键环节，推动农业高质量发展。目前，上蔡县已建成高标准农田106万亩，占全县耕地面积的72%。高标准农田的建成使用，在200万亩良田的基础上，全县有140万亩农田实现旱涝保收，其中高效节水灌溉农田26万亩，而到2025年，将达300万亩，平均每年亩产增收近千元。"
+                "pred": "近年来，上蔡县衣联社在扶持“粮袋子”工程的同时，以农村信用工程为契机，以农户小额特款和表户联保贷款为品牌，积极扶持菜量子”工程。并实行贷款优先，利率优惠，额度放宽等优惠政策，调动农民种植反季节蔬菜的积极性。黄埠镇尚庄村是县农联社评定的信用村，在200万元贷款扶持下，全村有140户农民建反季节菜大266座，面积300多亩，平均每座大棚年纯收人2"
             },
             {
                 "category_type": "text_block",
@@ -26293,7 +26294,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "万元。村民在运村田野的前的后户，2009年被评为全国生态文化村，在后信3万多亩农户林中，有100多棵古树名木，其中树龄最长的有500多年，树径最粗的有2米多，树冠最大的有500多平方米，成片的古树群落蔚为壮观。2011年村里投资100多万元，对村里的古树进行了保护性开发，修建了游步道、观景台等设施，使古树成为一道亮丽的风景线。同时村里还投入资金100多万元，对村里的老街进行了修缮和改造，较好地保留了原有的风貌。2014年，村里又投资100多万元，建成了200座农村大型秸秆焚烧炉，使村里的环境更加优美。在村支书尤元万的带领下，运村先后获得了“省级文明村”、“省级卫生村”、“省级绿化示范村”、“省级科普示范村”等350余项荣誉。"
+                "pred": "万多元。村民乔运田是村里的困户，2009年被浮为信用户后，在农信社5万元农户联保贷款扶持下，建反季节蔬梁大9座，收成很好，一由穷变富，盖起了5间新楼房，成为全村靠种植反季节蔬菜发家的富裕户。东洪乡付庄村青年农民付根、付保民，外出务工学会了一手草莓种植技水，208年金融危机爆发后，他俩返乡创业。在农信社80万元农户联保贷款扶持下，租质300亩土地，建200座塑料大棚种植草莓，并成立了上蔡县草莓合作社，带领全县近干名农民种植反季节草3500亩"
             },
             {
                 "category_type": "text_block",
@@ -26402,7 +26403,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "截面积大，上层是高压输电线路，下层是低压输电线路。多条导线拧成一股，增大了导线的横截面积，减小了电阻。"
+                "pred": "截至目前，上蔡县农联社累计投放菜篮子工程贷款1.2亿元，扶持建反季节蔬菜大8000多座，年创利间1.5亿多元，不但丰富了城乡居民的“菜篮子”，还鼓起了菜衣的”钱袋子”"
             },
             {
                 "category_type": "text_block",
@@ -26519,7 +26520,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "木板造型、新料加工、批发、电锯加工电话：13048699043"
+                "pred": "本版项码：李丽民校对：邮技钢电话：（01084395043"
             },
             {
                 "category_type": "header",
@@ -26558,7 +26559,7 @@
                     "text_background": "single_colored",
                     "text_rotate": "normal"
                 },
-                "pred": "e-mail:2822508@163.net"
+                "pred": "E-mail：zbs2250e263net"
             },
             {
                 "category_type": "header",
@@ -26636,7 +26637,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "农民日报"
+                "pred": "農民日報"
             },
             {
                 "category_type": "header",
@@ -26758,7 +26759,7 @@
                 "ignore": false,
                 "order": 1,
                 "anno_id": 4,
-                "text": "The regulation provides that all other use, ahsent statutory or other express authority, requires a sales contracl or permit. The BLM refers interested parties to the explanalion of this regulatory language in the preamhle to the final rule published in the Federal Register in 2001, available at https:// www.federalregister.gov/d/01-29001, which states that minimal use \"would not include large-scale use of mineral materials, even within the boundaries of the surface estate\" [66 FR 58894]. Further explanation is contained in the BLM Instruction Memorandum No. 2014085 (April 23, 2014), available on the BLM's website al hflps:// www.blm.gov/poliey/im-2014-085.",
+                "text": "The regulation provides that all other use, absent statutory or other express authority, requires a sales contract or permit. The BLM refers interested parties to the explanation of this regulatory language in the preamble to the final rule published in the Federal Register in 2001, available at https:// www.federalregister.gov/d/01-29001, which states that minimal use \"would not include large-scale use of mineral materials, even within the boundaries of the surface estate\" [66 FR 58894]. Further explanation is contained in the BLM Instruction Memorandum No. 2014085 (April 23, 2014), available on the BLM's website al hflps:// www.blm.gov/poliey/im-2014-085.",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -26786,7 +26787,7 @@
                             44.2987496027063,
                             78.3483440328821
                         ],
-                        "text": "use, ahsent statutory or other express"
+                        "text": "use, absent statutory or other express"
                     },
                     {
                         "category_type": "text_span",
@@ -26800,7 +26801,7 @@
                             43.89124398487778,
                             88.80824130537633
                         ],
-                        "text": "authority, requires a sales contracl or"
+                        "text": "authority, requires a sales contract or"
                     },
                     {
                         "category_type": "text_span",
@@ -26828,7 +26829,7 @@
                             43.716850722580645,
                             110.3835173892474
                         ],
-                        "text": "parties to the explanalion of this"
+                        "text": "parties to the explanation of this"
                     },
                     {
                         "category_type": "text_span",
@@ -26842,7 +26843,7 @@
                             43.99999999999993,
                             119.61861818901468
                         ],
-                        "text": "regulatory language in the preamhle to"
+                        "text": "regulatory language in the preamble to"
                     },
                     {
                         "category_type": "text_span",
@@ -27018,7 +27019,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The regulation provides that all other use, absent statutory or other express authorization, requires a lease, permit, or permit. The BLM refers interested parties to the explanation of this rule in the preamble to the final rule published in the Federal Register on January 2, 2001, available at https://www.gpo.gov/fdsys/pkg/FR-2001-01-02/pdf/01-2001.pdf, which states that minimal use \"would not include the removal of materials, even within the boundaries of the surface estate\" (66 FR 58984). See also the discussion in the BLM Instruction Memorandum No. 2014-085 (April 21, 2014), available at https://www.blm.gov/sites/blm.gov/files/ blm_policy/im/2014-085.pdf."
+                "pred": "The regulation provides that all otheruse, absent statutory or other expresspermit. The BL.M refers interestedauthority, requires a sales contract orparties to the explanation of thisregulatory language in the preamble tothe final rule published in the FederalRegister in 2001, available at hftps://www.federulregister.gov/d/01-29001,which states that minimal use \"wouldnot include large-scale use of mineralmaterials, even within the boundaries ofthe surface estate\" (66 FR 58894)].Further explanation is contained in theBLM Instruction Memorandum No.the BLM's website at https://2014085 (April 23, 2014), available onwww.blm.gov/policy/im-2014-085."
             },
             {
                 "category_type": "text_block",
@@ -27035,7 +27036,7 @@
                 "ignore": false,
                 "order": 2,
                 "anno_id": 7,
-                "text": "The following numbered terms and conditions will appear on the conveyanoe documents for the sale parcels:",
+                "text": "The following numbered terms and conditions will appear on the conveyance documents for the sale parcels:",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -27077,7 +27078,7 @@
                             43.99999999999991,
                             271.10342743482374
                         ],
-                        "text": "conveyanoe documents for the sale"
+                        "text": "conveyance documents for the sale"
                     },
                     {
                         "category_type": "text_span",
@@ -27099,7 +27100,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "The following numbered terms and conditions govern documents for the sale of"
+                "pred": "The following numbered terms andconditions will appear on theconveyance documents for the saleparcels:"
             },
             {
                 "category_type": "text_block",
@@ -27116,7 +27117,7 @@
                 "ignore": false,
                 "order": 3,
                 "anno_id": 5,
-                "text": "[1] All mineral deposits in the lands so patented, and to it, or persons authorized by it, the right to prospecl for, mine, and remove such deposits from the same under applicable law and regulations to be established by the Secretary are reserved to the United States, together with all necessary access and exit rights.",
+                "text": "[1] All mineral deposits in the lands so patented, and to it, or persons authorized by it, the right to prospect for, mine, and remove such deposits from the same under applicable law and regulations to be established by the Secretary are reserved to the United States, together with all necessary access and exit rights.",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -27158,7 +27159,7 @@
                             42.93884367370138,
                             312.4092090663168
                         ],
-                        "text": "authorized by it, the right to prospecl"
+                        "text": "authorized by it, the right to prospect"
                     },
                     {
                         "category_type": "text_span",
@@ -27250,7 +27251,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(1) All mineral deposits in the lands so patented, and to it, or persons whom he may appoint, the right to prospect for, mine, and remove such deposits from the same reserved under applicable law and regulations: Provided, That the Secretary are reserved to the United States, together with all necessary access and exit rights."
+                "pred": "(1) All mineral deposits in the landsso patented, and to it, or personsauthorized by it, the right to prospectfor, mine, and remove such depositsfrom the same under applicable law andSecretary are reserved to the Unitedregulations to be established by theStates, together with all necessaryaccess and exit rights."
             },
             {
                 "category_type": "text_block",
@@ -27331,7 +27332,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(2) A right-of-way is reserved for the use and authority of the United States under the"
+                "pred": "ditches and canals constructed by(2) A right-of-way is reserved forauthority of the United States under theAct of August 30, 1890 (43 U.S.C. 945)."
             },
             {
                 "category_type": "text_block",
@@ -27384,7 +27385,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(3) The parcels are subject to valid existing rights."
+                "pred": "(3) The parcels are subject to validexisting rights."
             },
             {
                 "category_type": "text_block",
@@ -27401,7 +27402,7 @@
                 "ignore": false,
                 "order": 6,
                 "anno_id": 0,
-                "text": "(4) The paroels are subject to reservations for roads, public utilities, and flood control purposes, both existing and proposed, in aocordance with the local governing entities' transportation plans.",
+                "text": "(4) The parcels are subject to reservations for roads, public utilities, and flood control purposes, both existing and proposed, in accordance with the local governing entities' transportation plans.",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -27415,7 +27416,7 @@
                             52.00000000000001,
                             445.123766714671
                         ],
-                        "text": "(4) The paroels are subject to"
+                        "text": "(4) The parcels are subject to"
                     },
                     {
                         "category_type": "text_span",
@@ -27449,15 +27450,15 @@
                         "category_type": "text_span",
                         "poly": [
                             44.000000000000014,
-                            467.9807338985475,
-                            200.00000000000003,
-                            467.9807338985475,
-                            200.00000000000003,
+                            467.07737486400936,
+                            201.3550385518073,
+                            467.07737486400936,
+                            201.3550385518073,
                             476.6762997173929,
                             44.000000000000014,
                             476.6762997173929
                         ],
-                        "text": "existing and proposed, in aocordance"
+                        "text": "existing and proposed, in accordance"
                     },
                     {
                         "category_type": "text_span",
@@ -27493,7 +27494,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(4) The parcels are subject to reservations for roads, public utilities, and other public purposes, both existing and proposed, in accordance with the local governing entities"
+                "pred": "(4) The parcels are subject toreservations for roads, public utilities.and flood control purposes, bothexisting and proposed, in accordancewith the local governing entities*transportation plans."
             },
             {
                 "category_type": "text_block",
@@ -27510,7 +27511,7 @@
                 "ignore": false,
                 "order": 7,
                 "anno_id": 1,
-                "text": "(5) An appropriate indemnification clause protecting the United States from claims arising out of the palentee's use, occupancy, or occupations on the patented lands.",
+                "text": "(5) An appropriate indemnification clause protecting the United States from claims arising out of the patentee's use, occupancy, or occupations on the patented lands.",
                 "line_with_spans": [
                     {
                         "category_type": "text_span",
@@ -27552,7 +27553,7 @@
                             42.666666666666714,
                             529.3333333333333
                         ],
-                        "text": "claims arising out of the palentee's use,"
+                        "text": "claims arising out of the patentee's use,"
                     },
                     {
                         "category_type": "text_span",
@@ -27588,7 +27589,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "(5) An appropriate indemnification clause protecting the United States from claims arising out of the patient's use, or any other occupant's use, of the patented lands."
+                "pred": "(5) An appropriate indemnificationclause protecting the United States fromclaims arising out of the patentee's use.occupancy, or occupations on thepatented fands."
             },
             {
                 "category_type": "text_block",
@@ -27767,7 +27768,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "To the extent required by law, the parcels are subject to the requirements of the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA), as amended. Accordingly, notice is hereby given that the lands have been inspected and found to indicate that any hazardous substances have been stored for one year or more, nor that any hazardous substances have been released on the subject properties."
+                "pred": "To the extent required by law, theparcels are subject to the requirementsof Section 120(h) of the CERCLA, asamended. Accordingly, notice is herebygiven that the lands have beenexamined and no evidence was found toindicate that any hazardous substanceshave been stored for one year or more,nor that any hazardous substances havebeen disposed of or released on thesubject properties."
             },
             {
                 "category_type": "text_block",
@@ -27904,7 +27905,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "No warranty of any kind, express or implied, is given by the United States as to the accuracy of the information contained herein. The land may be developed, its physical condition, future uses, or any other circumstance or condition. The property will not be on a contingency basis."
+                "pred": "No warranty of any kind, express orimplied, is given by the United States asto the title, whether or to what extentthe land may be developed, its physicalcondition, future uses, or any othercircumstance or condition. Theconveyance of the parcels will not be ona contingency basis."
             },
             {
                 "category_type": "text_block",
@@ -27943,7 +27944,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Authority: 43 CFR 2713.9-2."
+                "pred": "Authoritv: 43 CFR 2711.3-2."
             },
             {
                 "category_type": "title",
@@ -27982,7 +27983,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Robbie McAboy,"
+                "pred": "Robbie McAboy."
             },
             {
                 "category_type": "text_block",
@@ -28049,7 +28050,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "District Manager, Ely District Office\n\nBILLING CODE 4312-14"
+                "pred": "District Manager. Elv District Office[FR Doc. 202415286 Filed 71124: 8:45 am]BILLING C0DE 433121-P"
             },
             {
                 "category_type": "title",
@@ -28200,7 +28201,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "DEPARTMENT OF THE INTERIOR Bureau of Indian Affairs Bureau of Land Management [BLM_NM_FR_40050178179] Termination of Preparation of the Environmental Impact Statement for the Farmington Mancos-Gallup Associated Field Development Plan Amendment, New Mexico."
+                "pred": "DEPARTMENT OF THE INTERIORBureau of Indian AffairsBureau of Land Management[BLM_NM_FRN_MO4500178179]Termination of Preparation of theEnvironmental Impact Statement forthe Farmington Mancos-GallupResource Management PlanAmendment, New Mexico"
             },
             {
                 "category_type": "text_block",
@@ -28253,7 +28254,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "AGENCY: Bureau of Land Management; Bureau of Indian Affairs, Interior."
+                "pred": "AGENcY: Bureau of Land Management:Bureau of Indian Affairs, Interior."
             },
             {
                 "category_type": "text_block",
@@ -28292,7 +28293,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "ACTION: Notice of termination."
+                "pred": "Acnon: Notice of termination"
             },
             {
                 "category_type": "text_block",
@@ -28415,7 +28416,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "SUMMARY: The Bureau of Land Management (BLM), U.S. Department of the Interior, and the Indian Affairs (IA) Bureau, U.S. Department of Agriculture, are terminating the environmental impact statement (EIS) for the Farmington Manzano-Gallup Resource Management Plan Amendment."
+                "pred": "SUMMarY: The Bureau of LandManagement (BLM) and the Bureau ofIndian Affairs (BIA) are terminating thepreparation of an environmental impactstatement (ElS) for the FarmingtonMancos-Gallup Resource ManagementPlan (RMP) Amendment."
             },
             {
                 "category_type": "text_block",
@@ -28734,7 +28735,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "DATES: The EIS development process for the BLM Amendment is terminated immediately. FOR FURTHER INFORMATION CONTACT: BLM Farmington Field Office Project Manager at 505-564-7889 or BIA Navajo Region Archaeological/Archeological Project Manager at 505-863-8515. Individuals in the United States who are deaf, hard of hearing, or have a speech disability may dial 711 (TTY, TDD, or TeleAccess) to access Telecommunications Relay Services for contacting Ms. Scott or Mr. Begay. Individuals outside the United States should use the relay services offered within their country to make international calls to the point-of- contact listed above."
+                "pred": "DATES: The EIS development process forthe Farmington Mancos-Gallup RMPAmendment is terminated immediately.FOR FURTHER INFORMATION CONTACT:BLM Farmington Field Office ProjectManager Sarah Scott, sscott@blm.gov,5055647689 or BIA Navajo RegionOffice Regional Archeologist/ProjectManager Robert Begay. robert.beggy1@bia.gov, 5058638515. Individuals indeafblind, hard of hearing. or have athe United States who are deaf.speech disability may dial 711 (TTY.telecommunications relay services forTDD. or TeleBraille) to accesscontacting Ms. Scott or Mr. Begay.Individuals outside the United Statesshould use the relay services offeredwithin their country to makeinternational calls to the point-of-contact in the United States,"
             },
             {
                 "category_type": "text_block",
@@ -28983,7 +28984,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "SUPPLEMENTARY INFORMATION: Pursuant to the National Environmental Policy Act (NEPA) and Council on Environmental Quality regulations, the BLM announced its intent to prepare an RMP Amendment and EIS in the Federal Register on October 21, 2014 (79 FR 61548). On October 21, 2016, the BLM and the BIA published an amended Notice of Intent in the Federal Register to serve as the BIA as a joint-co-lead agency for the EIS (81 FR 72419). The purpose of the EIS was to analyze the impacts of additional oil and gas leasing on Juan Bautista in northwestern New"
+                "pred": "to the National Environmental PolicySUPPLEMENTARY INFORMATION: PUTSUANtAct of 1969, as implemented by theCouncil on Environmental Qualityregulations, the BLM announced itsintent to prepare an RMP Amendmentand associated EIS on February 25, 2014(79 FR 10548). On October 21, 2016, theBLM and the BIA published anamended Notice of Intent in the FederalRegister announcing the addition of the(81 FR 72819). The purpose of the EISBIA as a joint/co-lead agency for the EISwas to analyze the impacts of additionaloil and gas development within the SanJuan Basin in northwestern New"
             },
             {
                 "category_type": "text_block",
@@ -29638,7 +29639,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Mexico, as well as decisions related to lands and reality, BLM-managed lands and resources, and vegetation management. The EIS was also to evaluate alternatives and issues associated with mineral leasing and associated activity decisions on Navajo Tribal Trust Lands and Navajo Indian allotments. The Notice of Intent for the EIS published in the Federal Register on February 28, 2020 (85 FR 12102). The BLM and BIA held meetings with various Federal, State, and local agencies, elected officials, special interest groups, affected individuals, and the general public prior to the pandemic and restrictions placed on in-person meetings, virtual public hearings were held on June 17, 18, 2020, as well as on August 26, 27, 28, and 29, 2020. Since the initial publication of the Notices of Intent in 2020, there have been many changes in the RMP and associated EIS, such as a change in development trends in the San Juan Basin; the withdrawal of 336,404 acres from oil and gas leasing within Chaco Culture National Historical Park; the preparation of BIA-funded ethnographic studies; the establishment of the Honoring Chaco Initiative; and an increase in outdoor recreation in the region. Given these changes and the need to address these changes in the current EIS process, the agencies determined it is necessary to pursue an amendment effort as currently structured. Therefore, the BLM and BIA hereby terminate preparation of the EIS."
+                "pred": "Mexico, as well as decisions related tolands and realty, BL.M-managed landswith wilderness characteristics, andvegetation management. The EIS wasalso to evaluate alternatives and issuesrelated to the BlA's authority overmineral leasing and associated activitydecisions on Navajo Tribal Trust Landsand Navajo Indian allotments. TheNotice of Availability for the Draft EISpublished in the Federal Register onFebruary 28, 2020 (85 FR 12012). Thebureaus distributed the Draft EIS tovarious Federal, State, and localagencies, elected officials, specialinterest groups, interested individuals,and the media. Due to the COVID-19pandemic and restrictions placed on in-person meetings, virtual public hearingswere held on May 14, 15, 16, and 18.2020, as well as on August 26, 27, 28.and 29, 2020. Since the initialpublication of the Notices of Intent in2014 and 2016, and the publication ofthe draft RMP Amendment and EIS in2020, there have been many changesrelevant to the plan amendment andassociated EIS, such as a change in thedevelopment trends in the San JuanBasin; the withdrawal of 336,404 acresfrom mineral entry around the ChacoCulture National Historical Park; thepreparation of BIA-funded ethnographicof the Honoring Chaco Initiative; and anstudies for the region: the establishmentincrease in outdoor recreation in theregion. Given these changes and theextent of revisions necessary to addressthese changes in the current EISprocess, the agencies determined it isimpractical to continue the planamendment effort as currentlystructured. Therefore, the BLM and BIAhereby terminate preparation of the EISfor the RMP Amendment."
             },
             {
                 "category_type": "text_block",
@@ -29677,7 +29678,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Authority: 40 CFR 1506.5, 40 CFR 1506.10)"
+                "pred": "(Authority: 40 CFR 1506.6, 40 CFR 1506.10)"
             },
             {
                 "category_type": "text_block",
@@ -29906,7 +29907,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Melanie G. Barnes, BCNM New Mexico State Director, Shoshone-Paiute Tribes Acting BIA Navajo Region Director, Ph: 202-513-0874 Fax: 7-1-24"
+                "pred": "Melanie G. Barnes,BLM New Mexico State DirectorDeborah S. Shirley.Acting BLA Navajo Region Director[FR Doc. 202415278 Filed 71124; 8:45 am]BILLING CODE 4331-23-P"
             },
             {
                 "category_type": "title",
@@ -30057,7 +30058,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "DEPARTMENT OF THE INTERIOR Bureau of Safety and Environmental Enforcement [Docket ID BSEE-2024-0003; EIEE000000 245E170002 ETISF0000.EA0000; OMB Control Number 1014-0025] Agency Information Collection Activities; Pollution Prevention and Control"
+                "pred": "DEPARTMENT OF THE INTERIORBureau of Safety and EnvironmentalEnforcement[Docket ID BSEE-2024-0003; EEEE500000Control Number 1014-0023]245E1700D2 ET1SF0000.EAQ000: OMBAgency Information CollectionActivities; Pollution Prevention andControl"
             },
             {
                 "category_type": "text_block",
@@ -30110,7 +30111,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "AGENCY: Bureau of Safety and Environmental Enforcement, Interior."
+                "pred": "AGEncY: Bureau of Safety andEnvironmental Enforcement, Interior."
             },
             {
                 "category_type": "header",
@@ -30149,7 +30150,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "Federal Register / Vol. 89, No. 134 / Friday, July 12, 2024 / Notices"
+                "pred": "Federal Register/Vol. 89, No. 134 /Friday, July 12, 2024 /Notices"
             },
             {
                 "category_type": "header",
@@ -30203,8 +30204,8 @@
         "page_info": {
             "page_attribute": {
                 "data_source": "newspaper",
-                "language": "simplified_chinese",
-                "layout": "other_layout",
+                "language": "english",
+                "layout": "three_column",
                 "special_issue": []
             },
             "page_no": 4,
@@ -30252,7 +30253,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "常熟银行(601128.SH)"
+                "pred": "常熟银行（601128.SH"
             },
             {
                 "category_type": "title",
@@ -30435,7 +30436,7 @@
                     "include_equation": false,
                     "include_photo": false,
                     "include_background": false,
-                    "with_structured_text": null
+                    "with_structured_text": false
                 },
                 "table_edit_status": "good"
             },
@@ -30987,7 +30988,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "黄韦涵\n投资咨询资格编号\nS1060523070003\nHUANGWEIHAN235@pingan.com.cn"
+                "pred": "黄韦涵投资咨询资格编号S1060523070003HUANGWEIHAN235@pingan.com.cn"
             },
             {
                 "category_type": "table_caption",
@@ -31155,7 +31156,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "许淼 一般证券从业资格编号 S1060123020012 XUMIAO533@pingan.com.cn"
+                "pred": "许淼一般证券从业资格编号S1060123020012XUMIAO533@pingan.com.cn"
             },
             {
                 "category_type": "title",
@@ -31194,7 +31195,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "事项:"
+                "pred": "事项："
             },
             {
                 "category_type": "text_block",
@@ -31345,7 +31346,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "常熟银行发布 2023 年半年报，上半年公司实现营业收入 49.1 亿元，同比增长 12.4%；归母净利润 14.5 亿元，同比增长 20.8%；年化 ROE 12.40%，同比提升 0.68 个百分点。2023 年 6 月末总资产 3178 亿元，较年初增长 10.4%。"
+                "pred": "常熟银行发布2023年半年报，上半年公司实现营业收入49.1亿元，同比增长12.4%；归母净利润14.5亿元，同比增长20.8%；年化R0E12.40%，同比提升0.68个百分点。2023年6月末总资产3178亿元，较年初增长10.4%"
             },
             {
                 "category_type": "title",
@@ -31787,7 +31788,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "盈利表现亮眼，村银贡献持续提升。公司上半年归母净利润同比增长20.8%( vs+20.6%, 23Q1 ),保持快速增长。营业收入实现同比增长12.4% ( vs+13.3%, 23Q1 )，增速依然稳健，分项观察边际放缓仍然主要受到息差收窄和规模增长放缓的影响，导致净利息收入同比增速较1季度下滑2.8个百分点至14.9%，与行业趋势一致。不过在二季度利率下行、债市走牛的背景下，公司交易类收入增长表现较好，上半年实现投资收益同比增幅25.9%( vs-19.7%, 23Q1 ), 22H1占比达到10%。分板块来看，公司村镇银行业务表现保持强势，上半年实现营收同比增长22.4%，占公司营收比重较22年提升2pct至24%。"
+                "pred": "盈利表现亮眼，村银贡献持续提升。公司上半年归母净利润同比增长20.8%（vs+20.6%，23Q1)，保持快速增长。营业收入实现同比增长12.4%（VS+13.3%，23Q1)，增速依然稳健，分项观察边际放缓仍然主要受到息差收窄和规模增长放缓的影响，导致净利息收入同比增速较1季度下滑2.8个百分点至14.9%，与行业趋势一致。不过在二季度利率下行、债市走牛的背景下，公司交易类收入增长表现较好，上半年实现投资收益同比增幅25.9%（VS-19.7%，23Q1），22H1占比达到10%。分板块来看，公司村镇银行业务表现保持强势，上半年实现营收同比增长22.4%，占公司营收比重较22年提升2pct至24%。"
             },
             {
                 "category_type": "text_block",
@@ -32316,7 +32317,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "息差小幅收窄，看好微贷持续复苏。公司上半年年化净息差 3.00% (vs3.02%, 23Q1 ), 保持相对稳定, 我们按期初期末余额测算 2 季度单季净息差较 1 季度环比收窄 15BP 至 2.78%，背后可以看到资负两端均有拖累，2 季度生息资产收益率环比下降 9BP 至 4.94%，计息负债收益率环比抬升 7BP 至 2.34%，预计主要与贷款利率的持续下行和存款定期化趋势的延续有关。规模方面，上半年末公司总资产较年初增长 10.4%，同比增速 ( 15.6%) 较 1 季度 ( 18.0 ) 有所放缓, 其中贷款较年初增长 11.0%，存款较年初增长 13.5%。不过从信贷增量结构来看，2 季度零售端投放力度加大，贡献了 71% 的信贷增量 ( vs38%, 23Q1 ), 其中个人经营性贷款投放为主要驱动因素, 较年初增长 14.0%( vs 零售贷款较年初增长 9.8%),展望全年，我们继续看好区域经济修复背景下公司微贷投放的持续复苏。"
+                "pred": "息差小幅收窄，看好微贷持续复苏。公司上半年年化净息差3.00%（vs3.02%，23Q1），保持相对稳定，我们按期初期末余额测算2季度单季净息差较1季度环比收窄15BP至2.78%，背后可以看到资负两端均有拖累，2季度生息资产收益率环比下降9BP至4.94%，计息负债收益率环比抬升7BP至2.34%，预计主要与贷款利率的持续下行和存款定期化趋势的延续有关。规模方面，上半年末公司总资产较年初增长10.4%，同比增速（15.6%）较1季度（18.0%）有所放缓，其中贷款较年初增长11.0%，存款较年初增长13.5%。不过从信贷增量结构来看，2季度零售端投放力度加大，贡献了71%的信贷增量（vs38%，23Q1），其中个人经营性贷款投放为主要驱动因素，较年初增长14.0%(vs零售贷款较年初增长9.8%)，展望全年，我们继续看好区域经济修复背景下公司微贷投放的持续复苏。"
             },
             {
                 "category_type": "text_block",
@@ -32523,7 +32524,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "资产质量优异，风险抵补能力夯实。2季度末不良率0.75%，环比持平，保持近年来最优。前瞻性指标方面，2季度末关注率环比1季度抬升1BP至0.83%，仍然位于同业低位，公司整体资产质量处于同业优异水平。拨备方面，2季度拨备覆盖率550%，环比提升3pct,保持在同业高位，拨贷比环比持平于4.12%，风险抵补能力仍然保持突出。"
+                "pred": "资产质量优异，风险抵补能力夯实。2季度末不良率0.75%，环比持平保持近年来最优。前瞻性指标方面，2季度末关注率环比1季度抬升1BF至0.83%，仍然位于同业低位，公司整体资产质量处于同业优异水平。备方面，2季度拨备覆盖率550%，环比提升3pct，保持在同业高位，拨贷比环比持平于4.12%，风险抵补能力仍然保持突出。"
             },
             {
                 "category_type": "table",
@@ -32708,7 +32709,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "2023年 08月 25日"
+                "pred": "2023年08月25日"
             },
             {
                 "category_type": "header",
@@ -32949,7 +32950,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本报告署名分析师具有中国证券业协会授予的证券投资咨询执业资格并登记为注册分析师，基于认真审慎的工作态度、专业严谨的研究方法与分析逻辑得出研究结论，独立、客观地出具本报告，并对本报告的内容和观点负责。本报告清晰准确地反映了研究人员的研究观点，结论不受任何第三方的授意、影响，研究人员不曾因、不因、也将不会因本报告中的具体推荐意见或观点而直接或间接收到任何形式的补偿。"
+                "pred": "本报告署名分析师具有中国证券业协会授予的证券投资咨询执业资格并登记为注册分析师，基于认真审慎的工作态度、专业严谨的研究方法与分析逻辑得出研究结论，独立、客观地出具本报告，并对本报告的内容和观点负责。本报告清晰准确地反映了研究人员的研究观点，结论不受任何第三方的授意、影响，研究人员不曾因、不因、也将不会因本报告中的具体推荐意见或观点而直接或间接收到任可形式的补偿。"
             },
             {
                 "category_type": "table_caption",
@@ -33095,7 +33096,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "民生证券股份有限公司（以下简称“本公司”）具有中国证监会许可的证券投资咨询业务资格。"
+                "pred": "民生证券股份有限公司（以下简称“本公司”）具有中国证监会许可的证券投资咨询业务资格"
             },
             {
                 "category_type": "text_block",
@@ -33243,7 +33244,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本报告是基于已公开信息撰写，但本公司不保证该等信息的准确性或完整性。本报告所载的资料、意见及预测仅反映本公司于发布本报告当日的判断，且预测方法及结果存在一定程度局限性。在不同时期，本公司可发出与本报告所刊载的意见、预测不一致的报告，但本公司没有义务和责任及时更新本报告所涉及的内容并通知客户。"
+                "pred": "本报告是基于已公开信息撰写，但本公司不保证该等信息的准确性或完整性。本报告所载的资料、意见及预测仅反映本公司于发历本报告当日的判断，且预测方法及结果存在一定程度局限性。在不同时期，本公司可发出与本报告所刊载的意见、预测不一致的报后，但本公司没有义务和责任及时更新本报告所涉及的内容并通知客户。"
             },
             {
                 "category_type": "text_block",
@@ -33377,7 +33378,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "若本公司以外的金融机构发送本报告，则由该金融机构独自为此发送行为负责。该机构的客户应联系该机构以交易本报告提及的证券或要求获取更详细的信息。本报告不构成本公司向发送本报告金融机构之客户提供的投资建议。本公司不会因任何机构或个人从其他机构获得本报告而将其视为本公司客户。"
+                "pred": "若本公司以外的金融机构发送本报告，则由该金融机构独自为此发送行为负责。该机构的客户应联系该机构以交易本报告提及的证券或要求获悉更详细的信息。本报告不构成本公司向发送本报告金融机构之客户提供的投资建议。本公司不会因任何机构或个人从其他机构获得本报告而将其视为本公司客户。"
             },
             {
                 "category_type": "text_block",
@@ -33444,7 +33445,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "本报告的版权仅归本公司所有，未经书面许可，任何机构或个人不得以任何形式、任何目的进行翻版、转载、发表、篡改或引用。所有在本报告中使用的商标、服务标识及标记，除非另有说明，均为本公司的商标、服务标识及标记。本公司版权所有并保留一切权利。"
+                "pred": "本报告的版权仅归本公司所有，未经书面许可，任何机构或个人不得以任何形式、任何目的进行翻版、转载、发表、篡改或用。所有在本报告中使用的商标、服务标识及标记，除非另有说明，均为本公司的商标、服务标识及标记。本公司版权所有并保留口权利。"
             },
             {
                 "category_type": "title",
@@ -33561,7 +33562,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "北京：北京市东城区建国门内大街 28 号民生金融中心 A 座 18 层； 100005"
+                "pred": "北京：北京市东城区建国门内大街28号民生金融中心A座18层；10000"
             },
             {
                 "category_type": "text_block",
@@ -33600,7 +33601,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "深圳：广东省深圳市福田区益田路6001号太平金融大厦32层05单元；518026"
+                "pred": "深圳：广东省深圳市福田区益田路6001号太平金融大厦32层05单元；51802"
             },
             {
                 "category_type": "abandon",
@@ -33669,7 +33670,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "民生证券\n\nminshengsecurities"
+                "pred": "民生证券MINSHENGSECURITIES"
             },
             {
                 "category_type": "header",
@@ -33708,7 +33709,7 @@
                     "text_background": "white",
                     "text_rotate": "normal"
                 },
-                "pred": "中国神华(601088)/能源开采"
+                "pred": "中国神华（601088)/能源开采"
             },
             {
                 "category_type": "footer",
