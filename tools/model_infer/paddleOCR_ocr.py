@@ -3,28 +3,37 @@ import json
 import numpy
 
 from PIL import Image, ImageOps
-from paddleocr import PaddleOCR, draw_ocr
+from paddleocr import PaddleOCR
+# from paddleocr.tools.infer import draw_ocr
 
 def test_paddle(img: Image, lan: str ):
     if lan == 'text_simplified_chinese':
-        ocr = PaddleOCR(use_angle_cls=True, lang='ch')
+        ocr = PaddleOCR(use_textline_orientation=True, lang='ch')
     elif lan == 'text_english':
-        ocr = PaddleOCR(use_angle_cls=True, lang='en')
+        ocr = PaddleOCR(use_textline_orientation=True, lang='en')
     else:
-        ocr = PaddleOCR(use_angle_cls=True)
+        ocr = PaddleOCR(use_textline_orientation=True)
 
     img_add_border = add_white_border(img)
     img_ndarray = numpy.array(img_add_border)
-    result = ocr.ocr(img_ndarray, cls=True)
+    result = ocr.predict(img_ndarray)
     text = ''
-    for idx in range(len(result)):
-        res = result[idx]
-        if not res:
-            continue
-        for line in res:
-            t = line[1][0]
-            print(t)
-            text += t
+
+    # 新版本 API 返回格式：列表包含字典
+    if isinstance(result, list) and len(result) > 0:
+        first_item = result[0]
+        if isinstance(first_item, dict) and 'rec_texts' in first_item:
+            # 新版本格式：result[0]['rec_texts'] 是文本列表
+            for t in first_item['rec_texts']:
+                print(t)
+                text += t
+        elif isinstance(first_item, list):
+            # 旧版本格式：嵌套列表
+            for line in first_item:
+                if line and len(line) > 1:
+                    t = line[1][0]
+                    print(t)
+                    text += t
     return text
 
 def add_white_border(img: Image):
@@ -45,11 +54,11 @@ def poly2bbox(poly):
     return bbox
 
 def main():
-    with open('../demo_data/omnidocbench_demo/OmniDocBench_demo.json', 'r') as f:
+    with open('demo_data/omnidocbench_demo/OmniDocBench_demo.json', 'r') as f:
         samples = json.load(f)
     for sample in samples:
         img_name = os.path.basename(sample['page_info']['image_path'])
-        img_path = os.path.join('../demo_data/omnidocbench_demo/images', img_name)
+        img_path = os.path.join('demo_data/omnidocbench_demo/images', img_name)
         img = Image.open(img_path)
         if not os.path.exists(img_path):
             print('No exist: ', img_name)
@@ -64,18 +73,18 @@ def main():
             outputs = test_paddle(image, lan) # !!!! String text block的文本内容
 
             anno['pred'] = outputs
-        with open('../demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'a', encoding='utf-8') as f:
+        with open('demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'a', encoding='utf-8') as f:
             json.dump(sample, f, ensure_ascii=False)
             f.write('\n')
 
 def save_json():
     # 文本OCR质检：gpt-4o/internvl jsonl2json
-    with open('../demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'r') as f:
+    with open('demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'r') as f:
         lines = f.readlines()
     samples = [json.loads(line) for line in lines]
-    with open('../demo_data/recognition/OmniDocBench_demo_text_ocr.json', 'w', encoding='utf-8') as f:
+    with open('demo_data/recognition/OmniDocBench_demo_text_ocr.json', 'w', encoding='utf-8') as f:
         json.dump(samples, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    main()
+    # main()
     save_json()
