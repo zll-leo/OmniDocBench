@@ -1,0 +1,407 @@
+[
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    35,
+                    6,
+                    1726,
+                    6,
+                    1726,
+                    529,
+                    35,
+                    529
+                ],
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88,L63X63X6Q235B</td><td>732</td></tr><tr><td>2</td><td>等边角钢，GB9787-88L63X63X6Q235B</td><td>1408</td></tr><tr><td>3</td><td>等边角钢，GB9787-88,L63X63X6,Q235B</td><td>1750</td></tr><tr><td>4</td><td>等边角钢，GB9787-88,L63X63X6,Q235B</td><td>556</td></tr><tr><td>5</td><td>等边角钢，GB9787-88L63X63X6,Q235B</td><td>413</td></tr><tr><td>6</td><td>等边角钢,GB9787-88,L63X63X6,Q235B</td><td>402</td></tr><tr><td>7</td><td>等边角钢，GB9787-88,L63X63X6，Q235B</td><td>591</td></tr><tr><td>U1</td><td>C型管夹,JNS34-010-2020,C60-L74-D10-H88,Q235A</td><td>3</td></tr><tr><td>U2</td><td>C型管夹,JNS34-010-2020,C48-L62-D10-H76,Q235A</td><td>3</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C27-L40-D10-H55,Q235A</td><td>1</td></tr><tr><td>U4</td><td>C型管夹,JNS34-010-2020,C76-L92-D12-H110,Q235A</td><td>2</td></tr><tr><td>U5</td><td>C型管夹,JNS34-010-2020,C60-L74-D10-H88,Q235A</td><td>1</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 523,
+            "width": 1691,
+            "image_path": "253_102(2).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    81,
+                    11,
+                    1610,
+                    11,
+                    1610,
+                    132,
+                    81,
+                    132
+                ],
+                "html": "<html><body><table><tbody><tr><td>距助</td><td>距肿</td><td>距甲板</td><td>C1</td></tr><tr><td>X = FR28-22</td><td>Y</td><td> = -6311</td><td>Z = 3H-958</td></tr><tr><td>C2</td><td>X = FR28-22</td><td>Y = -7731</td><td>Z = 3H-725</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 121,
+            "width": 1529,
+            "image_path": "253_102(3).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    13,
+                    18,
+                    1138,
+                    18,
+                    1138,
+                    285,
+                    13,
+                    285
+                ],
+                "html": "<html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-087</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>33.144kg</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 267,
+            "width": 1125,
+            "image_path": "253_102(4).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    282,
+                    12,
+                    1583,
+                    12,
+                    1583,
+                    94,
+                    282,
+                    94
+                ],
+                "html": "<html><body><table><tbody><tr><td>L2</td><td>L1</td><td>序号</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 82,
+            "width": 1301,
+            "image_path": "253_102(5).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    36,
+                    9,
+                    1724,
+                    9,
+                    1724,
+                    208,
+                    36,
+                    208
+                ],
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88L40X40X5,Q235B</td><td>120</td></tr><tr><td>2</td><td>等边角钢，GB9787-88L40X40X5，Q235B</td><td>219</td></tr><tr><td>U1</td><td>C型管夹,JNS34-010-2020,C22-L34-D10-H50,Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板,JNS34-010-2020,75X75X10,Q235B</td><td>1</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 199,
+            "width": 1688,
+            "image_path": "253_100(1)(1).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    186,
+                    18,
+                    1711,
+                    18,
+                    1711,
+                    97,
+                    186,
+                    97
+                ],
+                "html": "<html><body><table><tbody><tr><td>Y = -9060</td><td>FR28-10</td><td>X =</td><td>C1</td></tr><tr><td>距甲板</td><td>中国</td><td>距助</td><td>序号</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 79,
+            "width": 1525,
+            "image_path": "253_100(1)(2).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    13,
+                    14,
+                    1139,
+                    14,
+                    1139,
+                    280,
+                    13,
+                    280
+                ],
+                "html": "<html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-085</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>1.296kg</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 266,
+            "width": 1126,
+            "image_path": "253_100(1)(3).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    282,
+                    7,
+                    1584,
+                    7,
+                    1584,
+                    85,
+                    282,
+                    85
+                ],
+                "html": "<html><body><table><tbody><tr><td>25mm</td><td>25mm</td><td>3</td></tr><tr><td>L2</td><td>↓7</td><td>序号</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": false,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 78,
+            "width": 1302,
+            "image_path": "253_100(1)(4).png"
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "category_type": "table",
+                "poly": [
+                    11,
+                    7,
+                    1724,
+                    7,
+                    1724,
+                    2094,
+                    11,
+                    2094
+                ],
+                "html": "<html><body><table><tbody><tr><td></td><td colspan=2></td><td colspan=2></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan=2></td><td></td><td></td></tr><tr><td></td><td colspan=4></td><td></td><td></td></tr><tr><td colspan=7></td></tr><tr><td colspan=7></td></tr><tr><td></td><td colspan=4>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td colspan=4>1</td><td>等边角钢，GB9787-88,L40X40X5，Q235B</td><td>120</td><td>2</td></tr><tr><td colspan=4>等边角钢，GB9787-88,L40X40X5,Q235B</td><td>219</td><td>U1</td><td>C型管夹,JNS34-010-2020,C22-L34-D10-H50,Q235A</td></tr><tr><td colspan=4>1</td><td>P1</td><td>三角垫板，JNS34-010-2020,75X75X10,Q235B</td><td>1</td></tr><tr><td colspan=4>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr><tr><td colspan=4>C1</td><td>X = FR28-10</td><td>Y = -9060</td><td>Z = 3H-119</td></tr><tr><td colspan=4>工程号</td><td>H2747-H2748/H2777-H2780</td><td>件号</td><td>TBN253-PNB-085</td></tr><tr><td colspan=4>制作图号</td><td>253MP202TM</td><td>涂装代码</td><td>油漆M</td></tr><tr><td colspan=4>重量</td><td>1.296kg</td><td>序号</td><td>L1</td></tr><tr><td colspan=4>L2</td><td>E1</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
+                "latex": -1,
+                "attribute": {
+                    "table_layout": "horizontal",
+                    "with_span": true,
+                    "line": "fewer_line",
+                    "language": "table_simplified_chinese",
+                    "include_equation": false,
+                    "include_photo": false,
+                    "include_background": false,
+                    "with_structured_text": false
+                },
+                "table_edit_status": "good"
+            }
+        ],
+        "extra": {
+            "relation": []
+        },
+        "page_info": {
+            "page_attribute": {
+                "data_source": -1,
+                "language": -1,
+                "layout": -1,
+                "special_issue": []
+            },
+            "page_no": -1,
+            "height": 2087,
+            "width": 1713,
+            "image_path": "253_100(1).png"
+        }
+    }
+]
