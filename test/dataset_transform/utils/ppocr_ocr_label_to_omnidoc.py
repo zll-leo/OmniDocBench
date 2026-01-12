@@ -28,7 +28,11 @@ def convert_ocr_label_to_omnidocbench(input_path, output_path):
                     'anno_id': idx,
                     'text': ann.get('transcription', -1),
                     'line_with_spans': -1,
-                    'attribute': -1,
+                    'attribute': {
+                        'text_language': 'text_chinese',
+                        'text_background': 'white',
+                        'text_rotate': 'normal'
+                    },
                     'pred': -1
                 })
             page_info = {
@@ -44,6 +48,7 @@ def convert_ocr_label_to_omnidocbench(input_path, output_path):
                 'extra': extra
             })
     with open(output_path, 'w', encoding='utf-8') as fout:
+        fout.truncate(0)  # 清空文件内容
         json.dump(results, fout, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':

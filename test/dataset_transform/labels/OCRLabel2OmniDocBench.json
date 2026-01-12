@@ -18,7 +18,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -38,7 +42,11 @@
                 "anno_id": 1,
                 "text": "规格及标准",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -58,7 +66,11 @@
                 "anno_id": 2,
                 "text": "数量/长度",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -78,7 +90,11 @@
                 "anno_id": 3,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -98,7 +114,11 @@
                 "anno_id": 4,
                 "text": "等边角钢，GB9787-88L50X50X6Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -118,7 +138,11 @@
                 "anno_id": 5,
                 "text": "136",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -138,7 +162,11 @@
                 "anno_id": 6,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -158,7 +186,11 @@
                 "anno_id": 7,
                 "text": "等边角钢，GB9787-88L50X50X6Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -178,7 +210,11 @@
                 "anno_id": 8,
                 "text": "180",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -198,7 +234,11 @@
                 "anno_id": 9,
                 "text": "3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -218,7 +258,11 @@
                 "anno_id": 10,
                 "text": "等边角钢，GB9787-88L50X50X6Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -238,7 +282,11 @@
                 "anno_id": 11,
                 "text": "136",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -258,7 +306,11 @@
                 "anno_id": 12,
                 "text": "U1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -278,7 +330,11 @@
                 "anno_id": 13,
                 "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -298,7 +354,11 @@
                 "anno_id": 14,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -318,7 +378,11 @@
                 "anno_id": 15,
                 "text": "P1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -338,7 +402,11 @@
                 "anno_id": 16,
                 "text": "三角垫板，JNS34-010-202085X85X10Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -358,7 +426,11 @@
                 "anno_id": 17,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -391,7 +463,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -411,7 +487,11 @@
                 "anno_id": 1,
                 "text": "距肋",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -431,7 +511,11 @@
                 "anno_id": 2,
                 "text": "距",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -451,7 +535,11 @@
                 "anno_id": 3,
                 "text": "距甲板",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -471,7 +559,11 @@
                 "anno_id": 4,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -491,7 +583,11 @@
                 "anno_id": 5,
                 "text": "X =FR44-10",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -511,7 +607,11 @@
                 "anno_id": 6,
                 "text": "Y=-1080",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -531,7 +631,11 @@
                 "anno_id": 7,
                 "text": "Z=2H+1129",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -551,7 +655,11 @@
                 "anno_id": 8,
                 "text": "C2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -571,7 +679,11 @@
                 "anno_id": 9,
                 "text": "X =FR44-10",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -591,7 +703,11 @@
                 "anno_id": 10,
                 "text": "Y=-1260",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -611,7 +727,11 @@
                 "anno_id": 11,
                 "text": "Z=2H+1129",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -644,7 +764,11 @@
                 "anno_id": 0,
                 "text": "工程号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -664,7 +788,11 @@
                 "anno_id": 1,
                 "text": "H2747-H2748/H2777-H2780",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -684,7 +812,11 @@
                 "anno_id": 2,
                 "text": "件号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -704,7 +836,11 @@
                 "anno_id": 3,
                 "text": "TBN253-PNB-099",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -724,7 +860,11 @@
                 "anno_id": 4,
                 "text": "制作图号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -744,7 +884,11 @@
                 "anno_id": 5,
                 "text": "253MP202TM",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -764,7 +908,11 @@
                 "anno_id": 6,
                 "text": "涂装代码",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -784,7 +932,11 @@
                 "anno_id": 7,
                 "text": "油漆M",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -804,7 +956,11 @@
                 "anno_id": 8,
                 "text": "重量",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -824,7 +980,11 @@
                 "anno_id": 9,
                 "text": "2.731kg",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -857,7 +1017,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -877,7 +1041,11 @@
                 "anno_id": 1,
                 "text": "L1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -897,7 +1065,11 @@
                 "anno_id": 2,
                 "text": "L2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -930,7 +1102,11 @@
                 "anno_id": 0,
                 "text": "180",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -950,7 +1126,11 @@
                 "anno_id": 1,
                 "text": "90",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -970,7 +1150,11 @@
                 "anno_id": 2,
                 "text": "11",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -990,7 +1174,11 @@
                 "anno_id": 3,
                 "text": "981",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1010,7 +1198,11 @@
                 "anno_id": 4,
                 "text": "textcircled{2}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1030,7 +1222,11 @@
                 "anno_id": 5,
                 "text": "9E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1050,7 +1246,11 @@
                 "anno_id": 6,
                 "text": "textcircled{1}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1070,7 +1270,11 @@
                 "anno_id": 7,
                 "text": "textcircled{3}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1090,7 +1294,11 @@
                 "anno_id": 8,
                 "text": "textsquared{C2}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1110,7 +1318,11 @@
                 "anno_id": 9,
                 "text": "textsquared{C1}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1130,7 +1342,11 @@
                 "anno_id": 10,
                 "text": "textcircled{P1}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1150,7 +1366,11 @@
                 "anno_id": 11,
                 "text": "textcircled{P1}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1170,7 +1390,11 @@
                 "anno_id": 12,
                 "text": "textsquared{涂装保留}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1190,7 +1414,11 @@
                 "anno_id": 13,
                 "text": "textsquared{涂装保留}",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1210,7 +1438,11 @@
                 "anno_id": 14,
                 "text": "v10.1.0.79",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -1243,7 +1475,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1263,7 +1499,11 @@
                 "anno_id": 1,
                 "text": "规格及标准",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1283,7 +1523,11 @@
                 "anno_id": 2,
                 "text": "数量/长度",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1303,7 +1547,11 @@
                 "anno_id": 3,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1323,7 +1571,11 @@
                 "anno_id": 4,
                 "text": "等边角钢，GB9787-88L50X50X6Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1343,7 +1595,11 @@
                 "anno_id": 5,
                 "text": "136",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1363,7 +1619,11 @@
                 "anno_id": 6,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1383,7 +1643,11 @@
                 "anno_id": 7,
                 "text": "等边角钢，GB9787-88L50X50X6Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1403,7 +1667,11 @@
                 "anno_id": 8,
                 "text": "180",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1423,7 +1691,11 @@
                 "anno_id": 9,
                 "text": "U1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1443,7 +1715,11 @@
                 "anno_id": 10,
                 "text": "C型管夹，JNS34-010-2020,C76-L92-D12-H110,Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1463,7 +1739,11 @@
                 "anno_id": 11,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1483,7 +1763,11 @@
                 "anno_id": 12,
                 "text": "P1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1503,7 +1787,11 @@
                 "anno_id": 13,
                 "text": "三角垫板，JNS34-010-2020.85X85X10Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1523,7 +1811,11 @@
                 "anno_id": 14,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -1556,7 +1848,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1576,7 +1872,11 @@
                 "anno_id": 1,
                 "text": "距助",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1596,7 +1896,11 @@
                 "anno_id": 2,
                 "text": "距肿",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1616,7 +1920,11 @@
                 "anno_id": 3,
                 "text": "距甲板",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1636,7 +1944,11 @@
                 "anno_id": 4,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1656,7 +1968,11 @@
                 "anno_id": 5,
                 "text": "X =FR44-10",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1676,7 +1992,11 @@
                 "anno_id": 6,
                 "text": "Y =-1080",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1696,7 +2016,11 @@
                 "anno_id": 7,
                 "text": "Z=3H-2372",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -1729,7 +2053,11 @@
                 "anno_id": 0,
                 "text": "工程号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1749,7 +2077,11 @@
                 "anno_id": 1,
                 "text": "H2747-H2748/H2777-H2780",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1769,7 +2101,11 @@
                 "anno_id": 2,
                 "text": "件号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1789,7 +2125,11 @@
                 "anno_id": 3,
                 "text": "TBN253-PNB-100",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1809,7 +2149,11 @@
                 "anno_id": 4,
                 "text": "制作图号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1829,7 +2173,11 @@
                 "anno_id": 5,
                 "text": "253MP202TM",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1849,7 +2197,11 @@
                 "anno_id": 6,
                 "text": "涂装代码",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1869,7 +2221,11 @@
                 "anno_id": 7,
                 "text": "油漆M",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1889,7 +2245,11 @@
                 "anno_id": 8,
                 "text": "重量",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1909,7 +2269,11 @@
                 "anno_id": 9,
                 "text": "1.874kg",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -1942,7 +2306,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1962,7 +2330,11 @@
                 "anno_id": 1,
                 "text": "L1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -1982,7 +2354,11 @@
                 "anno_id": 2,
                 "text": "L2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2002,7 +2378,11 @@
                 "anno_id": 3,
                 "text": "E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2022,7 +2402,11 @@
                 "anno_id": 4,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2042,7 +2426,11 @@
                 "anno_id": 5,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2062,7 +2450,11 @@
                 "anno_id": 6,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2082,7 +2474,11 @@
                 "anno_id": 7,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2102,7 +2498,11 @@
                 "anno_id": 8,
                 "text": "E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2122,7 +2522,11 @@
                 "anno_id": 9,
                 "text": "L2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2142,7 +2546,11 @@
                 "anno_id": 10,
                 "text": "L1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2162,7 +2570,11 @@
                 "anno_id": 11,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -2195,7 +2607,11 @@
                 "anno_id": 0,
                 "text": "180",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2215,7 +2631,11 @@
                 "anno_id": 1,
                 "text": "90",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2235,7 +2655,11 @@
                 "anno_id": 2,
                 "text": "(U1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2255,7 +2679,11 @@
                 "anno_id": 3,
                 "text": "E",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2275,7 +2703,11 @@
                 "anno_id": 4,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2295,7 +2727,11 @@
                 "anno_id": 5,
                 "text": "9E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2315,7 +2751,11 @@
                 "anno_id": 6,
                 "text": "P1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2335,7 +2775,11 @@
                 "anno_id": 7,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2355,7 +2799,11 @@
                 "anno_id": 8,
                 "text": "涂装保留",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2375,7 +2823,11 @@
                 "anno_id": 9,
                 "text": "v10.1.0.79",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2395,7 +2847,11 @@
                 "anno_id": 10,
                 "text": "Y",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2415,7 +2871,11 @@
                 "anno_id": 11,
                 "text": "180",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2435,7 +2895,11 @@
                 "anno_id": 12,
                 "text": "90",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2455,7 +2919,11 @@
                 "anno_id": 13,
                 "text": "(U1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2475,7 +2943,11 @@
                 "anno_id": 14,
                 "text": "E",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2495,7 +2967,11 @@
                 "anno_id": 15,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2515,7 +2991,11 @@
                 "anno_id": 16,
                 "text": "9E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2535,7 +3015,11 @@
                 "anno_id": 17,
                 "text": "P1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2555,7 +3039,11 @@
                 "anno_id": 18,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2575,7 +3063,11 @@
                 "anno_id": 19,
                 "text": "涂装保留",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2595,7 +3087,11 @@
                 "anno_id": 20,
                 "text": "v10.1.0.79",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2615,7 +3111,11 @@
                 "anno_id": 21,
                 "text": "Y",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -2648,7 +3148,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2668,7 +3172,11 @@
                 "anno_id": 1,
                 "text": "规格及标准",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2688,7 +3196,11 @@
                 "anno_id": 2,
                 "text": "数量/长度",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2708,7 +3220,11 @@
                 "anno_id": 3,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2728,7 +3244,11 @@
                 "anno_id": 4,
                 "text": "等边角钢GB9787-88L75X75X8，Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2748,7 +3268,11 @@
                 "anno_id": 5,
                 "text": "966",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2768,7 +3292,11 @@
                 "anno_id": 6,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2788,7 +3316,11 @@
                 "anno_id": 7,
                 "text": "等边角钢，GB9787-88，L75X75X8，Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2808,7 +3340,11 @@
                 "anno_id": 8,
                 "text": "1050",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2828,7 +3364,11 @@
                 "anno_id": 9,
                 "text": "3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2848,7 +3388,11 @@
                 "anno_id": 10,
                 "text": "等边角钢GB9787-88，L75X75X8Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2868,7 +3412,11 @@
                 "anno_id": 11,
                 "text": "375",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2888,7 +3436,11 @@
                 "anno_id": 12,
                 "text": "4",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2908,7 +3460,11 @@
                 "anno_id": 13,
                 "text": "等边角钢GB9787-88，L75X75X8Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2928,7 +3484,11 @@
                 "anno_id": 14,
                 "text": "340",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2948,7 +3508,11 @@
                 "anno_id": 15,
                 "text": "5",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2968,7 +3532,11 @@
                 "anno_id": 16,
                 "text": "等边角钢GB9787-88L75X75X8Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -2988,7 +3556,11 @@
                 "anno_id": 17,
                 "text": "644",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3008,7 +3580,11 @@
                 "anno_id": 18,
                 "text": "6",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3028,7 +3604,11 @@
                 "anno_id": 19,
                 "text": "等边角钢GB9787-88，L75X75X8.Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3048,7 +3628,11 @@
                 "anno_id": 20,
                 "text": "850",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3068,7 +3652,11 @@
                 "anno_id": 21,
                 "text": "7",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3088,7 +3676,11 @@
                 "anno_id": 22,
                 "text": "等边角钢GB9787-88L75X75X8.Q235B",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3108,7 +3700,11 @@
                 "anno_id": 23,
                 "text": "583",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3128,7 +3724,11 @@
                 "anno_id": 24,
                 "text": "U1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3148,7 +3748,11 @@
                 "anno_id": 25,
                 "text": "C型管夹JNS34-010-2020C60-L74-D10-H88，Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3168,7 +3772,11 @@
                 "anno_id": 26,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3188,7 +3796,11 @@
                 "anno_id": 27,
                 "text": "U2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3208,7 +3820,11 @@
                 "anno_id": 28,
                 "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3228,7 +3844,11 @@
                 "anno_id": 29,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3248,7 +3868,11 @@
                 "anno_id": 30,
                 "text": "U3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3268,7 +3892,11 @@
                 "anno_id": 31,
                 "text": "C型管夹，JNS34-010-2020C48-L62-D10-H76Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3288,7 +3916,11 @@
                 "anno_id": 32,
                 "text": "3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3308,7 +3940,11 @@
                 "anno_id": 33,
                 "text": "U4",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3328,7 +3964,11 @@
                 "anno_id": 34,
                 "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3348,7 +3988,11 @@
                 "anno_id": 35,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3368,7 +4012,11 @@
                 "anno_id": 36,
                 "text": "U5",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3388,7 +4036,11 @@
                 "anno_id": 37,
                 "text": "C型管夹，JNS34-010-2020,C42-L56-D10-H70Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3408,7 +4060,11 @@
                 "anno_id": 38,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3428,7 +4084,11 @@
                 "anno_id": 39,
                 "text": "U6",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3448,7 +4108,11 @@
                 "anno_id": 40,
                 "text": "C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3468,7 +4132,11 @@
                 "anno_id": 41,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -3501,7 +4169,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3521,7 +4193,11 @@
                 "anno_id": 1,
                 "text": "距助",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3541,7 +4217,11 @@
                 "anno_id": 2,
                 "text": "距肿",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3561,7 +4241,11 @@
                 "anno_id": 3,
                 "text": "距甲板",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3581,7 +4265,11 @@
                 "anno_id": 4,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3601,7 +4289,11 @@
                 "anno_id": 5,
                 "text": "X=FR42-285",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3621,7 +4313,11 @@
                 "anno_id": 6,
                 "text": "Y =-5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3641,7 +4337,11 @@
                 "anno_id": 7,
                 "text": "Z = 3H-725",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3661,7 +4361,11 @@
                 "anno_id": 8,
                 "text": "C2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3681,7 +4385,11 @@
                 "anno_id": 9,
                 "text": "X=FR40+257",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3701,7 +4409,11 @@
                 "anno_id": 10,
                 "text": "Y = -5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3721,7 +4433,11 @@
                 "anno_id": 11,
                 "text": "Z = 3H-1109",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3741,7 +4457,11 @@
                 "anno_id": 12,
                 "text": "C3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3761,7 +4481,11 @@
                 "anno_id": 13,
                 "text": "X = FR41-7",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3781,7 +4505,11 @@
                 "anno_id": 14,
                 "text": "Y = -5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3801,7 +4529,11 @@
                 "anno_id": 15,
                 "text": "Z=3H-725",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3821,7 +4553,11 @@
                 "anno_id": 16,
                 "text": "号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3841,7 +4577,11 @@
                 "anno_id": 17,
                 "text": "距助",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3861,7 +4601,11 @@
                 "anno_id": 18,
                 "text": "距肿",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3881,7 +4625,11 @@
                 "anno_id": 19,
                 "text": "距甲板",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3901,7 +4649,11 @@
                 "anno_id": 20,
                 "text": "C1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3921,7 +4673,11 @@
                 "anno_id": 21,
                 "text": "X=FR42-285",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3941,7 +4697,11 @@
                 "anno_id": 22,
                 "text": "Y =-5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3961,7 +4721,11 @@
                 "anno_id": 23,
                 "text": "Z = 3H-725",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -3981,7 +4745,11 @@
                 "anno_id": 24,
                 "text": "C2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4001,7 +4769,11 @@
                 "anno_id": 25,
                 "text": "X=FR40+257",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4021,7 +4793,11 @@
                 "anno_id": 26,
                 "text": "Y = -5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4041,7 +4817,11 @@
                 "anno_id": 27,
                 "text": "Z = 3H-1109",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4061,7 +4841,11 @@
                 "anno_id": 28,
                 "text": "C3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4081,7 +4865,11 @@
                 "anno_id": 29,
                 "text": "X = FR41-7",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4101,7 +4889,11 @@
                 "anno_id": 30,
                 "text": "Y = -5920",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4121,7 +4913,11 @@
                 "anno_id": 31,
                 "text": "Z=3H-725",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -4154,7 +4950,11 @@
                 "anno_id": 0,
                 "text": "工程号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4174,7 +4974,11 @@
                 "anno_id": 1,
                 "text": "H2747-H2748/H2777-H2780",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4194,7 +4998,11 @@
                 "anno_id": 2,
                 "text": "件号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4214,7 +5022,11 @@
                 "anno_id": 3,
                 "text": "TBN253-PNB-101",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4234,7 +5046,11 @@
                 "anno_id": 4,
                 "text": "制作图号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4254,7 +5070,11 @@
                 "anno_id": 5,
                 "text": "253MP202TM",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4274,7 +5094,11 @@
                 "anno_id": 6,
                 "text": "涂装代码",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4294,7 +5118,11 @@
                 "anno_id": 7,
                 "text": "油漆M",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4314,7 +5142,11 @@
                 "anno_id": 8,
                 "text": "重量",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4334,7 +5166,11 @@
                 "anno_id": 9,
                 "text": "42.372kg",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -4367,7 +5203,11 @@
                 "anno_id": 0,
                 "text": "序号",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4387,7 +5227,11 @@
                 "anno_id": 1,
                 "text": "L1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4407,7 +5251,11 @@
                 "anno_id": 2,
                 "text": "L2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4427,7 +5275,11 @@
                 "anno_id": 3,
                 "text": "E1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4447,7 +5299,11 @@
                 "anno_id": 4,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4467,7 +5323,11 @@
                 "anno_id": 5,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4487,7 +5347,11 @@
                 "anno_id": 6,
                 "text": "E2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4507,7 +5371,11 @@
                 "anno_id": 7,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4527,7 +5395,11 @@
                 "anno_id": 8,
                 "text": "25mm",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
@@ -4560,7 +5432,11 @@
                 "anno_id": 0,
                 "text": "850",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4580,7 +5456,11 @@
                 "anno_id": 1,
                 "text": "110",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4600,7 +5480,11 @@
                 "anno_id": 2,
                 "text": "183",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4620,7 +5504,11 @@
                 "anno_id": 3,
                 "text": "187",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4640,7 +5528,11 @@
                 "anno_id": 4,
                 "text": "169",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4660,7 +5552,11 @@
                 "anno_id": 5,
                 "text": "04",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4680,7 +5576,11 @@
                 "anno_id": 6,
                 "text": "05",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4700,7 +5600,11 @@
                 "anno_id": 7,
                 "text": "U3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4720,7 +5624,11 @@
                 "anno_id": 8,
                 "text": "03",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4740,7 +5648,11 @@
                 "anno_id": 9,
                 "text": "日",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4760,7 +5672,11 @@
                 "anno_id": 10,
                 "text": "E",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4780,7 +5696,11 @@
                 "anno_id": 11,
                 "text": "92160",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4800,7 +5720,11 @@
                 "anno_id": 12,
                 "text": "150",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4820,7 +5744,11 @@
                 "anno_id": 13,
                 "text": "145",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4840,7 +5768,11 @@
                 "anno_id": 14,
                 "text": "E2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4860,7 +5792,11 @@
                 "anno_id": 15,
                 "text": "03",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4880,7 +5816,11 @@
                 "anno_id": 16,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4900,7 +5840,11 @@
                 "anno_id": 17,
                 "text": "U6",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4920,7 +5864,11 @@
                 "anno_id": 18,
                 "text": "G",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4940,7 +5888,11 @@
                 "anno_id": 19,
                 "text": "日",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4960,7 +5912,11 @@
                 "anno_id": 20,
                 "text": "889",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -4980,7 +5936,11 @@
                 "anno_id": 21,
                 "text": "323",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5000,7 +5960,11 @@
                 "anno_id": 22,
                 "text": "01E",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5020,7 +5984,11 @@
                 "anno_id": 23,
                 "text": "644",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5040,7 +6008,11 @@
                 "anno_id": 24,
                 "text": "996",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5060,7 +6032,11 @@
                 "anno_id": 25,
                 "text": "259",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5080,7 +6056,11 @@
                 "anno_id": 26,
                 "text": "90",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5100,7 +6080,11 @@
                 "anno_id": 27,
                 "text": "02",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5120,7 +6104,11 @@
                 "anno_id": 28,
                 "text": "深装保留",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5140,7 +6128,11 @@
                 "anno_id": 29,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5160,7 +6152,11 @@
                 "anno_id": 30,
                 "text": "可",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5180,7 +6176,11 @@
                 "anno_id": 31,
                 "text": "日",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5200,7 +6200,11 @@
                 "anno_id": 32,
                 "text": "-",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5220,7 +6224,11 @@
                 "anno_id": 33,
                 "text": "11050",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5240,7 +6248,11 @@
                 "anno_id": 34,
                 "text": "329",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5260,7 +6272,11 @@
                 "anno_id": 35,
                 "text": "208",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5280,7 +6296,11 @@
                 "anno_id": 36,
                 "text": "E88",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5300,7 +6320,11 @@
                 "anno_id": 37,
                 "text": "S2E",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5320,7 +6344,11 @@
                 "anno_id": 38,
                 "text": "2",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5340,7 +6368,11 @@
                 "anno_id": 39,
                 "text": "1",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5360,7 +6392,11 @@
                 "anno_id": 40,
                 "text": "C3",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5380,7 +6416,11 @@
                 "anno_id": 41,
                 "text": "涂装保留",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5400,7 +6440,11 @@
                 "anno_id": 42,
                 "text": "深装保留",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5420,7 +6464,11 @@
                 "anno_id": 43,
                 "text": "x",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5440,7 +6488,11 @@
                 "anno_id": 44,
                 "text": "v10.1.0.79",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             },
             {
@@ -5460,7 +6512,11 @@
                 "anno_id": 45,
                 "text": "7",
                 "line_with_spans": -1,
-                "attribute": -1,
+                "attribute": {
+                    "text_language": "text_chinese",
+                    "text_background": "white",
+                    "text_rotate": "normal"
+                },
                 "pred": -1
             }
         ],
