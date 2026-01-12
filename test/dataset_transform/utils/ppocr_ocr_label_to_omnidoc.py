@@ -3,7 +3,7 @@ import json
 input_path = 'test/dataset_transform/Label.txt'
 output_path = 'test/dataset_transform/Label2OmniDocBench.json'
 
-def convert_label_to_omnidocbench(input_path, output_path):
+def convert_ocr_label_to_omnidocbench(input_path, output_path):
     results = []
     with open(input_path, 'r', encoding='utf-8') as fin:
         for line in fin:
@@ -47,4 +47,4 @@ def convert_label_to_omnidocbench(input_path, output_path):
         json.dump(results, fout, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    convert_label_to_omnidocbench(input_path, output_path)
+    convert_ocr_label_to_omnidocbench(input_path, output_path)

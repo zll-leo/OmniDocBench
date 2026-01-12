@@ -146,7 +146,7 @@ def convert_single_item(ppocr_item: Dict) -> Dict:
     return omnidoc_item
 
 
-def convert_ppocr_to_omnidoc(input_file: str, output_file: str) -> None:
+def convert_ppocr_tabel_label_to_omnidoc(input_file: str, output_file: str) -> None:
     """
     将PPOCRLabel的table标注格式转换为OmniDocBench格式
 
@@ -201,7 +201,7 @@ def main():
 
     args = parser.parse_args()
 
-    convert_ppocr_to_omnidoc(args.input, args.output)
+    convert_ppocr_tabel_label_to_omnidoc(args.input, args.output)
 
 
 if __name__ == '__main__':
