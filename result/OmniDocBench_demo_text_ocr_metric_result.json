@@ -1,0 +1,59 @@
+{
+    "all": {
+        "Edit_dist": {
+            "ALL_page_avg": 0.0371273515764344,
+            "edit_whole": 0.056467335436531846,
+            "edit_sample_avg": 0.05563060592209733
+        },
+        "BLEU": {
+            "all": 0.10773405297850408
+        }
+    },
+    "group": {
+        "Edit_dist": {
+            "text_background: multi_colored": 0.03462766864460228,
+            "text_background: single_colored": 0.1364381153305204,
+            "text_background: white": 0.05433410714917666,
+            "text_language: text_en_ch_mixed": 0.07683167115370505,
+            "text_language: text_english": 0.06611854610886568,
+            "text_language: text_simplified_chinese": 0.05303867442927865,
+            "text_rotate: horizontal": 0.0,
+            "text_rotate: normal": 0.058438459848764675
+        },
+        "sample_count": {
+            "text_background: multi_colored": 20,
+            "text_background: single_colored": 18,
+            "text_background: white": 283,
+            "text_language: text_en_ch_mixed": 13,
+            "text_language: text_english": 91,
+            "text_language: text_simplified_chinese": 217,
+            "text_rotate: horizontal": 4,
+            "text_rotate: normal": 317
+        }
+    },
+    "page": {
+        "Edit_dist": {
+            "ALL": 0.0371273515764344,
+            "None": 0.05083322824362104,
+            "colorful_backgroud": 0.03344564315197492,
+            "data_source: PPT2PDF": 0.01711856617647059,
+            "data_source: academic_literature": 0.050232896624699035,
+            "data_source: book": 0.00766229483174977,
+            "data_source: colorful_textbook": 0.044177660439321614,
+            "data_source: exam_paper": 0.06336164350161694,
+            "data_source: magazine": 0.0020782805557685398,
+            "data_source: newspaper": 0.09239460294128704,
+            "data_source: note": 0.049209480674650585,
+            "data_source: research_report": 0.007910738442345557,
+            "fuzzy_scan": 0.044177660439321614,
+            "language: en_ch_mixed": 0.016227180527383367,
+            "language: english": 0.05483711228562655,
+            "language: simplified_chinese": 0.026820536184905007,
+            "layout: 1andmore_column": 0.03678678796413768,
+            "layout: double_column": 0.014619855852817514,
+            "layout: other_layout": 0.043148909344074594,
+            "layout: single_column": 0.03887828089995601,
+            "layout: three_column": 0.10003698224852071
+        }
+    }
+}

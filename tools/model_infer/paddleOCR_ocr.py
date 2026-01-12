@@ -6,13 +6,22 @@ from PIL import Image, ImageOps
 from paddleocr import PaddleOCR
 # from paddleocr.tools.infer import draw_ocr
 
-def test_paddle(img: Image, lan: str ):
-    if lan == 'text_simplified_chinese':
-        ocr = PaddleOCR(use_textline_orientation=True, lang='ch')
-    elif lan == 'text_english':
-        ocr = PaddleOCR(use_textline_orientation=True, lang='en')
-    else:
-        ocr = PaddleOCR(use_textline_orientation=True)
+# OCR模型缓存，避免重复加载
+_ocr_models = {}
+
+def get_ocr_model(lan: str):
+    """获取OCR模型实例，使用缓存避免重复加载"""
+    if lan not in _ocr_models:
+        if lan == 'text_simplified_chinese':
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True, lang='ch')
+        elif lan == 'text_english':
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True, lang='en')
+        else:
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True)
+    return _ocr_models[lan]
+
+def test_paddle(img: Image, lan: str):
+    ocr = get_ocr_model(lan)
 
     img_add_border = add_white_border(img)
     img_ndarray = numpy.array(img_add_border)
@@ -54,11 +63,11 @@ def poly2bbox(poly):
     return bbox
 
 def main():
-    with open('demo_data/omnidocbench_demo/OmniDocBench_demo.json', 'r') as f:
+    with open('test/dataset_transform/labels/OCRLabel2OmniDocBench.json', 'r') as f:
         samples = json.load(f)
     for sample in samples:
         img_name = os.path.basename(sample['page_info']['image_path'])
-        img_path = os.path.join('demo_data/omnidocbench_demo/images', img_name)
+        img_path = os.path.join('E:/work/图纸解析/test/cropped', img_name)
         img = Image.open(img_path)
         if not os.path.exists(img_path):
             print('No exist: ', img_name)
@@ -73,18 +82,18 @@ def main():
             outputs = test_paddle(image, lan) # !!!! String text block的文本内容
 
             anno['pred'] = outputs
-        with open('demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'a', encoding='utf-8') as f:
+        with open('test/model_outputs/drawings_text_ocr.jsonl', 'a', encoding='utf-8') as f:
             json.dump(sample, f, ensure_ascii=False)
             f.write('\n')
 
 def save_json():
     # 文本OCR质检：gpt-4o/internvl jsonl2json
-    with open('demo_data/recognition/OmniDocBench_demo_text_ocr.jsonl', 'r') as f:
+    with open('test/model_outputs/drawings_text_ocr.jsonl', 'r') as f:
         lines = f.readlines()
     samples = [json.loads(line) for line in lines]
-    with open('demo_data/recognition/OmniDocBench_demo_text_ocr.json', 'w', encoding='utf-8') as f:
+    with open('test/model_outputs/drawings_text_ocr.json', 'w', encoding='utf-8') as f:
         json.dump(samples, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    # main()
+    main()
     save_json()

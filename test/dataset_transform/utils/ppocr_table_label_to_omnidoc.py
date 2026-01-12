@@ -146,7 +146,7 @@ def convert_single_item(ppocr_item: Dict) -> Dict:
     return omnidoc_item
 
 
-def convert_ppocr_to_omnidoc(input_file: str, output_file: str) -> None:
+def convert_ppocr_tabel_label_to_omnidoc(input_file: str, output_file: str) -> None:
     """
     将PPOCRLabel的table标注格式转换为OmniDocBench格式
 
@@ -190,18 +190,18 @@ def main():
     )
     parser.add_argument(
         '-i', '--input',
-        default='./test/dataset_transform/gt.txt',
+        default='./test/dataset_transform/labels/gt.txt',
         help='PPOCRLabel格式的输入文件路径 (默认: ./test/dataset_transform/gt.txt)'
     )
     parser.add_argument(
         '-o', '--output',
-        required=True,
+        default='./test/dataset_transform/labels/tabelLabel2OmniDocBench.json',
         help='OmniDocBench格式的输出文件路径'
     )
 
     args = parser.parse_args()
 
-    convert_ppocr_to_omnidoc(args.input, args.output)
+    convert_ppocr_tabel_label_to_omnidoc(args.input, args.output)
 
 
 if __name__ == '__main__':
