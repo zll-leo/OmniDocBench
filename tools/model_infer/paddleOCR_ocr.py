@@ -6,13 +6,22 @@ from PIL import Image, ImageOps
 from paddleocr import PaddleOCR
 # from paddleocr.tools.infer import draw_ocr
 
-def test_paddle(img: Image, lan: str ):
-    if lan == 'text_simplified_chinese':
-        ocr = PaddleOCR(use_textline_orientation=True, lang='ch')
-    elif lan == 'text_english':
-        ocr = PaddleOCR(use_textline_orientation=True, lang='en')
-    else:
-        ocr = PaddleOCR(use_textline_orientation=True)
+# OCR模型缓存，避免重复加载
+_ocr_models = {}
+
+def get_ocr_model(lan: str):
+    """获取OCR模型实例，使用缓存避免重复加载"""
+    if lan not in _ocr_models:
+        if lan == 'text_simplified_chinese':
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True, lang='ch')
+        elif lan == 'text_english':
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True, lang='en')
+        else:
+            _ocr_models[lan] = PaddleOCR(use_textline_orientation=True)
+    return _ocr_models[lan]
+
+def test_paddle(img: Image, lan: str):
+    ocr = get_ocr_model(lan)
 
     img_add_border = add_white_border(img)
     img_ndarray = numpy.array(img_add_border)
