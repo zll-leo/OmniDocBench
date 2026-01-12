@@ -13,13 +13,13 @@
                     33,
                     45
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -33,13 +33,13 @@
                     753,
                     41
                 ],
-                "text": "规格及标准",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "规格及标准",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -53,13 +53,13 @@
                     1592,
                     40
                 ],
-                "text": "数量/长度",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "数量/长度",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -73,13 +73,13 @@
                     52,
                     89
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -93,13 +93,13 @@
                     560,
                     88
                 ],
-                "text": "等边角钢，GB9787-88L50X50X6Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "等边角钢，GB9787-88L50X50X6Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -113,13 +113,13 @@
                     1626,
                     89
                 ],
-                "text": "136",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "136",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -133,13 +133,13 @@
                     52,
                     129
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -153,13 +153,13 @@
                     560,
                     127
                 ],
-                "text": "等边角钢，GB9787-88L50X50X6Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "等边角钢，GB9787-88L50X50X6Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -173,13 +173,13 @@
                     1626,
                     129
                 ],
-                "text": "180",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "180",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -193,13 +193,13 @@
                     52,
                     168
                 ],
-                "text": "3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -213,13 +213,13 @@
                     560,
                     167
                 ],
-                "text": "等边角钢，GB9787-88L50X50X6Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "等边角钢，GB9787-88L50X50X6Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -233,13 +233,13 @@
                     1626,
                     169
                 ],
-                "text": "136",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "136",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -253,13 +253,13 @@
                     40,
                     211
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 12,
                 "text": "U1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 12
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -273,13 +273,13 @@
                     458,
                     209
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 13,
                 "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 13
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -293,13 +293,13 @@
                     1645,
                     209
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -313,13 +313,13 @@
                     42,
                     250
                 ],
-                "text": "P1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 15
+                "anno_id": 15,
+                "text": "P1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -333,13 +333,13 @@
                     522,
                     248
                 ],
-                "text": "三角垫板，JNS34-010-202085X85X10Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 16
+                "anno_id": 16,
+                "text": "三角垫板，JNS34-010-202085X85X10Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -353,13 +353,13 @@
                     1645,
                     249
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 17
+                "anno_id": 17,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -386,13 +386,13 @@
                     74,
                     50
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -406,13 +406,13 @@
                     451,
                     47
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 1,
                 "text": "距肋",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 1
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -426,13 +426,13 @@
                     947,
                     46
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 2,
                 "text": "距",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 2
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -446,13 +446,13 @@
                     1449,
                     46
                 ],
-                "text": "距甲板",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "距甲板",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -466,13 +466,13 @@
                     83,
                     94
                 ],
-                "text": "C1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "C1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -486,13 +486,13 @@
                     391,
                     89
                 ],
-                "text": "X =FR44-10",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "X =FR44-10",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -506,13 +506,13 @@
                     902,
                     91
                 ],
-                "text": "Y=-1080",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "Y=-1080",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -526,13 +526,13 @@
                     1396,
                     88
                 ],
-                "text": "Z=2H+1129",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "Z=2H+1129",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -546,13 +546,13 @@
                     82,
                     134
                 ],
-                "text": "C2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "C2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -566,13 +566,13 @@
                     391,
                     129
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 9,
                 "text": "X =FR44-10",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 9
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -586,13 +586,13 @@
                     904,
                     130
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 10,
                 "text": "Y=-1260",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 10
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -606,13 +606,13 @@
                     1396,
                     130
                 ],
-                "text": "Z=2H+1129",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "Z=2H+1129",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -639,13 +639,13 @@
                     11,
                     55
                 ],
-                "text": "工程号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "工程号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -659,13 +659,13 @@
                     731,
                     50
                 ],
-                "text": "H2747-H2748/H2777-H2780",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "H2747-H2748/H2777-H2780",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -679,13 +679,13 @@
                     11,
                     114
                 ],
-                "text": "件号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "件号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -699,13 +699,13 @@
                     730,
                     108
                 ],
-                "text": "TBN253-PNB-099",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "TBN253-PNB-099",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -719,13 +719,13 @@
                     12,
                     170
                 ],
-                "text": "制作图号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "制作图号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -739,13 +739,13 @@
                     732,
                     164
                 ],
-                "text": "253MP202TM",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "253MP202TM",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -759,13 +759,13 @@
                     13,
                     228
                 ],
-                "text": "涂装代码",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "涂装代码",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -779,13 +779,13 @@
                     729,
                     226
                 ],
-                "text": "油漆M",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "油漆M",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -799,13 +799,13 @@
                     12,
                     286
                 ],
-                "text": "重量",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "重量",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -819,13 +819,13 @@
                     726,
                     288
                 ],
-                "text": "2.731kg",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "2.731kg",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -852,13 +852,13 @@
                     420,
                     54
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 0,
                 "text": "序号",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 0
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -872,13 +872,13 @@
                     1100,
                     52
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 1,
                 "text": "L1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 1
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -892,13 +892,13 @@
                     1548,
                     52
                 ],
-                "text": "L2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "L2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -925,13 +925,13 @@
                     1473,
                     158
                 ],
-                "text": "180",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "180",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -945,13 +945,13 @@
                     1470,
                     886
                 ],
-                "text": "90",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "90",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -965,13 +965,13 @@
                     1704,
                     1017
                 ],
-                "text": "11",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "11",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -985,13 +985,13 @@
                     871,
                     1415
                 ],
-                "text": "981",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "981",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1005,13 +1005,13 @@
                     1598,
                     1298
                 ],
-                "text": "textcircled{2}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "textcircled{2}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1025,13 +1025,13 @@
                     2232,
                     1458
                 ],
-                "text": "9E1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "9E1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1045,13 +1045,13 @@
                     1458,
                     1311
                 ],
-                "text": "textcircled{1}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "textcircled{1}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1065,13 +1065,13 @@
                     1755,
                     1394
                 ],
-                "text": "textcircled{3}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "textcircled{3}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1085,13 +1085,13 @@
                     1064,
                     1904
                 ],
-                "text": "textsquared{C2}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "textsquared{C2}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1105,13 +1105,13 @@
                     2210,
                     1939
                 ],
-                "text": "textsquared{C1}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "textsquared{C1}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1125,13 +1125,13 @@
                     1217,
                     1959
                 ],
-                "text": "textcircled{P1}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "textcircled{P1}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1145,13 +1145,13 @@
                     2019,
                     1962
                 ],
-                "text": "textcircled{P1}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "textcircled{P1}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1165,13 +1165,13 @@
                     1484,
                     2405
                 ],
-                "text": "textsquared{涂装保留}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 12
+                "anno_id": 12,
+                "text": "textsquared{涂装保留}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1185,13 +1185,13 @@
                     1866,
                     2414
                 ],
-                "text": "textsquared{涂装保留}",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 13
+                "anno_id": 13,
+                "text": "textsquared{涂装保留}",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1205,13 +1205,13 @@
                     3062,
                     2458
                 ],
-                "text": "v10.1.0.79",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "v10.1.0.79",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -1238,13 +1238,13 @@
                     33,
                     45
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1258,13 +1258,13 @@
                     753,
                     41
                 ],
-                "text": "规格及标准",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "规格及标准",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1278,13 +1278,13 @@
                     1592,
                     40
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 2,
                 "text": "数量/长度",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 2
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1298,13 +1298,13 @@
                     52,
                     88
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 3,
                 "text": "1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 3
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1318,13 +1318,13 @@
                     560,
                     88
                 ],
-                "text": "等边角钢，GB9787-88L50X50X6Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "等边角钢，GB9787-88L50X50X6Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1338,13 +1338,13 @@
                     1626,
                     89
                 ],
-                "text": "136",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "136",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1358,13 +1358,13 @@
                     50,
                     130
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1378,13 +1378,13 @@
                     560,
                     127
                 ],
-                "text": "等边角钢，GB9787-88L50X50X6Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "等边角钢，GB9787-88L50X50X6Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1398,13 +1398,13 @@
                     1626,
                     129
                 ],
-                "text": "180",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "180",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1418,13 +1418,13 @@
                     41,
                     169
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 9,
                 "text": "U1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 9
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1438,13 +1438,13 @@
                     459,
                     168
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 10,
                 "text": "C型管夹，JNS34-010-2020,C76-L92-D12-H110,Q235A",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 10
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1458,13 +1458,13 @@
                     1645,
                     168
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1478,13 +1478,13 @@
                     42,
                     210
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 12,
                 "text": "P1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 12
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1498,13 +1498,13 @@
                     520,
                     208
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 13,
                 "text": "三角垫板，JNS34-010-2020.85X85X10Q235B",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 13
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1518,13 +1518,13 @@
                     1645,
                     208
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -1551,13 +1551,13 @@
                     69,
                     47
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1571,13 +1571,13 @@
                     428,
                     49
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 1,
                 "text": "距助",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 1
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1591,13 +1591,13 @@
                     968,
                     48
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 2,
                 "text": "距肿",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 2
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1611,13 +1611,13 @@
                     1463,
                     48
                 ],
-                "text": "距甲板",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "距甲板",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1631,13 +1631,13 @@
                     59,
                     96
                 ],
-                "text": "C1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "C1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1651,13 +1651,13 @@
                     380,
                     91
                 ],
-                "text": "X =FR44-10",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "X =FR44-10",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1671,13 +1671,13 @@
                     913,
                     89
                 ],
-                "text": "Y =-1080",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "Y =-1080",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1691,13 +1691,13 @@
                     1406,
                     95
                 ],
-                "text": "Z=3H-2372",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "Z=3H-2372",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -1724,13 +1724,13 @@
                     11,
                     55
                 ],
-                "text": "工程号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "工程号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1744,13 +1744,13 @@
                     731,
                     50
                 ],
-                "text": "H2747-H2748/H2777-H2780",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "H2747-H2748/H2777-H2780",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1764,13 +1764,13 @@
                     11,
                     114
                 ],
-                "text": "件号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "件号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1784,13 +1784,13 @@
                     730,
                     107
                 ],
-                "text": "TBN253-PNB-100",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "TBN253-PNB-100",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1804,13 +1804,13 @@
                     12,
                     170
                 ],
-                "text": "制作图号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "制作图号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1824,13 +1824,13 @@
                     731,
                     166
                 ],
-                "text": "253MP202TM",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "253MP202TM",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1844,13 +1844,13 @@
                     13,
                     228
                 ],
-                "text": "涂装代码",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "涂装代码",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1864,13 +1864,13 @@
                     729,
                     226
                 ],
-                "text": "油漆M",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "油漆M",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1884,13 +1884,13 @@
                     12,
                     286
                 ],
-                "text": "重量",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "重量",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1904,13 +1904,13 @@
                     728,
                     289
                 ],
-                "text": "1.874kg",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "1.874kg",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -1937,13 +1937,13 @@
                     205,
                     52
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 0,
                 "text": "序号",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 0
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1957,13 +1957,13 @@
                     783,
                     52
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 1,
                 "text": "L1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 1
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1977,13 +1977,13 @@
                     1442,
                     52
                 ],
-                "text": "L2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "L2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -1997,13 +1997,13 @@
                     217,
                     94
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 3,
                 "text": "E1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 3
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2017,13 +2017,13 @@
                     752,
                     96
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2037,13 +2037,13 @@
                     1412,
                     97
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2057,13 +2057,13 @@
                     1412,
                     97
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2077,13 +2077,13 @@
                     752,
                     96
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2097,13 +2097,13 @@
                     217,
                     94
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 8,
                 "text": "E1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 8
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2117,13 +2117,13 @@
                     1442,
                     52
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 9,
                 "text": "L2",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 9
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2137,13 +2137,13 @@
                     783,
                     52
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 10,
                 "text": "L1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 10
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2157,13 +2157,13 @@
                     205,
                     52
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -2190,13 +2190,13 @@
                     1381,
                     128
                 ],
-                "text": "180",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "180",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2210,13 +2210,13 @@
                     1567,
                     907
                 ],
-                "text": "90",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "90",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2230,13 +2230,13 @@
                     1617,
                     1037
                 ],
-                "text": "(U1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "(U1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2250,13 +2250,13 @@
                     1054,
                     1290
                 ],
-                "text": "E",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "E",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2270,13 +2270,13 @@
                     1521,
                     1331
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2290,13 +2290,13 @@
                     2151,
                     1499
                 ],
-                "text": "9E1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "9E1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2310,13 +2310,13 @@
                     1933,
                     2002
                 ],
-                "text": "P1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "P1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2330,13 +2330,13 @@
                     2122,
                     2015
                 ],
-                "text": "C1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "C1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2350,13 +2350,13 @@
                     1750,
                     2500
                 ],
-                "text": "涂装保留",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "涂装保留",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2370,13 +2370,13 @@
                     3063,
                     2457
                 ],
-                "text": "v10.1.0.79",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "v10.1.0.79",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2390,13 +2390,13 @@
                     111,
                     2500
                 ],
-                "text": "Y",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "Y",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2410,13 +2410,13 @@
                     1381,
                     128
                 ],
-                "text": "180",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "180",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2430,13 +2430,13 @@
                     1567,
                     907
                 ],
-                "text": "90",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 12
+                "anno_id": 12,
+                "text": "90",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2450,13 +2450,13 @@
                     1617,
                     1037
                 ],
-                "text": "(U1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 13
+                "anno_id": 13,
+                "text": "(U1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2470,13 +2470,13 @@
                     1054,
                     1290
                 ],
-                "text": "E",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "E",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2490,13 +2490,13 @@
                     1521,
                     1331
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 15
+                "anno_id": 15,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2510,13 +2510,13 @@
                     2151,
                     1499
                 ],
-                "text": "9E1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 16
+                "anno_id": 16,
+                "text": "9E1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2530,13 +2530,13 @@
                     1933,
                     2002
                 ],
-                "text": "P1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 17
+                "anno_id": 17,
+                "text": "P1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2550,13 +2550,13 @@
                     2122,
                     2015
                 ],
-                "text": "C1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 18
+                "anno_id": 18,
+                "text": "C1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2570,13 +2570,13 @@
                     1750,
                     2500
                 ],
-                "text": "涂装保留",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 19
+                "anno_id": 19,
+                "text": "涂装保留",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2590,13 +2590,13 @@
                     3063,
                     2457
                 ],
-                "text": "v10.1.0.79",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 20
+                "anno_id": 20,
+                "text": "v10.1.0.79",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2610,13 +2610,13 @@
                     111,
                     2500
                 ],
-                "text": "Y",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 21
+                "anno_id": 21,
+                "text": "Y",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -2643,13 +2643,13 @@
                     33,
                     45
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2663,13 +2663,13 @@
                     754,
                     39
                 ],
-                "text": "规格及标准",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "规格及标准",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2683,13 +2683,13 @@
                     1593,
                     41
                 ],
-                "text": "数量/长度",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "数量/长度",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2703,13 +2703,13 @@
                     52,
                     89
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2723,13 +2723,13 @@
                     560,
                     87
                 ],
-                "text": "等边角钢GB9787-88L75X75X8，Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "等边角钢GB9787-88L75X75X8，Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2743,13 +2743,13 @@
                     1626,
                     88
                 ],
-                "text": "966",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "966",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2763,13 +2763,13 @@
                     52,
                     129
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2783,13 +2783,13 @@
                     560,
                     126
                 ],
-                "text": "等边角钢，GB9787-88，L75X75X8，Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "等边角钢，GB9787-88，L75X75X8，Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2803,13 +2803,13 @@
                     1619,
                     128
                 ],
-                "text": "1050",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "1050",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2823,13 +2823,13 @@
                     53,
                     169
                 ],
-                "text": "3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2843,13 +2843,13 @@
                     560,
                     164
                 ],
-                "text": "等边角钢GB9787-88，L75X75X8Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "等边角钢GB9787-88，L75X75X8Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2863,13 +2863,13 @@
                     1625,
                     169
                 ],
-                "text": "375",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "375",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2883,13 +2883,13 @@
                     52,
                     209
                 ],
-                "text": "4",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 12
+                "anno_id": 12,
+                "text": "4",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2903,13 +2903,13 @@
                     560,
                     205
                 ],
-                "text": "等边角钢GB9787-88，L75X75X8Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 13
+                "anno_id": 13,
+                "text": "等边角钢GB9787-88，L75X75X8Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2923,13 +2923,13 @@
                     1626,
                     209
                 ],
-                "text": "340",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "340",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2943,13 +2943,13 @@
                     52,
                     249
                 ],
-                "text": "5",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 15
+                "anno_id": 15,
+                "text": "5",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2963,13 +2963,13 @@
                     559,
                     246
                 ],
-                "text": "等边角钢GB9787-88L75X75X8Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 16
+                "anno_id": 16,
+                "text": "等边角钢GB9787-88L75X75X8Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -2983,13 +2983,13 @@
                     1626,
                     251
                 ],
-                "text": "644",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 17
+                "anno_id": 17,
+                "text": "644",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3003,13 +3003,13 @@
                     53,
                     288
                 ],
-                "text": "6",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 18
+                "anno_id": 18,
+                "text": "6",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3023,13 +3023,13 @@
                     561,
                     284
                 ],
-                "text": "等边角钢GB9787-88，L75X75X8.Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 19
+                "anno_id": 19,
+                "text": "等边角钢GB9787-88，L75X75X8.Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3043,13 +3043,13 @@
                     1627,
                     289
                 ],
-                "text": "850",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 20
+                "anno_id": 20,
+                "text": "850",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3063,13 +3063,13 @@
                     49,
                     329
                 ],
-                "text": "7",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 21
+                "anno_id": 21,
+                "text": "7",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3083,13 +3083,13 @@
                     560,
                     325
                 ],
-                "text": "等边角钢GB9787-88L75X75X8.Q235B",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 22
+                "anno_id": 22,
+                "text": "等边角钢GB9787-88L75X75X8.Q235B",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3103,13 +3103,13 @@
                     1627,
                     328
                 ],
-                "text": "583",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 23
+                "anno_id": 23,
+                "text": "583",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3123,13 +3123,13 @@
                     41,
                     370
                 ],
-                "text": "U1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 24
+                "anno_id": 24,
+                "text": "U1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3143,13 +3143,13 @@
                     469,
                     365
                 ],
-                "text": "C型管夹JNS34-010-2020C60-L74-D10-H88，Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 25
+                "anno_id": 25,
+                "text": "C型管夹JNS34-010-2020C60-L74-D10-H88，Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3163,13 +3163,13 @@
                     1646,
                     367
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 26
+                "anno_id": 26,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3183,13 +3183,13 @@
                     40,
                     411
                 ],
-                "text": "U2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 27
+                "anno_id": 27,
+                "text": "U2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3203,13 +3203,13 @@
                     461,
                     406
                 ],
-                "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 28
+                "anno_id": 28,
+                "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3223,13 +3223,13 @@
                     1645,
                     409
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 29
+                "anno_id": 29,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3243,13 +3243,13 @@
                     40,
                     450
                 ],
-                "text": "U3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 30
+                "anno_id": 30,
+                "text": "U3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3263,13 +3263,13 @@
                     467,
                     446
                 ],
-                "text": "C型管夹，JNS34-010-2020C48-L62-D10-H76Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 31
+                "anno_id": 31,
+                "text": "C型管夹，JNS34-010-2020C48-L62-D10-H76Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3283,13 +3283,13 @@
                     1644,
                     448
                 ],
-                "text": "3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 32
+                "anno_id": 32,
+                "text": "3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3303,13 +3303,13 @@
                     40,
                     490
                 ],
-                "text": "U4",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 33
+                "anno_id": 33,
+                "text": "U4",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3323,13 +3323,13 @@
                     460,
                     487
                 ],
-                "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 34
+                "anno_id": 34,
+                "text": "C型管夹，JNS34-010-2020，C76-L92-D12-H110Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3343,13 +3343,13 @@
                     1645,
                     488
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 35
+                "anno_id": 35,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3363,13 +3363,13 @@
                     41,
                     529
                 ],
-                "text": "U5",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 36
+                "anno_id": 36,
+                "text": "U5",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3383,13 +3383,13 @@
                     468,
                     526
                 ],
-                "text": "C型管夹，JNS34-010-2020,C42-L56-D10-H70Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 37
+                "anno_id": 37,
+                "text": "C型管夹，JNS34-010-2020,C42-L56-D10-H70Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3403,13 +3403,13 @@
                     1644,
                     527
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 38
+                "anno_id": 38,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3423,13 +3423,13 @@
                     41,
                     569
                 ],
-                "text": "U6",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 39
+                "anno_id": 39,
+                "text": "U6",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3443,13 +3443,13 @@
                     468,
                     567
                 ],
-                "text": "C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 40
+                "anno_id": 40,
+                "text": "C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3463,13 +3463,13 @@
                     1645,
                     569
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 41
+                "anno_id": 41,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -3496,13 +3496,13 @@
                     64,
                     53
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3516,13 +3516,13 @@
                     479,
                     50
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 1,
                 "text": "距助",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 1
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3536,13 +3536,13 @@
                     996,
                     47
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 2,
                 "text": "距肿",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 2
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3556,13 +3556,13 @@
                     1475,
                     47
                 ],
-                "text": "距甲板",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "距甲板",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3576,13 +3576,13 @@
                     82,
                     95
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 4,
                 "text": "C1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 4
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3596,13 +3596,13 @@
                     390,
                     89
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 5,
                 "text": "X=FR42-285",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 5
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3616,13 +3616,13 @@
                     958,
                     89
                 ],
-                "text": "Y =-5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "Y =-5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3636,13 +3636,13 @@
                     1435,
                     92
                 ],
-                "text": "Z = 3H-725",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "Z = 3H-725",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3656,13 +3656,13 @@
                     81,
                     134
                 ],
-                "text": "C2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "C2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3676,13 +3676,13 @@
                     404,
                     127
                 ],
-                "text": "X=FR40+257",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "X=FR40+257",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3696,13 +3696,13 @@
                     959,
                     128
                 ],
-                "text": "Y = -5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "Y = -5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3716,13 +3716,13 @@
                     1421,
                     134
                 ],
-                "text": "Z = 3H-1109",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "Z = 3H-1109",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3736,13 +3736,13 @@
                     82,
                     174
                 ],
-                "text": "C3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 12
+                "anno_id": 12,
+                "text": "C3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3756,13 +3756,13 @@
                     426,
                     168
                 ],
-                "text": "X = FR41-7",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 13
+                "anno_id": 13,
+                "text": "X = FR41-7",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3776,13 +3776,13 @@
                     961,
                     169
                 ],
-                "text": "Y = -5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "Y = -5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3796,13 +3796,13 @@
                     1431,
                     171
                 ],
-                "text": "Z=3H-725",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 15
+                "anno_id": 15,
+                "text": "Z=3H-725",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3816,13 +3816,13 @@
                     70,
                     52
                 ],
-                "text": "号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 16
+                "anno_id": 16,
+                "text": "号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3836,13 +3836,13 @@
                     479,
                     50
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 17,
                 "text": "距助",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 17
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3856,13 +3856,13 @@
                     996,
                     47
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 18,
                 "text": "距肿",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 18
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3876,13 +3876,13 @@
                     1475,
                     47
                 ],
-                "text": "距甲板",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 19
+                "anno_id": 19,
+                "text": "距甲板",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3896,13 +3896,13 @@
                     82,
                     95
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 20,
                 "text": "C1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 20
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3916,13 +3916,13 @@
                     390,
                     89
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 21,
                 "text": "X=FR42-285",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 21
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3936,13 +3936,13 @@
                     958,
                     89
                 ],
-                "text": "Y =-5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 22
+                "anno_id": 22,
+                "text": "Y =-5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3956,13 +3956,13 @@
                     1435,
                     92
                 ],
-                "text": "Z = 3H-725",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 23
+                "anno_id": 23,
+                "text": "Z = 3H-725",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3976,13 +3976,13 @@
                     81,
                     134
                 ],
-                "text": "C2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 24
+                "anno_id": 24,
+                "text": "C2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -3996,13 +3996,13 @@
                     404,
                     127
                 ],
-                "text": "X=FR40+257",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 25
+                "anno_id": 25,
+                "text": "X=FR40+257",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4016,13 +4016,13 @@
                     959,
                     128
                 ],
-                "text": "Y = -5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 26
+                "anno_id": 26,
+                "text": "Y = -5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4036,13 +4036,13 @@
                     1421,
                     134
                 ],
-                "text": "Z = 3H-1109",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 27
+                "anno_id": 27,
+                "text": "Z = 3H-1109",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4056,13 +4056,13 @@
                     82,
                     174
                 ],
-                "text": "C3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 28
+                "anno_id": 28,
+                "text": "C3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4076,13 +4076,13 @@
                     426,
                     168
                 ],
-                "text": "X = FR41-7",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 29
+                "anno_id": 29,
+                "text": "X = FR41-7",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4096,13 +4096,13 @@
                     961,
                     169
                 ],
-                "text": "Y = -5920",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 30
+                "anno_id": 30,
+                "text": "Y = -5920",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4116,13 +4116,13 @@
                     1431,
                     171
                 ],
-                "text": "Z=3H-725",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 31
+                "anno_id": 31,
+                "text": "Z=3H-725",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -4149,13 +4149,13 @@
                     11,
                     55
                 ],
-                "text": "工程号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "工程号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4169,13 +4169,13 @@
                     732,
                     50
                 ],
-                "text": "H2747-H2748/H2777-H2780",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "H2747-H2748/H2777-H2780",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4189,13 +4189,13 @@
                     11,
                     114
                 ],
-                "text": "件号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "件号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4209,13 +4209,13 @@
                     730,
                     107
                 ],
-                "text": "TBN253-PNB-101",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "TBN253-PNB-101",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4229,13 +4229,13 @@
                     12,
                     170
                 ],
-                "text": "制作图号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "制作图号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4249,13 +4249,13 @@
                     731,
                     165
                 ],
-                "text": "253MP202TM",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "253MP202TM",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4269,13 +4269,13 @@
                     13,
                     228
                 ],
-                "text": "涂装代码",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "涂装代码",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4289,13 +4289,13 @@
                     729,
                     226
                 ],
-                "text": "油漆M",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "油漆M",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4309,13 +4309,13 @@
                     12,
                     286
                 ],
-                "text": "重量",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "重量",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4329,13 +4329,13 @@
                     728,
                     287
                 ],
-                "text": "42.372kg",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "42.372kg",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -4362,13 +4362,13 @@
                     207,
                     52
                 ],
-                "text": "序号",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "序号",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4382,13 +4382,13 @@
                     779,
                     50
                 ],
-                "text": "L1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "L1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4402,13 +4402,13 @@
                     1439,
                     51
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 2,
                 "text": "L2",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 2
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4422,13 +4422,13 @@
                     217,
                     94
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 3,
                 "text": "E1",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 3
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4442,13 +4442,13 @@
                     750,
                     94
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4462,13 +4462,13 @@
                     1411,
                     94
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4482,13 +4482,13 @@
                     218,
                     134
                 ],
+                "ignore": false,
+                "order": -1,
+                "anno_id": 6,
                 "text": "E2",
-                "attribute": -1,
                 "line_with_spans": -1,
-                "pred": -1,
-                "ignore": false,
-                "order": -1,
-                "anno_id": 6
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4502,13 +4502,13 @@
                     751,
                     134
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4522,13 +4522,13 @@
                     1411,
                     134
                 ],
-                "text": "25mm",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "25mm",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {
@@ -4555,13 +4555,13 @@
                     1385,
                     102
                 ],
-                "text": "850",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 0
+                "anno_id": 0,
+                "text": "850",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4575,13 +4575,13 @@
                     911,
                     333
                 ],
-                "text": "110",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 1
+                "anno_id": 1,
+                "text": "110",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4595,13 +4595,13 @@
                     1068,
                     345
                 ],
-                "text": "183",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 2
+                "anno_id": 2,
+                "text": "183",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4615,13 +4615,13 @@
                     1340,
                     348
                 ],
-                "text": "187",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 3
+                "anno_id": 3,
+                "text": "187",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4635,13 +4635,13 @@
                     1568,
                     358
                 ],
-                "text": "169",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 4
+                "anno_id": 4,
+                "text": "169",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4655,13 +4655,13 @@
                     1334,
                     401
                 ],
-                "text": "04",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 5
+                "anno_id": 5,
+                "text": "04",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4675,13 +4675,13 @@
                     1067,
                     449
                 ],
-                "text": "05",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 6
+                "anno_id": 6,
+                "text": "05",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4695,13 +4695,13 @@
                     1565,
                     456
                 ],
-                "text": "U3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 7
+                "anno_id": 7,
+                "text": "U3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4715,13 +4715,13 @@
                     1778,
                     455
                 ],
-                "text": "03",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 8
+                "anno_id": 8,
+                "text": "03",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4735,13 +4735,13 @@
                     1216,
                     585
                 ],
-                "text": "日",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 9
+                "anno_id": 9,
+                "text": "日",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4755,13 +4755,13 @@
                     1341,
                     581
                 ],
-                "text": "E",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 10
+                "anno_id": 10,
+                "text": "E",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4775,13 +4775,13 @@
                     1190,
                     681
                 ],
-                "text": "92160",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 11
+                "anno_id": 11,
+                "text": "92160",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4795,13 +4795,13 @@
                     1548,
                     688
                 ],
-                "text": "150",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 12
+                "anno_id": 12,
+                "text": "150",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4815,13 +4815,13 @@
                     1714,
                     692
                 ],
-                "text": "145",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 13
+                "anno_id": 13,
+                "text": "145",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4835,13 +4835,13 @@
                     2147,
                     775
                 ],
-                "text": "E2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 14
+                "anno_id": 14,
+                "text": "E2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4855,13 +4855,13 @@
                     1731,
                     771
                 ],
-                "text": "03",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 15
+                "anno_id": 15,
+                "text": "03",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4875,13 +4875,13 @@
                     1068,
                     797
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 16
+                "anno_id": 16,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4895,13 +4895,13 @@
                     1532,
                     803
                 ],
-                "text": "U6",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 17
+                "anno_id": 17,
+                "text": "U6",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4915,13 +4915,13 @@
                     1245,
                     898
                 ],
-                "text": "G",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 18
+                "anno_id": 18,
+                "text": "G",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4935,13 +4935,13 @@
                     1357,
                     908
                 ],
-                "text": "日",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 19
+                "anno_id": 19,
+                "text": "日",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4955,13 +4955,13 @@
                     2356,
                     1024
                 ],
-                "text": "889",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 20
+                "anno_id": 20,
+                "text": "889",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4975,13 +4975,13 @@
                     1375,
                     1037
                 ],
-                "text": "323",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 21
+                "anno_id": 21,
+                "text": "323",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -4995,13 +4995,13 @@
                     1130,
                     1149
                 ],
-                "text": "01E",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 22
+                "anno_id": 22,
+                "text": "01E",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5015,13 +5015,13 @@
                     1579,
                     1120
                 ],
-                "text": "644",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 23
+                "anno_id": 23,
+                "text": "644",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5035,13 +5035,13 @@
                     634,
                     1238
                 ],
-                "text": "996",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 24
+                "anno_id": 24,
+                "text": "996",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5055,13 +5055,13 @@
                     1983,
                     1204
                 ],
-                "text": "259",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 25
+                "anno_id": 25,
+                "text": "259",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5075,13 +5075,13 @@
                     2230,
                     1206
                 ],
-                "text": "90",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 26
+                "anno_id": 26,
+                "text": "90",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5095,13 +5095,13 @@
                     2263,
                     1247
                 ],
-                "text": "02",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 27
+                "anno_id": 27,
+                "text": "02",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5115,13 +5115,13 @@
                     2795,
                     1478
                 ],
-                "text": "深装保留",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 28
+                "anno_id": 28,
+                "text": "深装保留",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5135,13 +5135,13 @@
                     1934,
                     1393
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 29
+                "anno_id": 29,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5155,13 +5155,13 @@
                     2154,
                     1415
                 ],
-                "text": "可",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 30
+                "anno_id": 30,
+                "text": "可",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5175,13 +5175,13 @@
                     2482,
                     1456
                 ],
-                "text": "日",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 31
+                "anno_id": 31,
+                "text": "日",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5195,13 +5195,13 @@
                     2287,
                     1403
                 ],
-                "text": "-",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 32
+                "anno_id": 32,
+                "text": "-",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5215,13 +5215,13 @@
                     1568,
                     1490
                 ],
-                "text": "11050",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 33
+                "anno_id": 33,
+                "text": "11050",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5235,13 +5235,13 @@
                     1838,
                     1524
                 ],
-                "text": "329",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 34
+                "anno_id": 34,
+                "text": "329",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5255,13 +5255,13 @@
                     2184,
                     1539
                 ],
-                "text": "208",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 35
+                "anno_id": 35,
+                "text": "208",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5275,13 +5275,13 @@
                     827,
                     1649
                 ],
-                "text": "E88",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 36
+                "anno_id": 36,
+                "text": "E88",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5295,13 +5295,13 @@
                     1364,
                     1669
                 ],
-                "text": "S2E",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 37
+                "anno_id": 37,
+                "text": "S2E",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5315,13 +5315,13 @@
                     2591,
                     1648
                 ],
-                "text": "2",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 38
+                "anno_id": 38,
+                "text": "2",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5335,13 +5335,13 @@
                     792,
                     2122
                 ],
-                "text": "1",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 39
+                "anno_id": 39,
+                "text": "1",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5355,13 +5355,13 @@
                     1470,
                     2138
                 ],
-                "text": "C3",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 40
+                "anno_id": 40,
+                "text": "C3",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5375,13 +5375,13 @@
                     1053,
                     2441
                 ],
-                "text": "涂装保留",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 41
+                "anno_id": 41,
+                "text": "涂装保留",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5395,13 +5395,13 @@
                     1727,
                     2461
                 ],
-                "text": "深装保留",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 42
+                "anno_id": 42,
+                "text": "深装保留",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5415,13 +5415,13 @@
                     15,
                     2364
                 ],
-                "text": "x",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 43
+                "anno_id": 43,
+                "text": "x",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5435,13 +5435,13 @@
                     3062,
                     2459
                 ],
-                "text": "v10.1.0.79",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 44
+                "anno_id": 44,
+                "text": "v10.1.0.79",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             },
             {
                 "category_type": "text_block",
@@ -5455,13 +5455,13 @@
                     115,
                     2495
                 ],
-                "text": "7",
-                "attribute": -1,
-                "line_with_spans": -1,
-                "pred": -1,
                 "ignore": false,
                 "order": -1,
-                "anno_id": 45
+                "anno_id": 45,
+                "text": "7",
+                "line_with_spans": -1,
+                "attribute": -1,
+                "pred": -1
             }
         ],
         "page_info": {

@@ -190,12 +190,12 @@ def main():
     )
     parser.add_argument(
         '-i', '--input',
-        default='./test/dataset_transform/gt.txt',
+        default='./test/dataset_transform/labels/gt.txt',
         help='PPOCRLabel格式的输入文件路径 (默认: ./test/dataset_transform/gt.txt)'
     )
     parser.add_argument(
         '-o', '--output',
-        required=True,
+        default='./test/dataset_transform/labels/tabelLabel2OmniDocBench.json',
         help='OmniDocBench格式的输出文件路径'
     )
 

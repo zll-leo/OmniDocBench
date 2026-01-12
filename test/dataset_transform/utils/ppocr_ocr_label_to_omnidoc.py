@@ -1,7 +1,7 @@
 import json
 
-input_path = 'test/dataset_transform/Label.txt'
-output_path = 'test/dataset_transform/Label2OmniDocBench.json'
+input_path = 'test/dataset_transform/labels/Label.txt'
+output_path = 'test/dataset_transform/labels/OCRLabel2OmniDocBench.json'
 
 def convert_ocr_label_to_omnidocbench(input_path, output_path):
     results = []
