@@ -1,0 +1,32 @@
+{
+    "all": {
+        "Edit_dist": {
+            "ALL_page_avg": 0.1437587328037383,
+            "edit_whole": 0.11140235910878113,
+            "edit_sample_avg": 0.1711410858581514
+        },
+        "BLEU": {
+            "all": 0.0
+        }
+    },
+    "group": {
+        "Edit_dist": {
+            "text_background: white": 0.17114108585815144,
+            "text_language: text_chinese": 0.17114108585815144,
+            "text_rotate: normal": 0.17114108585815144
+        },
+        "sample_count": {
+            "text_background: white": 263,
+            "text_language: text_chinese": 263,
+            "text_rotate: normal": 263
+        }
+    },
+    "page": {
+        "Edit_dist": {
+            "ALL": 0.14375873280373833,
+            "data_source: drawings": 0.14375873280373833,
+            "language: mixed": 0.14375873280373833,
+            "layout: single_column": 0.14375873280373833
+        }
+    }
+}
