@@ -435,6 +435,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_114_roi1.png",
             "page_no": -1,
             "width": -1,
@@ -736,6 +742,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_114_roi2.png",
             "page_no": -1,
             "width": -1,
@@ -989,6 +1001,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_114_roi3.png",
             "page_no": -1,
             "width": -1,
@@ -1074,6 +1092,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_114_roi4.png",
             "page_no": -1,
             "width": -1,
@@ -1447,6 +1471,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_114_roi5.png",
             "page_no": -1,
             "width": -1,
@@ -1820,6 +1850,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_115_roi1.png",
             "page_no": -1,
             "width": -1,
@@ -2025,6 +2061,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_115_roi2.png",
             "page_no": -1,
             "width": -1,
@@ -2278,6 +2320,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_115_roi3.png",
             "page_no": -1,
             "width": -1,
@@ -2579,6 +2627,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_115_roi4.png",
             "page_no": -1,
             "width": -1,
@@ -3120,6 +3174,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_115_roi5.png",
             "page_no": -1,
             "width": -1,
@@ -4141,6 +4201,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_116_roi1.png",
             "page_no": -1,
             "width": -1,
@@ -4922,6 +4988,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_116_roi2.png",
             "page_no": -1,
             "width": -1,
@@ -5175,6 +5247,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_116_roi3.png",
             "page_no": -1,
             "width": -1,
@@ -5404,6 +5482,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_116_roi4.png",
             "page_no": -1,
             "width": -1,
@@ -6521,6 +6605,12 @@
             }
         ],
         "page_info": {
+            "page_attribute": {
+                "data_source": "drawings",
+                "language": "mixed",
+                "layout": "single_column",
+                "special_issue": []
+            },
             "image_path": "cropped/253_116_roi5.png",
             "page_no": -1,
             "width": -1,

@@ -36,6 +36,12 @@ def convert_ocr_label_to_omnidocbench(input_path, output_path):
                     'pred': -1
                 })
             page_info = {
+                'page_attribute': {
+                    'data_source': 'drawings',
+                    'language': 'mixed',
+                    'layout': 'single_column',
+                    'special_issue': []
+                },
                 'image_path': img_path,
                 'page_no': -1,
                 'width': -1,
