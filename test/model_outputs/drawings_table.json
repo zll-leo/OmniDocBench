@@ -14,6 +14,7 @@
                     59
                 ],
                 "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>扁钢 75.0X8.0 Q235B</td></tr><tr><td colspan=3>1048.056</td></tr></tbody></table></body></html>",
+                "pred": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量长度</td></tr><tr><td>1</td><td>扁钢 75.0X8.0 Q235B</td><td>1048.056</td></tr></tbody></table></body></html>"
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",

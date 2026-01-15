@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格查看器 - OmniDocBench</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .summary {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .summary p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .table-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .table-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .table-header {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .table-title {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .table-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .meta-item {
+            background: #f0f4ff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .meta-label {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .meta-value {
+            color: #333;
+        }
+
+        .image-path {
+            color: #764ba2;
+            font-family: monospace;
+            background: #f5f5f5;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            background: #fafafa;
+        }
+
+        .table-wrapper table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        .table-wrapper table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+            min-width: 50px;
+        }
+
+        .table-wrapper table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table-wrapper table tr:hover {
+            background-color: #e8f4ff;
+        }
+
+        .table-wrapper table td:empty::before {
+            content: "";
+            display: inline-block;
+        }
+
+        .attribute-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .badge-success { background: #d4edda; color: #155724; }
+        .badge-info { background: #d1ecf1; color: #0c5460; }
+        .badge-warning { background: #fff3cd; color: #856404; }
+        .badge-danger { background: #f8d7da; color: #721c24; }
+
+        .html-preview {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-family: "Consolas", "Monaco", monospace;
+            font-size: 0.85em;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .html-preview-label {
+            color: #a6a6a6;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>表格查看器 - OmniDocBench</h1>
+        <div class="summary">
+            <p><strong>总表格数:</strong> 40</p>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #1</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_13_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>扁钢 75.0X8.0 Q235B</td></tr><tr><td colspan=3>1048.056</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>扁钢 75.0X8.0 Q235B</td></tr><tr><td colspan=3>1048.056</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #2</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_13_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #3</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_13_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PHB-001</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>车间底漆</td></tr><tr><td>重量</td><td>4.936kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PHB-001</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>车间底漆</td></tr><tr><td>重量</td><td>4.936kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #4</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_13_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #5</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_17_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>898</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>241</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>1439</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>882</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>227</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>300</td></tr><tr><td>7</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>211</td></tr><tr><td>8</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>1499</td></tr><tr><td>9</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>246</td></tr><tr><td>10</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>90</td></tr><tr><td>11</td><td>等边角钢，GB9787-88L75X75X8，Q235B</td><td>562</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C140-L160-D16-H182，Q235A</td><td>1</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020，C76-L92-D12-H110，Q235A</td><td>1</td></tr><tr><td>U3</td><td>DJ-F型管夹，JNS34-010-2020,DJ-F76-L96-D12-H107，Q235A</td><td>1</td></tr><tr><td>U4</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U5</td><td>DJ-F型管夹，JNS34-010-2020,DJ-F60-L78-D10-H88,Q235A</td><td>1</td></tr><tr><td>U6</td><td>C型管夹，JNS34-010-2020,C42-L56-D10-H70,Q235A</td><td>1</td></tr><tr><td>U7</td><td>C型管夹，JNS34-010-2020，C76-L92-D12-H110,Q235A</td><td>1</td></tr><tr><td>U8</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td><td>3</td></tr><tr><td>U9</td><td>C型管夹，JNS34-010-2020,C48-L62-D10-H76，Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td><td>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>898</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>241</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>1439</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>882</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>227</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>300</td></tr><tr><td>7</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>211</td></tr><tr><td>8</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>1499</td></tr><tr><td>9</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>246</td></tr><tr><td>10</td><td>等边角钢，GB9787-88，L75X75X8，Q235B</td><td>90</td></tr><tr><td>11</td><td>等边角钢，GB9787-88L75X75X8，Q235B</td><td>562</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C140-L160-D16-H182，Q235A</td><td>1</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020，C76-L92-D12-H110，Q235A</td><td>1</td></tr><tr><td>U3</td><td>DJ-F型管夹，JNS34-010-2020,DJ-F76-L96-D12-H107，Q235A</td><td>1</td></tr><tr><td>U4</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U5</td><td>DJ-F型管夹，JNS34-010-2020,DJ-F60-L78-D10-H88,Q235A</td><td>1</td></tr><tr><td>U6</td><td>C型管夹，JNS34-010-2020,C42-L56-D10-H70,Q235A</td><td>1</td></tr><tr><td>U7</td><td>C型管夹，JNS34-010-2020，C76-L92-D12-H110,Q235A</td><td>1</td></tr><tr><td>U8</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td><td>3</td></tr><tr><td>U9</td><td>C型管夹，JNS34-010-2020,C48-L62-D10-H76，Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td><td>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #6</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_17_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR34-116</td><td>Y=-13222</td></tr><tr><td>Z=3H-10</td><td>C2</td><td>X =FR34-116</td><td>Y = -12570</td></tr><tr><td colspan=4>Z=3H-70</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR34-116</td><td>Y=-13222</td></tr><tr><td>Z=3H-10</td><td>C2</td><td>X =FR34-116</td><td>Y = -12570</td></tr><tr><td colspan=4>Z=3H-70</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #7</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_17_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-004</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>56.686kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-004</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>56.686kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #8</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_17_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr><tr><td>E2</td><td>25mm</td><td>25mm</td></tr><tr><td>E3</td><td>25mm</td><td>25mm</td></tr><tr><td>E4</td><td>25mm</td><td>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr><tr><td>E2</td><td>25mm</td><td>25mm</td></tr><tr><td>E3</td><td>25mm</td><td>25mm</td></tr><tr><td>E4</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #9</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_24_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L100X100X10,Q235B</td><td>787</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>736</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>966</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L100X100X10,Q235B</td><td>960</td></tr><tr><td>5</td><td>等边角钢，GB9787-88,L100X100X10，Q235B</td><td>966</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>980</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C273-L300-D20-H329，Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020，140X140X10，Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C219-L244-D20-H275,Q235A</td><td>1</td></tr><tr><td>P2</td><td>三角垫板，JNS34-010-2020，140X140X10，Q235B</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020，C273-L300-D20-H329,Q235A</td><td>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L100X100X10,Q235B</td><td>787</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>736</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>966</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L100X100X10,Q235B</td><td>960</td></tr><tr><td>5</td><td>等边角钢，GB9787-88,L100X100X10，Q235B</td><td>966</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L100X100X10，Q235B</td><td>980</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C273-L300-D20-H329，Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020，140X140X10，Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C219-L244-D20-H275,Q235A</td><td>1</td></tr><tr><td>P2</td><td>三角垫板，JNS34-010-2020，140X140X10，Q235B</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020，C273-L300-D20-H329,Q235A</td><td>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #10</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_24_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR35-210</td><td>Y = -14621</td></tr><tr><td>Z=3H-1010</td><td>C2</td><td>X=FR35-210</td><td>Y =-13641</td></tr><tr><td>Z=3H-1010</td><td>C3</td><td>X=FR34-155</td><td>Y = -13641</td></tr><tr><td colspan=4>Z=3H-1010</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR35-210</td><td>Y = -14621</td></tr><tr><td>Z=3H-1010</td><td>C2</td><td>X=FR35-210</td><td>Y =-13641</td></tr><tr><td>Z=3H-1010</td><td>C3</td><td>X=FR34-155</td><td>Y = -13641</td></tr><tr><td colspan=4>Z=3H-1010</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #11</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_24_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-011</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>83.449kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-011</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>83.449kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #12</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_24_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #13</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_32_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>241</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>1040</td></tr><tr><td>3</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>235</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>5</td></tr><tr><td>P1</td><td>三角垫板,JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C27-L40-D10-H55,Q235A</td><td>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>241</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>1040</td></tr><tr><td>3</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>235</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>5</td></tr><tr><td>P1</td><td>三角垫板,JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C27-L40-D10-H55,Q235A</td><td>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #14</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_32_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR34+146</td><td>Y = -10725</td></tr><tr><td>Z =3H-1510</td><td>C2</td><td>X=FR34+146</td><td>Y=-11645</td></tr><tr><td colspan=4>Z =3H-1510</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR34+146</td><td>Y = -10725</td></tr><tr><td>Z =3H-1510</td><td>C2</td><td>X=FR34+146</td><td>Y=-11645</td></tr><tr><td colspan=4>Z =3H-1510</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #15</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_32_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-019</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>7.897kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-019</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>7.897kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #16</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_32_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #17</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_50_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢,GB9787-88，L50X50X6,Q235B</td><td>206</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>802</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L63X63X6Q235B</td><td>852</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>796</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>802</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>255</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10,Q235B</td><td>1</td></tr><tr><td>P2</td><td>三角垫板，JNS34-010-2020,105X105X10,Q235B</td><td>2</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C76-L92-D12-H110,Q235A</td><td>1</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C114-L134-D16-H156,Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88，Q235A</td><td>2</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢,GB9787-88，L50X50X6,Q235B</td><td>206</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>802</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L63X63X6Q235B</td><td>852</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>796</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>802</td></tr><tr><td>6</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>255</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10,Q235B</td><td>1</td></tr><tr><td>P2</td><td>三角垫板，JNS34-010-2020,105X105X10,Q235B</td><td>2</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C76-L92-D12-H110,Q235A</td><td>1</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C114-L134-D16-H156,Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88，Q235A</td><td>2</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #18</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_50_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR43+37</td><td>Y = -7425</td></tr><tr><td>Z =3H-10</td><td>C2</td><td>X =FR43+37</td><td>Y=-7852</td></tr><tr><td>Z=3H-10</td><td>C3</td><td>X =FR43+37</td><td>Y = -8277</td></tr><tr><td colspan=4>Z =3H-10</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR43+37</td><td>Y = -7425</td></tr><tr><td>Z =3H-10</td><td>C2</td><td>X =FR43+37</td><td>Y=-7852</td></tr><tr><td>Z=3H-10</td><td>C3</td><td>X =FR43+37</td><td>Y = -8277</td></tr><tr><td colspan=4>Z =3H-10</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #19</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_50_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-036</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>22.791kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-036</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>22.791kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #20</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_50_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td>25mm</td><td>E3</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td>25mm</td><td>E3</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #21</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_95_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88,L40X40X5，Q235B</td><td>253</td></tr><tr><td>2</td><td>等边角钢，GB9787-88,L40X40X5，Q235B</td><td>496</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>3</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88,L40X40X5，Q235B</td><td>253</td></tr><tr><td>2</td><td>等边角钢，GB9787-88,L40X40X5，Q235B</td><td>496</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>3</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #22</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_95_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #23</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_95_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-080</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>2.410kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-080</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>2.410kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #24</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_95_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #25</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_131_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>366</td></tr><tr><td>2</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>430</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L50X50X6,Q235B</td><td>366</td></tr><tr><td>4</td><td>等边角钢，GB9787-88,L50X50X6,Q235B</td><td>175</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>160</td></tr><tr><td>U1</td><td>C型管夹,JNS34-010-2020,C60-L74-D10-H88,Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C48-L62-D10-H76,Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020，C27-L40-D10-H55,Q235A</td><td>1</td></tr><tr><td>U4</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td><td>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>366</td></tr><tr><td>2</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>430</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L50X50X6,Q235B</td><td>366</td></tr><tr><td>4</td><td>等边角钢，GB9787-88,L50X50X6,Q235B</td><td>175</td></tr><tr><td>5</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>160</td></tr><tr><td>U1</td><td>C型管夹,JNS34-010-2020,C60-L74-D10-H88,Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C48-L62-D10-H76,Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020，C27-L40-D10-H55,Q235A</td><td>1</td></tr><tr><td>U4</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td><td>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #26</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_131_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+400</td><td>Y =-11770</td></tr><tr><td>Z =3H-1310</td><td>C2</td><td>X=FR37+30</td><td>Y = -11770</td></tr><tr><td colspan=4>Z =3H-1310</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+400</td><td>Y =-11770</td></tr><tr><td>Z =3H-1310</td><td>C2</td><td>X=FR37+30</td><td>Y = -11770</td></tr><tr><td colspan=4>Z =3H-1310</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #27</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_131_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-116</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>7.528kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-116</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>7.528kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #28</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_131_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #29</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_235_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>245</td><td>2</td><td>等边角钢,GB9787-88,L63X63X6,Q235B</td></tr><tr><td>415</td><td>3</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>634</td><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>476</td><td>U1</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88,Q235A</td></tr><tr><td>2</td><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td></tr><tr><td>1</td><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10，Q235B</td></tr><tr><td>1</td><td>P2</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td></tr><tr><td colspan=3>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>245</td><td>2</td><td>等边角钢,GB9787-88,L63X63X6,Q235B</td></tr><tr><td>415</td><td>3</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>634</td><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>476</td><td>U1</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88,Q235A</td></tr><tr><td>2</td><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td></tr><tr><td>1</td><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10，Q235B</td></tr><tr><td>1</td><td>P2</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td></tr><tr><td colspan=3>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #30</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_235_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR40-10</td><td>Y = -5660</td></tr><tr><td>Z =3H-1450</td><td>C2</td><td>X=FR40-10</td><td>Y=-5660</td></tr><tr><td colspan=4>Z=3H-1295</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR40-10</td><td>Y = -5660</td></tr><tr><td>Z =3H-1450</td><td>C2</td><td>X=FR40-10</td><td>Y=-5660</td></tr><tr><td colspan=4>Z=3H-1295</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #31</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_235_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-219</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>10.632kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-219</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>10.632kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #32</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_235_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #33</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_248_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>426</td><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>376</td><td>3</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>539</td><td>U1</td><td>C型管夹，JNS34-010-2020，C48-L62-D10-H76，Q235A</td></tr><tr><td>1</td><td>U2</td><td>C型管夹，JNS34-010-2020C22-L34-D10-H50，Q235A</td></tr><tr><td colspan=3>1</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>426</td><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>376</td><td>3</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>539</td><td>U1</td><td>C型管夹，JNS34-010-2020，C48-L62-D10-H76，Q235A</td></tr><tr><td>1</td><td>U2</td><td>C型管夹，JNS34-010-2020C22-L34-D10-H50，Q235A</td></tr><tr><td colspan=3>1</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #34</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_248_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+180</td><td>Y =-12532</td></tr><tr><td colspan=4>Z=3H-1509</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+180</td><td>Y =-12532</td></tr><tr><td colspan=4>Z=3H-1509</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #35</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_248_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-232</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>5.775kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-232</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>5.775kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #36</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_248_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #37</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_304_roi1.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>BB型扁钢，JNS34-010-2020，BB40X500-4X50（带垫板），Q235B</td></tr><tr><td>1</td><td>P1</td><td>腰圆腹板，XM000K07G，60x30x10，Q235B</td></tr><tr><td colspan=3>2</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>BB型扁钢，JNS34-010-2020，BB40X500-4X50（带垫板），Q235B</td></tr><tr><td>1</td><td>P1</td><td>腰圆腹板，XM000K07G，60x30x10，Q235B</td></tr><tr><td colspan=3>2</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #38</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">是</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_304_roi2.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR31-71</td><td>Y = -9052</td></tr><tr><td>Z=3H+20</td><td>C2</td><td>X =FR31-71</td><td>Y =-8552</td></tr><tr><td colspan=4>Z=3H+20</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR31-71</td><td>Y = -9052</td></tr><tr><td>Z=3H+20</td><td>C2</td><td>X =FR31-71</td><td>Y =-8552</td></tr><tr><td colspan=4>Z=3H+20</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #39</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_304_roi3.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-288</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>0.352kg</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td>工程号</td><td>H2747-H2748/H2777-H2780</td></tr><tr><td>件号</td><td>TBN253-PNB-288</td></tr><tr><td>制作图号</td><td>253MP202TM</td></tr><tr><td>涂装代码</td><td>油漆M</td></tr><tr><td>重量</td><td>0.352kg</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <div class="table-header">
+                <div class="table-title">表格 #40</div>
+                <div class="table-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">布局:</span>
+                        <span class="meta-value">horizontal</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">合并单元格:</span>
+                        <span class="meta-value">否</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">线条:</span>
+                        <span class="meta-value">fewer_line</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">语言:</span>
+                        <span class="meta-value">simplified_chinese</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">状态:</span>
+                        <span class="meta-value">good</span>
+                    </div>
+                </div>
+                <div class="image-path">图片: 253_304_roi4.png</div>
+            </div>
+
+            <div class="table-wrapper">
+                <table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table>
+            </div>
+
+            <div class="html-preview">
+                <div class="html-preview-label">HTML 源码:</div>
+                <html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
