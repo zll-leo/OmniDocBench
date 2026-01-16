@@ -190,7 +190,7 @@ def main():
     )
     parser.add_argument(
         '-i', '--input',
-        default='./test/dataset_transform/labels/gt.txt',
+        default='E:/work/图纸解析/模型评测数据集/2960_1664/tables_and_graphes/gt.txt',
         help='PPOCRLabel格式的输入文件路径 (默认: ./test/dataset_transform/gt.txt)'
     )
     parser.add_argument(
