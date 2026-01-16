@@ -176,13 +176,13 @@ def convert_ppocr_tabel_label_to_omnidoc(input_file: str, output_file: str) -> N
 
     # 写入输出文件
     with open(output_file, 'w', encoding='utf-8') as f:
+        f.truncate(0)  # 清空文件内容
         json.dump(results, f, ensure_ascii=False, indent=4)
 
     print(f"\n转换完成！")
     print(f"  输入文件: {input_file}")
     print(f"  输出文件: {output_file}")
     print(f"  成功转换: {len(results)} 条记录")
-
 
 def main():
     parser = argparse.ArgumentParser(
