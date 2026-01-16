@@ -176,6 +176,7 @@ def convert_ppocr_tabel_label_to_omnidoc(input_file: str, output_file: str) -> N
 
     # 写入输出文件
     with open(output_file, 'w', encoding='utf-8') as f:
+        f.truncate(0)  # 清空文件内容
         json.dump(results, f, ensure_ascii=False, indent=4)
 
     print(f"\n转换完成！")
@@ -183,14 +184,13 @@ def convert_ppocr_tabel_label_to_omnidoc(input_file: str, output_file: str) -> N
     print(f"  输出文件: {output_file}")
     print(f"  成功转换: {len(results)} 条记录")
 
-
 def main():
     parser = argparse.ArgumentParser(
         description='将PPOCRLabel格式的表格标注转换为OmniDocBench格式'
     )
     parser.add_argument(
         '-i', '--input',
-        default='./test/dataset_transform/labels/gt.txt',
+        default='E:/work/图纸解析/模型评测数据集/2960_1664/tables_and_graphes/gt.txt',
         help='PPOCRLabel格式的输入文件路径 (默认: ./test/dataset_transform/gt.txt)'
     )
     parser.add_argument(

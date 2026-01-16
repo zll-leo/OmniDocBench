@@ -1,0 +1,81 @@
+{
+    "all": {
+        "TEDS": {
+            "all": 0.5227691907204277
+        },
+        "TEDS_structure_only": {
+            "all": 0.834464674687198
+        },
+        "Edit_dist": {
+            "ALL_page_avg": 0.28833662149158445,
+            "edit_whole": 0.19166934361280652,
+            "edit_sample_avg": 0.28590585728497764
+        }
+    },
+    "group": {
+        "Edit_dist": {
+            "include_background: False": 0.2859058572849777,
+            "include_equation: False": 0.2859058572849777,
+            "include_photo: False": 0.2859058572849777,
+            "language: table_simplified_chinese": 0.2859058572849777,
+            "line: fewer_line": 0.2859058572849777,
+            "table_layout: horizontal": 0.2859058572849777,
+            "with_span: False": 0.2869478183801014,
+            "with_span: True": 0.2823168801795514,
+            "with_structured_text: False": 0.2859058572849777
+        },
+        "TEDS": {
+            "include_background: False": 0.5227691907204277,
+            "include_equation: False": 0.5227691907204277,
+            "include_photo: False": 0.5227691907204277,
+            "language: table_simplified_chinese": 0.5227691907204277,
+            "line: fewer_line": 0.5227691907204277,
+            "table_layout: horizontal": 0.5227691907204277,
+            "with_span: False": 0.5747442141269541,
+            "with_span: True": 0.34374411009794836,
+            "with_structured_text: False": 0.5227691907204277
+        },
+        "TEDS_structure_only": {
+            "include_background: False": 0.834464674687198,
+            "include_equation: False": 0.834464674687198,
+            "include_photo: False": 0.834464674687198,
+            "language: table_simplified_chinese": 0.834464674687198,
+            "line: fewer_line": 0.834464674687198,
+            "table_layout: horizontal": 0.834464674687198,
+            "with_span: False": 0.8277777777777778,
+            "with_span: True": 0.857497319597423,
+            "with_structured_text: False": 0.834464674687198
+        },
+        "sample_count": {
+            "include_background: False": 80,
+            "include_equation: False": 80,
+            "include_photo: False": 80,
+            "language: table_simplified_chinese": 80,
+            "line: fewer_line": 80,
+            "table_layout: horizontal": 80,
+            "with_span: False": 62,
+            "with_span: True": 18,
+            "with_structured_text: False": 80
+        }
+    },
+    "page": {
+        "Edit_dist": {
+            "ALL": 0.28833662149158445,
+            "data_source: -1": 0.28833662149158445,
+            "language: -1": 0.28833662149158445,
+            "layout: -1": 0.28833662149158445
+        },
+        "TEDS": {
+            "ALL": 0.5227691907204278,
+            "data_source: -1": 0.5227691907204278,
+            "language: -1": 0.5227691907204278,
+            "layout: -1": 0.5227691907204278
+        },
+        "TEDS_structure_only": {
+            "ALL": 0.8344646746871979,
+            "data_source: -1": 0.8344646746871979,
+            "language: -1": 0.8344646746871979,
+            "layout: -1": 0.8344646746871979
+        }
+    }
+}
