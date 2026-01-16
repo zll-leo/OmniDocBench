@@ -625,7 +625,7 @@ if __name__ == '__main__':
     parser.add_argument('-p', '--per-page', type=int, default=20, help='每页显示的表格数量 (默认: 20)')
     parser.add_argument('-f', '--html-field', type=str, default='pred', choices=['html', 'pred'], help='HTML 字段名称: html=真值, pred=预测值 (默认: html)')
     parser.add_argument('-i', '--input', type=str, dest='json_path', default='test/model_outputs/drawings_table.json', help='输入 JSON 文件路径 (默认: test/model_outputs/drawings_table.json)')
-    parser.add_argument('-o', '--output', type=str, dest='output_path', default='test/view_tables_output.html',help='输出 HTML 文件路径 (默认: test/view_tables_output.html)')
+    parser.add_argument('-o', '--output', type=str, dest='output_path', default='test/visualization_output/view_tables_output.html',help='输出 HTML 文件路径 (默认: test/view_tables_output.html)')
     parser.add_argument('--no-browser',action='store_true',help='生成后不自动打开浏览器')
 
     args = parser.parse_args()
