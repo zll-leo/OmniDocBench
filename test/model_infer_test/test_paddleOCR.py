@@ -4,12 +4,13 @@ from PIL import Image, ImageOps
 import numpy
 import json
 # 读取第一个样本
-with open('test/dataset_transform/labels/tabelLabel2OmniDocBench.json', 'r') as f:
+with open('test/dataset_transform/labels/tabelLabel2OmniDocBench.json', 'r', encoding='utf-8') as f:
     samples = json.load(f)
 sample = samples[0]
 img_name = sample['page_info']['image_path'].split('/')[-1]
-img_path = f'E:/work/图纸解析/模型评测数据集/2960_1664/tables_and_graphes/{img_name}'
-img = Image.open(img_path)
+img_path = f'F:/code/OCR/模型评测数据集/cropped/253_13_roi1.png'
+# Force 3-channel RGB so paddlex normalizer matches mean/std length (avoids alpha channel IndexError)
+img = Image.open(img_path).convert("RGB")
 # 获取第一个文本块
 for anno in sample['layout_dets']:
     print(anno)

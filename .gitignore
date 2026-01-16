@@ -21,3 +21,6 @@ configs/
 .vscode/
 TODO.md
 *.jpg
+*.png
+*.jpeg
+*.bmp
