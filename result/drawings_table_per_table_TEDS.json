@@ -1,7 +1,7 @@
 {
     "253_13_roi1.png_0": {
-        "TEDS": 0.4,
-        "TEDS_structure_only": 0.8
+        "TEDS": 0.9676470588235294,
+        "TEDS_structure_only": 1.0
     },
     "253_13_roi2.png_1": {
         "TEDS": 0.0,
@@ -20,8 +20,8 @@
         "TEDS_structure_only": 0.8
     },
     "253_17_roi2.png_5": {
-        "TEDS": 0.3927361853832442,
-        "TEDS_structure_only": 0.8823529411764706
+        "TEDS": 0.7997306397306397,
+        "TEDS_structure_only": 1.0
     },
     "253_17_roi3.png_6": {
         "TEDS": 0.4028256420413283,
@@ -36,8 +36,8 @@
         "TEDS_structure_only": 1.0
     },
     "253_24_roi2.png_9": {
-        "TEDS": 0.16620370370370363,
-        "TEDS_structure_only": 0.75
+        "TEDS": 0.18009259259259258,
+        "TEDS_structure_only": 0.8333333333333334
     },
     "253_24_roi3.png_10": {
         "TEDS": 0.7407407407407407,
@@ -48,36 +48,36 @@
         "TEDS_structure_only": 0.0
     },
     "253_32_roi1.png_12": {
-        "TEDS": 0.8669654292891813,
-        "TEDS_structure_only": 0.8888888888888888
+        "TEDS": 0.975336107950329,
+        "TEDS_structure_only": 1.0
     },
     "253_32_roi2.png_13": {
-        "TEDS": 0.1907563025210084,
-        "TEDS_structure_only": 0.8823529411764706
+        "TEDS": 0.21619047619047627,
+        "TEDS_structure_only": 1.0
     },
     "253_32_roi3.png_14": {
         "TEDS": 0.33333333333333337,
         "TEDS_structure_only": 1.0
     },
     "253_32_roi4.png_15": {
-        "TEDS": 0.4,
-        "TEDS_structure_only": 0.8
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_50_roi1.png_16": {
         "TEDS": 0.9918714028627822,
         "TEDS_structure_only": 1.0
     },
     "253_50_roi2.png_17": {
-        "TEDS": 0.20038258387819752,
-        "TEDS_structure_only": 0.9090909090909091
+        "TEDS": 0.20434782608695656,
+        "TEDS_structure_only": 1.0
     },
     "253_50_roi3.png_18": {
         "TEDS": 0.33333333333333337,
         "TEDS_structure_only": 1.0
     },
     "253_50_roi4.png_19": {
-        "TEDS": 0.4444444444444444,
-        "TEDS_structure_only": 0.8888888888888888
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_95_roi1.png_20": {
         "TEDS": 0.9920100925147183,
@@ -92,230 +92,70 @@
         "TEDS_structure_only": 1.0
     },
     "253_95_roi4.png_23": {
-        "TEDS": 0.4,
-        "TEDS_structure_only": 0.8
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_131_roi1.png_24": {
         "TEDS": 0.9679076921693059,
         "TEDS_structure_only": 1.0
     },
     "253_131_roi2.png_25": {
-        "TEDS": 0.20653594771241834,
-        "TEDS_structure_only": 0.8823529411764706
+        "TEDS": 0.20740740740740737,
+        "TEDS_structure_only": 1.0
     },
     "253_131_roi3.png_26": {
         "TEDS": 0.33333333333333337,
         "TEDS_structure_only": 1.0
     },
     "253_131_roi4.png_27": {
-        "TEDS": 0.4285714285714286,
-        "TEDS_structure_only": 0.8571428571428572
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_235_roi1.png_28": {
-        "TEDS": 0.4659359184335946,
-        "TEDS_structure_only": 0.9473684210526316
+        "TEDS": 0.9918212472354608,
+        "TEDS_structure_only": 1.0
     },
     "253_235_roi2.png_29": {
-        "TEDS": 0.22941176470588243,
-        "TEDS_structure_only": 0.8823529411764706
+        "TEDS": 0.2414814814814814,
+        "TEDS_structure_only": 1.0
     },
     "253_235_roi3.png_30": {
         "TEDS": 0.8,
         "TEDS_structure_only": 1.0
     },
     "253_235_roi4.png_31": {
-        "TEDS": 0.4285714285714286,
-        "TEDS_structure_only": 0.8571428571428572
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_248_roi1.png_32": {
-        "TEDS": 0.45737449052209356,
-        "TEDS_structure_only": 0.9230769230769231
+        "TEDS": 0.9954890313989346,
+        "TEDS_structure_only": 1.0
     },
     "253_248_roi2.png_33": {
-        "TEDS": 0.32500000000000007,
-        "TEDS_structure_only": 0.8333333333333334
+        "TEDS": 0.79,
+        "TEDS_structure_only": 1.0
     },
     "253_248_roi3.png_34": {
         "TEDS": 0.3467908902691512,
         "TEDS_structure_only": 1.0
     },
     "253_248_roi4.png_35": {
-        "TEDS": 0.4,
-        "TEDS_structure_only": 0.8
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
     },
     "253_304_roi1.png_36": {
-        "TEDS": 0.4220580186097428,
-        "TEDS_structure_only": 0.8571428571428572
+        "TEDS": 0.9924010217113666,
+        "TEDS_structure_only": 1.0
     },
     "253_304_roi2.png_37": {
-        "TEDS": 0.22941176470588243,
-        "TEDS_structure_only": 0.8823529411764706
+        "TEDS": 0.2281481481481482,
+        "TEDS_structure_only": 1.0
     },
     "253_304_roi3.png_38": {
         "TEDS": 0.8,
         "TEDS_structure_only": 1.0
     },
     "253_304_roi4.png_39": {
-        "TEDS": 0.0,
-        "TEDS_structure_only": 0.0
-    },
-    "253_13_roi1.png_40": {
-        "TEDS": 0.9676470588235294,
-        "TEDS_structure_only": 1.0
-    },
-    "253_13_roi2.png_41": {
-        "TEDS": 0.0,
-        "TEDS_structure_only": 0.0
-    },
-    "253_13_roi3.png_42": {
-        "TEDS": 0.33333333333333337,
-        "TEDS_structure_only": 1.0
-    },
-    "253_13_roi4.png_43": {
-        "TEDS": 0.0,
-        "TEDS_structure_only": 0.0
-    },
-    "253_17_roi1.png_44": {
-        "TEDS": 0.7865675022368573,
-        "TEDS_structure_only": 0.8
-    },
-    "253_17_roi2.png_45": {
-        "TEDS": 0.7997306397306397,
-        "TEDS_structure_only": 1.0
-    },
-    "253_17_roi3.png_46": {
-        "TEDS": 0.4028256420413283,
-        "TEDS_structure_only": 1.0
-    },
-    "253_17_roi4.png_47": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_24_roi1.png_48": {
-        "TEDS": 0.9931607744107744,
-        "TEDS_structure_only": 1.0
-    },
-    "253_24_roi2.png_49": {
-        "TEDS": 0.18009259259259258,
-        "TEDS_structure_only": 0.8333333333333334
-    },
-    "253_24_roi3.png_50": {
-        "TEDS": 0.7407407407407407,
-        "TEDS_structure_only": 1.0
-    },
-    "253_24_roi4.png_51": {
-        "TEDS": 0.0,
-        "TEDS_structure_only": 0.0
-    },
-    "253_32_roi1.png_52": {
-        "TEDS": 0.975336107950329,
-        "TEDS_structure_only": 1.0
-    },
-    "253_32_roi2.png_53": {
-        "TEDS": 0.21619047619047627,
-        "TEDS_structure_only": 1.0
-    },
-    "253_32_roi3.png_54": {
-        "TEDS": 0.33333333333333337,
-        "TEDS_structure_only": 1.0
-    },
-    "253_32_roi4.png_55": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_50_roi1.png_56": {
-        "TEDS": 0.9918714028627822,
-        "TEDS_structure_only": 1.0
-    },
-    "253_50_roi2.png_57": {
-        "TEDS": 0.20434782608695656,
-        "TEDS_structure_only": 1.0
-    },
-    "253_50_roi3.png_58": {
-        "TEDS": 0.33333333333333337,
-        "TEDS_structure_only": 1.0
-    },
-    "253_50_roi4.png_59": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_95_roi1.png_60": {
-        "TEDS": 0.9920100925147183,
-        "TEDS_structure_only": 1.0
-    },
-    "253_95_roi2.png_61": {
-        "TEDS": 0.0,
-        "TEDS_structure_only": 0.0
-    },
-    "253_95_roi3.png_62": {
-        "TEDS": 0.33333333333333337,
-        "TEDS_structure_only": 1.0
-    },
-    "253_95_roi4.png_63": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_131_roi1.png_64": {
-        "TEDS": 0.9679076921693059,
-        "TEDS_structure_only": 1.0
-    },
-    "253_131_roi2.png_65": {
-        "TEDS": 0.20740740740740737,
-        "TEDS_structure_only": 1.0
-    },
-    "253_131_roi3.png_66": {
-        "TEDS": 0.33333333333333337,
-        "TEDS_structure_only": 1.0
-    },
-    "253_131_roi4.png_67": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_235_roi1.png_68": {
-        "TEDS": 0.9918212472354608,
-        "TEDS_structure_only": 1.0
-    },
-    "253_235_roi2.png_69": {
-        "TEDS": 0.2414814814814814,
-        "TEDS_structure_only": 1.0
-    },
-    "253_235_roi3.png_70": {
-        "TEDS": 0.8,
-        "TEDS_structure_only": 1.0
-    },
-    "253_235_roi4.png_71": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_248_roi1.png_72": {
-        "TEDS": 0.9954890313989346,
-        "TEDS_structure_only": 1.0
-    },
-    "253_248_roi2.png_73": {
-        "TEDS": 0.79,
-        "TEDS_structure_only": 1.0
-    },
-    "253_248_roi3.png_74": {
-        "TEDS": 0.3467908902691512,
-        "TEDS_structure_only": 1.0
-    },
-    "253_248_roi4.png_75": {
-        "TEDS": 1.0,
-        "TEDS_structure_only": 1.0
-    },
-    "253_304_roi1.png_76": {
-        "TEDS": 0.9924010217113666,
-        "TEDS_structure_only": 1.0
-    },
-    "253_304_roi2.png_77": {
-        "TEDS": 0.2281481481481482,
-        "TEDS_structure_only": 1.0
-    },
-    "253_304_roi3.png_78": {
-        "TEDS": 0.8,
-        "TEDS_structure_only": 1.0
-    },
-    "253_304_roi4.png_79": {
         "TEDS": 0.0,
         "TEDS_structure_only": 0.0
     }

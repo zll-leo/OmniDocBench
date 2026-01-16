@@ -1,81 +1,77 @@
 {
     "all": {
         "TEDS": {
-            "all": 0.5227691907204277
+            "all": 0.6069658610667413
         },
         "TEDS_structure_only": {
-            "all": 0.834464674687198
+            "all": 0.8658333333333333
         },
         "Edit_dist": {
-            "ALL_page_avg": 0.28833662149158445,
-            "edit_whole": 0.19166934361280652,
-            "edit_sample_avg": 0.28590585728497764
+            "ALL_page_avg": 0.2504487312939222,
+            "edit_whole": 0.15825755353476093,
+            "edit_sample_avg": 0.2504487312939222
         }
     },
     "group": {
         "Edit_dist": {
-            "include_background: False": 0.2859058572849777,
-            "include_equation: False": 0.2859058572849777,
-            "include_photo: False": 0.2859058572849777,
-            "language: table_simplified_chinese": 0.2859058572849777,
-            "line: fewer_line": 0.2859058572849777,
-            "table_layout: horizontal": 0.2859058572849777,
-            "with_span: False": 0.2869478183801014,
-            "with_span: True": 0.2823168801795514,
-            "with_structured_text: False": 0.2859058572849777
+            "include_background: False": 0.2504487312939222,
+            "include_equation: False": 0.2504487312939222,
+            "include_photo: False": 0.2504487312939222,
+            "language: table_simplified_chinese": 0.2504487312939222,
+            "line: fewer_line": 0.2504487312939222,
+            "table_layout: horizontal": 0.2504487312939222,
+            "with_span: False": 0.2504487312939222,
+            "with_structured_text: False": 0.2504487312939222
         },
         "TEDS": {
-            "include_background: False": 0.5227691907204277,
-            "include_equation: False": 0.5227691907204277,
-            "include_photo: False": 0.5227691907204277,
-            "language: table_simplified_chinese": 0.5227691907204277,
-            "line: fewer_line": 0.5227691907204277,
-            "table_layout: horizontal": 0.5227691907204277,
-            "with_span: False": 0.5747442141269541,
-            "with_span: True": 0.34374411009794836,
-            "with_structured_text: False": 0.5227691907204277
+            "include_background: False": 0.6069658610667413,
+            "include_equation: False": 0.6069658610667413,
+            "include_photo: False": 0.6069658610667413,
+            "language: table_simplified_chinese": 0.6069658610667413,
+            "line: fewer_line": 0.6069658610667413,
+            "table_layout: horizontal": 0.6069658610667413,
+            "with_span: False": 0.6069658610667413,
+            "with_structured_text: False": 0.6069658610667413
         },
         "TEDS_structure_only": {
-            "include_background: False": 0.834464674687198,
-            "include_equation: False": 0.834464674687198,
-            "include_photo: False": 0.834464674687198,
-            "language: table_simplified_chinese": 0.834464674687198,
-            "line: fewer_line": 0.834464674687198,
-            "table_layout: horizontal": 0.834464674687198,
-            "with_span: False": 0.8277777777777778,
-            "with_span: True": 0.857497319597423,
-            "with_structured_text: False": 0.834464674687198
+            "include_background: False": 0.8658333333333333,
+            "include_equation: False": 0.8658333333333333,
+            "include_photo: False": 0.8658333333333333,
+            "language: table_simplified_chinese": 0.8658333333333333,
+            "line: fewer_line": 0.8658333333333333,
+            "table_layout: horizontal": 0.8658333333333333,
+            "with_span: False": 0.8658333333333333,
+            "with_structured_text: False": 0.8658333333333333
         },
         "sample_count": {
-            "include_background: False": 80,
-            "include_equation: False": 80,
-            "include_photo: False": 80,
-            "language: table_simplified_chinese": 80,
-            "line: fewer_line": 80,
-            "table_layout: horizontal": 80,
-            "with_span: False": 62,
-            "with_span: True": 18,
-            "with_structured_text: False": 80
+            "include_background: False": 40,
+            "include_equation: False": 40,
+            "include_photo: False": 40,
+            "language: table_simplified_chinese": 40,
+            "line: fewer_line": 40,
+            "table_layout: horizontal": 40,
+            "with_span: False": 40,
+            "with_structured_text: False": 40
         }
     },
     "page": {
         "Edit_dist": {
-            "ALL": 0.28833662149158445,
-            "data_source: -1": 0.28833662149158445,
-            "language: -1": 0.28833662149158445,
-            "layout: -1": 0.28833662149158445
+            "ALL": 0.2504487312939222,
+            "data_source: -1": 0.2504487312939222,
+            "language: -1": 0.2504487312939222,
+            "layout: -1": 0.2504487312939222
         },
         "TEDS": {
-            "ALL": 0.5227691907204278,
-            "data_source: -1": 0.5227691907204278,
-            "language: -1": 0.5227691907204278,
-            "layout: -1": 0.5227691907204278
+            "ALL": 0.6069658610667412,
+            "data_source: -1": 0.6069658610667412,
+            "language: -1": 0.6069658610667412,
+            "layout: -1": 0.6069658610667412
         },
         "TEDS_structure_only": {
-            "ALL": 0.8344646746871979,
-            "data_source: -1": 0.8344646746871979,
-            "language: -1": 0.8344646746871979,
-            "layout: -1": 0.8344646746871979
+            "ALL": 0.8658333333333333,
+            "data_source: -1": 0.8658333333333333,
+            "language: -1": 0.8658333333333333,
+            "layout: -1": 0.8658333333333333
         }
     }
 }
