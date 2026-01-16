@@ -13,11 +13,11 @@
                     48,
                     59
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>扁钢 75.0X8.0 Q235B</td></tr><tr><td colspan=3>1048.056</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>扁钢75.0X8.0 Q235B</td><td>1048.056</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -59,7 +59,7 @@
                     99,
                     29
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
@@ -151,7 +151,7 @@
                     241,
                     35
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
@@ -243,11 +243,11 @@
                     43,
                     79
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR34-116</td><td>Y=-13222</td></tr><tr><td>Z=3H-10</td><td>C2</td><td>X =FR34-116</td><td>Y = -12570</td></tr><tr><td colspan=4>Z=3H-70</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr><tr><td>C1</td><td>X =FR34-116</td><td>Y=-13222</td><td>Z=3H-10</td></tr><tr><td>C2</td><td>X =FR34-116</td><td>Y = -12570</td><td>Z=3H-70</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -427,11 +427,11 @@
                     40,
                     112
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR35-210</td><td>Y = -14621</td></tr><tr><td>Z=3H-1010</td><td>C2</td><td>X=FR35-210</td><td>Y =-13641</td></tr><tr><td>Z=3H-1010</td><td>C3</td><td>X=FR34-155</td><td>Y = -13641</td></tr><tr><td colspan=4>Z=3H-1010</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr><tr><td>C1</td><td>X =FR35-210</td><td>Y = -14621</td><td>Z=3H-1010</td></tr><tr><td>C2</td><td>X=FR35-210</td><td>Y =-13641</td><td>Z=3H-1010</td></tr><tr><td>C3</td><td>X=FR34-155</td><td>Y = -13641</td><td>Z=3H-1010</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -519,7 +519,7 @@
                     241,
                     35
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
@@ -565,7 +565,7 @@
                     17,
                     220
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>241</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>1040</td></tr><tr><td>3</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>235</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>5</td></tr><tr><td>P1</td><td>三角垫板,JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C27-L40-D10-H55,Q235A</td><td>1</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>241</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>1040</td></tr><tr><td>3</td><td>等边角钢,GB9787-88,L50X50X6,Q235B</td><td>235</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C34-L46-D10-H62，Q235A</td><td>5</td></tr><tr><td>P1</td><td>三角垫板,JNS34-010-2020,85X85X10,Q235B</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62，Q235A</td><td>1</td></tr><tr><td>U3</td><td>C型管夹，JNS34-010-2020,C27-L40-D10-H55,Q235A</td><td>1</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
@@ -611,11 +611,11 @@
                     39,
                     85
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR34+146</td><td>Y = -10725</td></tr><tr><td>Z =3H-1510</td><td>C2</td><td>X=FR34+146</td><td>Y=-11645</td></tr><tr><td colspan=4>Z =3H-1510</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距助</td><td>距肿</td><td>距甲板</td></tr><tr><td>C1</td><td>X=FR34+146</td><td>Y = -10725</td><td>Z =3H-1510</td></tr><tr><td>C2</td><td>X=FR34+146</td><td>Y=-11645</td><td>Z =3H-1510</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -703,11 +703,11 @@
                     118,
                     61
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -795,11 +795,11 @@
                     46,
                     112
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR43+37</td><td>Y = -7425</td></tr><tr><td>Z =3H-10</td><td>C2</td><td>X =FR43+37</td><td>Y=-7852</td></tr><tr><td>Z=3H-10</td><td>C3</td><td>X =FR43+37</td><td>Y = -8277</td></tr><tr><td colspan=4>Z =3H-10</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距肿</td><td>距甲板</td></tr><tr><td>C1</td><td>X=FR43+37</td><td>Y = -7425</td><td>Z =3H-10</td></tr><tr><td>C2</td><td>X =FR43+37</td><td>Y=-7852</td><td>Z=3H-10</td></tr><tr><td>C3</td><td>X =FR43+37</td><td>Y = -8277</td><td>Z =3H-10</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -887,11 +887,11 @@
                     119,
                     114
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td>25mm</td><td>E3</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr><tr><td>E2</td><td>25mm</td><td>25mm</td></tr><tr><td>E3</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -979,7 +979,7 @@
                     99,
                     29
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距舯</td><td>距甲板</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
@@ -1071,11 +1071,11 @@
                     118,
                     61
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1163,11 +1163,11 @@
                     39,
                     85
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+400</td><td>Y =-11770</td></tr><tr><td>Z =3H-1310</td><td>C2</td><td>X=FR37+30</td><td>Y = -11770</td></tr><tr><td colspan=4>Z =3H-1310</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距肿</td><td>距甲板</td></tr><tr><td>C1</td><td>X=FR36+400</td><td>Y =-11770</td><td>Z =3H-1310</td></tr><tr><td>C2</td><td>X=FR37+30</td><td>Y = -11770</td><td>Z =3H-1310</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1255,11 +1255,11 @@
                     119,
                     85
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr><tr><td>E2</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1301,11 +1301,11 @@
                     17,
                     245
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>245</td><td>2</td><td>等边角钢,GB9787-88,L63X63X6,Q235B</td></tr><tr><td>415</td><td>3</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>634</td><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td></tr><tr><td>476</td><td>U1</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88,Q235A</td></tr><tr><td>2</td><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td></tr><tr><td>1</td><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10，Q235B</td></tr><tr><td>1</td><td>P2</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td></tr><tr><td colspan=3>1</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>245</td></tr><tr><td>2</td><td>等边角钢,GB9787-88,L63X63X6,Q235B</td><td>415</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>634</td></tr><tr><td>4</td><td>等边角钢，GB9787-88，L63X63X6，Q235B</td><td>476</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020,C60-L74-D10-H88,Q235A</td><td>2</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020,C34-L46-D10-H62,Q235A</td><td>1</td></tr><tr><td>P1</td><td>三角垫板，JNS34-010-2020，105X105X10，Q235B</td><td>1</td></tr><tr><td>P2</td><td>三角垫板，JNS34-010-2020,115X115X10，Q235B</td><td>1</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1347,11 +1347,11 @@
                     43,
                     85
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR40-10</td><td>Y = -5660</td></tr><tr><td>Z =3H-1450</td><td>C2</td><td>X=FR40-10</td><td>Y=-5660</td></tr><tr><td colspan=4>Z=3H-1295</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距肿</td><td>距甲板</td></tr><tr><td>C1</td><td>X =FR40-10</td><td>Y = -5660</td><td>Z =3H-1450</td></tr><tr><td>C2</td><td>X=FR40-10</td><td>Y=-5660</td><td>Z=3H-1295</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1439,11 +1439,11 @@
                     119,
                     85
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td>25mm</td><td>E2</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr><tr><td>E2</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1485,11 +1485,11 @@
                     16,
                     166
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>426</td><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>376</td><td>3</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td></tr><tr><td>539</td><td>U1</td><td>C型管夹，JNS34-010-2020，C48-L62-D10-H76，Q235A</td></tr><tr><td>1</td><td>U2</td><td>C型管夹，JNS34-010-2020C22-L34-D10-H50，Q235A</td></tr><tr><td colspan=3>1</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>426</td></tr><tr><td>2</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>376</td></tr><tr><td>3</td><td>等边角钢，GB9787-88，L50X50X6，Q235B</td><td>539</td></tr><tr><td>U1</td><td>C型管夹，JNS34-010-2020，C48-L62-D10-H76，Q235A</td><td>1</td></tr><tr><td>U2</td><td>C型管夹，JNS34-010-2020C22-L34-D10-H50，Q235A</td><td>1</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1531,11 +1531,11 @@
                     39,
                     59
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距助</td><td>距舯</td></tr><tr><td>距甲板</td><td>C1</td><td>X=FR36+180</td><td>Y =-12532</td></tr><tr><td colspan=4>Z=3H-1509</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距助</td><td>距舯</td><td>距甲板</td></tr><tr><td>C1</td><td>X=FR36+180</td><td>Y =-12532</td><td>Z=3H-1509</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1623,11 +1623,11 @@
                     118,
                     61
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>L1</td></tr><tr><td>L2</td><td>E1</td><td>25mm</td></tr><tr><td colspan=3>25mm</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr><tr><td>E1</td><td>25mm</td><td>25mm</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1669,11 +1669,11 @@
                     14,
                     87
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>规格及标准</td></tr><tr><td>数量/长度</td><td>1</td><td>BB型扁钢，JNS34-010-2020，BB40X500-4X50（带垫板），Q235B</td></tr><tr><td>1</td><td>P1</td><td>腰圆腹板，XM000K07G，60x30x10，Q235B</td></tr><tr><td colspan=3>2</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>规格及标准</td><td>数量/长度</td></tr><tr><td>1</td><td>BB型扁钢，JNS34-010-2020，BB40X500-4X50（带垫板），Q235B</td><td>1</td></tr><tr><td>P1</td><td>腰圆腹板，XM000K07G，60x30x10，Q235B</td><td>2</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1715,11 +1715,11 @@
                     45,
                     86
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td>序号</td><td>距肋</td><td>距肿</td></tr><tr><td>距甲板</td><td>C1</td><td>X =FR31-71</td><td>Y = -9052</td></tr><tr><td>Z=3H+20</td><td>C2</td><td>X =FR31-71</td><td>Y =-8552</td></tr><tr><td colspan=4>Z=3H+20</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>距肋</td><td>距肿</td><td>距甲板</td></tr><tr><td>C1</td><td>X =FR31-71</td><td>Y = -9052</td><td>Z=3H+20</td></tr><tr><td>C2</td><td>X =FR31-71</td><td>Y =-8552</td><td>Z=3H+20</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",
-                    "with_span": true,
+                    "with_span": false,
                     "line": "fewer_line",
                     "language": "table_simplified_chinese",
                     "include_equation": false,
@@ -1807,7 +1807,7 @@
                     241,
                     35
                 ],
-                "html": "<html><body><table><tbody><tr><td></td><td></td><td></td></tr><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
+                "html": "<html><body><table><tbody><tr><td>序号</td><td>L1</td><td>L2</td></tr></tbody></table></body></html>",
                 "latex": -1,
                 "attribute": {
                     "table_layout": "horizontal",

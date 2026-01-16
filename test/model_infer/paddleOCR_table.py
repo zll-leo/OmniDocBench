@@ -64,6 +64,9 @@ def poly2bbox(poly):
 def main():
     with open('test/dataset_transform/labels/tabelLabel2OmniDocBench.json', 'r') as f:
         samples = json.load(f)
+
+    results = []
+
     for sample in samples:
         img_name = os.path.basename(sample['page_info']['image_path'])
         img_path = os.path.join('E:/work/图纸解析/模型评测数据集/2960_1664/tables_and_graphes', img_name)
@@ -81,7 +84,12 @@ def main():
             outputs = test_paddle(image, lan)
 
             anno['pred'] = outputs
-        with open('test/model_outputs/drawings_table.jsonl', 'a', encoding='utf-8') as f:
+        results.append(sample)
+
+    # 推理完成后，一次性写入文件
+    with open('test/model_outputs/drawings_table.jsonl', 'w', encoding='utf-8') as f:
+        f.truncate(0)
+        for sample in results:
             json.dump(sample, f, ensure_ascii=False)
             f.write('\n')
 
@@ -91,6 +99,7 @@ def save_json():
         lines = f.readlines()
     samples = [json.loads(line) for line in lines]
     with open('test/model_outputs/drawings_table.json', 'w', encoding='utf-8') as f:
+        f.truncate(0)
         json.dump(samples, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
